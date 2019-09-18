@@ -3,3 +3,5 @@ Morning1,Morning Sleep and Behavior,time,About what time did you go to bed last 
 Mood1,Mood Circumplex and Physical States,slider,How happy versus sad do you feel right now?,"1, very/sad/depressed/unhappy| 2, 2 | 3, 3 | 4, 4 | 5, 5 | 6, 6 | 7, very cheerful/happy",
 Intake1,Intake,checklist,"Since the last questionnaire, did you drink: ","water, water | milk , milk | caffeinated beverage,  a caffeinated beverage (like coffee/tea/soda...) | alcohol, an alcoholic beverage (wine/beer/liquor…) | beverage with sugar, a beverage containing sugar like juice or caffeine free soda | other, another type of drink | none, none",
 Intake1a,Intake,dropdown,How many 8 oz glasses of water did you consume?,"1, 1 | 2, 2 | 3, 3 | 4, 4 | 5, 5 ",[Intake1] = 'water'
+,,,,,
+Intake1a,Intake,dropdown,How many 8 oz glasses of water did you consume?,"1, 1 | 2, 2 | 3, 3 | 4, 4 | 5, 5 ",[Intake(water)] = 1
