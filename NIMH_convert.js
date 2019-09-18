@@ -35,7 +35,7 @@ const datas = {};
 
 // Make sure we got a filename on the command line.
 if (process.argv.length < 3) {
-    console.log('Usage: node ' + process.argv[1] + 'KSADS_ML_test3.csv');
+    console.log('Usage: node ' + process.argv[1] + 'data_dic_testver.csv');
     process.exit(1);
 }
 // Read the file.
@@ -76,7 +76,7 @@ csv
         Object.keys(datas).forEach(form => {
             let fieldList = datas[form]; // all items of an activity
             createFormContextSchema(form, fieldList); // create context for each activity
-            let formContextUrl = `https://raw.githubusercontent.com/hotavocado/KSADS_ML_test3/test1/activities/${form}/${form}_context.jsonld`;
+            let formContextUrl = `https://raw.githubusercontent.com/hotavocado/NIMH_EMA_to_ML/master/activities/${form}/${form}_context.jsonld`;
             scoresObj = {};
             visibilityObj = {};
             variableMap = [];
@@ -95,7 +95,7 @@ function createFormContextSchema(form, fieldList) {
     // define context file for each form
     let itemOBj = { "@version": 1.1 };
     let formContext = {};
-    itemOBj[form] = `https://raw.githubusercontent.com/hotavocado/KSADS_ML_test3/test1/activities/${form}/items/`;
+    itemOBj[form] = `https://raw.githubusercontent.com/hotavocado/NIMH_EMA_to_ML/master/activities/${form}/items/`;
     fieldList.forEach( field => {
         let field_name = field['Variable / Field Name'];
         // define item_x urls to be inserted in context for the corresponding form
