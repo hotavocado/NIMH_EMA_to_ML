@@ -13,61 +13,61 @@
     "responseOptions": {
         "choices": [
             {
-                "schema:value": null,
+                "schema:value": 1,
                 "schema:name": {
                     "en": "birth control "
                 }
             },
             {
-                "schema:value": null,
+                "schema:value": 2,
                 "schema:name": {
                     "en": "heart/blood pressure/cholesterol "
                 }
             },
             {
-                "schema:value": null,
+                "schema:value": 3,
                 "schema:name": {
                     "en": "thyroid/metabolic "
                 }
             },
             {
-                "schema:value": null,
+                "schema:value": 4,
                 "schema:name": {
                     "en": "sleep "
                 }
             },
             {
-                "schema:value": null,
+                "schema:value": 5,
                 "schema:name": {
                     "en": "anxiety/depression "
                 }
             },
             {
-                "schema:value": null,
+                "schema:value": 6,
                 "schema:name": {
                     "en": "attention/hyperactivity  "
                 }
             },
             {
-                "schema:value": null,
+                "schema:value": 7,
                 "schema:name": {
                     "en": "asthma/allergies/breathing problems "
                 }
             },
             {
-                "schema:value": null,
+                "schema:value": 8,
                 "schema:name": {
                     "en": "arthritis/joint/back pain "
                 }
             },
             {
-                "schema:value": null,
+                "schema:value": 9,
                 "schema:name": {
                     "en": "headache "
                 }
             },
             {
-                "schema:value": null,
+                "schema:value": 10,
                 "schema:name": {
                     "en": "other"
                 }

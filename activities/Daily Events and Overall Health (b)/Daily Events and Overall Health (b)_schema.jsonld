@@ -81,15 +81,15 @@
             "Daily_b1": true,
             "Daily_b2": true,
             "Daily_b3": true,
-            "Daily_b4": " Daily_b3   == 'allergies'",
-            "Daily_b5": " Daily_b3   == 'asthma/respiratory'",
-            "Daily_b6": " Daily_b3   == 'gastrointestinal'",
-            "Daily_b7": " Daily_b3   == 'gastrointestinal'",
-            "Daily_b8": " Daily_b3   == 'muscle/joint pain'",
-            "Daily_b9": " Daily_b3   == 'heart racing || pounding'",
-            "Daily_b10": " Daily_b3   == 'dizzy'",
-            "Daily_b11": " Daily_b3   == 'dizzy'",
-            "Daily_b12": " Daily_b3   == 'headache'"
+            "Daily_b4": " Daily_b3   == 1",
+            "Daily_b5": " Daily_b3   == 2",
+            "Daily_b6": " Daily_b3   == 3",
+            "Daily_b7": " Daily_b3   == 3",
+            "Daily_b8": " Daily_b3   == 4",
+            "Daily_b9": " Daily_b3   == 5",
+            "Daily_b10": " Daily_b3   == 7",
+            "Daily_b11": " Daily_b3   == 7",
+            "Daily_b12": " Daily_b3   == 6"
         }
     }
 }

@@ -13,49 +13,49 @@
     "responseOptions": {
         "choices": [
             {
-                "schema:value": null,
+                "schema:value": 1,
                 "schema:name": {
                     "en": "allergies "
                 }
             },
             {
-                "schema:value": null,
+                "schema:value": 2,
                 "schema:name": {
                     "en": "asthma or respiratory difficulties "
                 }
             },
             {
-                "schema:value": null,
+                "schema:value": 3,
                 "schema:name": {
                     "en": "gastrointestinal/nausea/vomiting/bowel or stomach problems "
                 }
             },
             {
-                "schema:value": null,
+                "schema:value": 4,
                 "schema:name": {
                     "en": "muscle/joint pain "
                 }
             },
             {
-                "schema:value": null,
+                "schema:value": 5,
                 "schema:name": {
                     "en": "heart racing or pounding "
                 }
             },
             {
-                "schema:value": null,
+                "schema:value": 6,
                 "schema:name": {
                     "en": "headache "
                 }
             },
             {
-                "schema:value": null,
+                "schema:value": 7,
                 "schema:name": {
                     "en": "diziness/feeling light-headed or faint "
                 }
             },
             {
-                "schema:value": null,
+                "schema:value": 8,
                 "schema:name": {
                     "en": "hit or hurt your head"
                 }

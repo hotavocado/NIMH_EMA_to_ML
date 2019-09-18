@@ -31,7 +31,7 @@
                 }
             },
             {
-                "schema:value": null,
+                "schema:value": 4,
                 "schema:name": {
                     "en": "more than 3"
                 }

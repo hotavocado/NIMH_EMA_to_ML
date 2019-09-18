@@ -72,12 +72,12 @@
             "Activity1a": " Activity1   == 1",
             "Activity1b": " Activity1   == 1",
             "Activity2": true,
-            "Activity2a": " Activity2   == 'vigorous activites'",
-            "Activity2b": " Activity2   == 'vigorous activites'",
-            "Activity2c": " Activity2   == 'moderate activities'",
-            "Activity2d": " Activity2   == 'moderate activities'",
-            "Activity2e": " Activity2   == 'light activities'",
-            "Activity2f": " Activity2   == 'light activities'"
+            "Activity2a": " Activity2   == 1",
+            "Activity2b": " Activity2   == 1",
+            "Activity2c": " Activity2   == 2",
+            "Activity2d": " Activity2   == 2",
+            "Activity2e": " Activity2   == 3",
+            "Activity2f": " Activity2   == 3"
         }
     }
 }

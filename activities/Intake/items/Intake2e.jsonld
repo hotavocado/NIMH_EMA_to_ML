@@ -13,49 +13,49 @@
     "responseOptions": {
         "choices": [
             {
-                "schema:value": 5,
+                "schema:value": 1,
                 "schema:name": {
                     "en": "5 min "
                 }
             },
             {
-                "schema:value": 10,
+                "schema:value": 2,
                 "schema:name": {
                     "en": "10 min "
                 }
             },
             {
-                "schema:value": 15,
+                "schema:value": 3,
                 "schema:name": {
                     "en": "15 min "
                 }
             },
             {
-                "schema:value": 30,
+                "schema:value": 4,
                 "schema:name": {
                     "en": "30 min "
                 }
             },
             {
-                "schema:value": 45,
+                "schema:value": 5,
                 "schema:name": {
                     "en": "45 min "
                 }
             },
             {
-                "schema:value": 1,
+                "schema:value": 6,
                 "schema:name": {
                     "en": "1 hr "
                 }
             },
             {
-                "schema:value": 1,
+                "schema:value": 7,
                 "schema:name": {
                     "en": "1 hr 30 min "
                 }
             },
             {
-                "schema:value": 2,
+                "schema:value": 8,
                 "schema:name": {
                     "en": "2 hrs or more"
                 }

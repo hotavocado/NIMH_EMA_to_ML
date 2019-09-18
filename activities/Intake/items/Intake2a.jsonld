@@ -73,7 +73,7 @@
                 }
             },
             {
-                "schema:value": null,
+                "schema:value": 11,
                 "schema:name": {
                     "en": "more than 10"
                 }

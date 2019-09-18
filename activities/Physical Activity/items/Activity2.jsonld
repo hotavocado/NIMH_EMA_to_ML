@@ -13,19 +13,19 @@
     "responseOptions": {
         "choices": [
             {
-                "schema:value": null,
+                "schema:value": 1,
                 "schema:name": {
                     "en": "vigorous activities (e.g. running/ fast cycling/ heavy lifting or digging ) "
                 }
             },
             {
-                "schema:value": null,
+                "schema:value": 2,
                 "schema:name": {
                     "en": "moderate activities (e.g. tennis/bicycling"
                 }
             },
             {
-                "schema:value": null,
+                "schema:value": 3,
                 "schema:name": {
                     "en": "light activities (e.g. walking/climbing stairs/routine household chores) "
                 }

@@ -43,7 +43,7 @@
                 }
             },
             {
-                "schema:value": null,
+                "schema:value": 6,
                 "schema:name": {
                     "en": "more than 5"
                 }

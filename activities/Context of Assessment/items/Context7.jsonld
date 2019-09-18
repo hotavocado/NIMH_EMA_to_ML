@@ -13,127 +13,127 @@
     "responseOptions": {
         "choices": [
             {
-                "schema:value": null,
+                "schema:value": 1,
                 "schema:name": {
                     "en": "nothing or waiting "
                 }
             },
             {
-                "schema:value": null,
+                "schema:value": 2,
                 "schema:name": {
                     "en": "napping/resting "
                 }
             },
             {
-                "schema:value": null,
+                "schema:value": 3,
                 "schema:name": {
                     "en": "eating "
                 }
             },
             {
-                "schema:value": null,
+                "schema:value": 4,
                 "schema:name": {
                     "en": "household chores "
                 }
             },
             {
-                "schema:value": null,
+                "schema:value": 5,
                 "schema:name": {
                     "en": "working (paid or volunteer) "
                 }
             },
             {
-                "schema:value": null,
+                "schema:value": 6,
                 "schema:name": {
                     "en": "homework "
                 }
             },
             {
-                "schema:value": null,
+                "schema:value": 7,
                 "schema:name": {
                     "en": "shopping "
                 }
             },
             {
-                "schema:value": null,
+                "schema:value": 8,
                 "schema:name": {
                     "en": "personal hygiene care "
                 }
             },
             {
-                "schema:value": null,
+                "schema:value": 9,
                 "schema:name": {
-                    "en": " physical leisure or sports "
+                    "en": "physical leisure or sports "
                 }
             },
             {
-                "schema:value": null,
+                "schema:value": 10,
                 "schema:name": {
                     "en": "personal exercise "
                 }
             },
             {
-                "schema:value": null,
+                "schema:value": 11,
                 "schema:name": {
                     "en": "walking the dog "
                 }
             },
             {
-                "schema:value": null,
+                "schema:value": 12,
                 "schema:name": {
                     "en": "traveling or commuting "
                 }
             },
             {
-                "schema:value": null,
+                "schema:value": 13,
                 "schema:name": {
                     "en": "watching tv "
                 }
             },
             {
-                "schema:value": null,
+                "schema:value": 14,
                 "schema:name": {
                     "en": "reading "
                 }
             },
             {
-                "schema:value": null,
+                "schema:value": 15,
                 "schema:name": {
                     "en": "listening to music "
                 }
             },
             {
-                "schema:value": null,
+                "schema:value": 16,
                 "schema:name": {
                     "en": "using a computer/electronic device "
                 }
             },
             {
-                "schema:value": null,
+                "schema:value": 17,
                 "schema:name": {
                     "en": "talking on the phone "
                 }
             },
             {
-                "schema:value": null,
+                "schema:value": 18,
                 "schema:name": {
                     "en": "talking in person "
                 }
             },
             {
-                "schema:value": null,
+                "schema:value": 19,
                 "schema:name": {
                     "en": "texting by phone "
                 }
             },
             {
-                "schema:value": null,
+                "schema:value": 20,
                 "schema:name": {
                     "en": "other nonphysical leisure "
                 }
             },
             {
-                "schema:value": null,
+                "schema:value": 21,
                 "schema:name": {
                     "en": "other activity"
                 }
