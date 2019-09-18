@@ -1,0 +1,59 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/hotavocado/schema-standardization/master/contexts/generic.jsonld"
+    ],
+    "@type": "https://raw.githubusercontent.com/hotavocado/schema-standardization/master/schemas/Field.jsonld",
+    "skos:altLabel": "Intake1",
+    "ui": {
+        "inputType": "radio"
+    },
+    "question": {
+        "en": "Since the last questionnaire, did you drink: "
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "schema:value": null,
+                "schema:name": {
+                    "en": "water "
+                }
+            },
+            {
+                "schema:value": null,
+                "schema:name": {
+                    "en": "milk "
+                }
+            },
+            {
+                "schema:value": null,
+                "schema:name": {
+                    "en": " a caffeinated beverage (like coffee/tea/soda...) "
+                }
+            },
+            {
+                "schema:value": null,
+                "schema:name": {
+                    "en": "an alcoholic beverage (wine/beer/liquor�) "
+                }
+            },
+            {
+                "schema:value": null,
+                "schema:name": {
+                    "en": "a beverage containing sugar like juice or caffeine free soda "
+                }
+            },
+            {
+                "schema:value": null,
+                "schema:name": {
+                    "en": "another type of drink "
+                }
+            },
+            {
+                "schema:value": null,
+                "schema:name": {
+                    "en": "none"
+                }
+            }
+        ]
+    }
+}

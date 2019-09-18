@@ -1,0 +1,41 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/hotavocado/schema-standardization/master/contexts/generic.jsonld"
+    ],
+    "@type": "https://raw.githubusercontent.com/hotavocado/schema-standardization/master/schemas/Field.jsonld",
+    "skos:altLabel": "Headache2g",
+    "ui": {
+        "inputType": "radio"
+    },
+    "question": {
+        "en": "Where is (or was) the headache?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "schema:value": null,
+                "schema:name": {
+                    "en": "both sides of your head "
+                }
+            },
+            {
+                "schema:value": null,
+                "schema:name": {
+                    "en": "left side only "
+                }
+            },
+            {
+                "schema:value": null,
+                "schema:name": {
+                    "en": "right side only "
+                }
+            },
+            {
+                "schema:value": null,
+                "schema:name": {
+                    "en": "moved from one side to another"
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,41 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/hotavocado/schema-standardization/master/contexts/generic.jsonld"
+    ],
+    "@type": "https://raw.githubusercontent.com/hotavocado/schema-standardization/master/schemas/Field.jsonld",
+    "skos:altLabel": "Intake3",
+    "ui": {
+        "inputType": "radio"
+    },
+    "question": {
+        "en": "Since the last questionnaire, which of the following did you  use?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "schema:value": null,
+                "schema:name": {
+                    "en": "cigarettes "
+                }
+            },
+            {
+                "schema:value": null,
+                "schema:name": {
+                    "en": "cannabis/pot "
+                }
+            },
+            {
+                "schema:value": null,
+                "schema:name": {
+                    "en": "other drug "
+                }
+            },
+            {
+                "schema:value": null,
+                "schema:name": {
+                    "en": "none"
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,89 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/hotavocado/schema-standardization/master/contexts/generic.jsonld"
+    ],
+    "@type": "https://raw.githubusercontent.com/hotavocado/schema-standardization/master/schemas/Field.jsonld",
+    "skos:altLabel": "Intake3b",
+    "ui": {
+        "inputType": "select"
+    },
+    "question": {
+        "en": "How many joints did you have?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "schema:value": 1,
+                "schema:name": {
+                    "en": "1 "
+                }
+            },
+            {
+                "schema:value": 2,
+                "schema:name": {
+                    "en": "2 "
+                }
+            },
+            {
+                "schema:value": 3,
+                "schema:name": {
+                    "en": "3 "
+                }
+            },
+            {
+                "schema:value": 4,
+                "schema:name": {
+                    "en": "4 "
+                }
+            },
+            {
+                "schema:value": 5,
+                "schema:name": {
+                    "en": "5 "
+                }
+            },
+            {
+                "schema:value": 6,
+                "schema:name": {
+                    "en": "6 "
+                }
+            },
+            {
+                "schema:value": 7,
+                "schema:name": {
+                    "en": "7 "
+                }
+            },
+            {
+                "schema:value": 8,
+                "schema:name": {
+                    "en": "8 "
+                }
+            },
+            {
+                "schema:value": 9,
+                "schema:name": {
+                    "en": "9 "
+                }
+            },
+            {
+                "schema:value": 10,
+                "schema:name": {
+                    "en": "10 "
+                }
+            },
+            {
+                "schema:value": 15,
+                "schema:name": {
+                    "en": "15 "
+                }
+            },
+            {
+                "schema:value": 20,
+                "schema:name": {
+                    "en": "20"
+                }
+            }
+        ]
+    }
+}

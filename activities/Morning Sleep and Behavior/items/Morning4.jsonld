@@ -1,0 +1,13 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/hotavocado/schema-standardization/master/contexts/generic.jsonld"
+    ],
+    "@type": "https://raw.githubusercontent.com/hotavocado/schema-standardization/master/schemas/Field.jsonld",
+    "skos:altLabel": "Morning4",
+    "ui": {
+        "inputType": "timeRange"
+    },
+    "question": {
+        "en": "How long did it take you to fall asleep? "
+    }
+}

@@ -1,0 +1,71 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/hotavocado/schema-standardization/master/contexts/generic.jsonld"
+    ],
+    "@type": "https://raw.githubusercontent.com/hotavocado/schema-standardization/master/schemas/Field.jsonld",
+    "skos:altLabel": "Daily_a2",
+    "ui": {
+        "inputType": "radio"
+    },
+    "question": {
+        "en": "What areas were stressful for you today? "
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "schema:value": null,
+                "schema:name": {
+                    "en": "none "
+                }
+            },
+            {
+                "schema:value": null,
+                "schema:name": {
+                    "en": "physical health "
+                }
+            },
+            {
+                "schema:value": null,
+                "schema:name": {
+                    "en": "education or work "
+                }
+            },
+            {
+                "schema:value": null,
+                "schema:name": {
+                    "en": "financial matters "
+                }
+            },
+            {
+                "schema:value": null,
+                "schema:name": {
+                    "en": "relationship with friends "
+                }
+            },
+            {
+                "schema:value": null,
+                "schema:name": {
+                    "en": "relationships with family "
+                }
+            },
+            {
+                "schema:value": null,
+                "schema:name": {
+                    "en": "relationships with spouse/partner "
+                }
+            },
+            {
+                "schema:value": null,
+                "schema:name": {
+                    "en": "interaction with strangers "
+                }
+            },
+            {
+                "schema:value": null,
+                "schema:name": {
+                    "en": "other"
+                }
+            }
+        ]
+    }
+}

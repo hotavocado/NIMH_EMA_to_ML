@@ -1,0 +1,47 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/hotavocado/schema-standardization/master/contexts/generic.jsonld"
+    ],
+    "@type": "https://raw.githubusercontent.com/hotavocado/schema-standardization/master/schemas/Field.jsonld",
+    "skos:altLabel": "Intake3c",
+    "ui": {
+        "inputType": "select"
+    },
+    "question": {
+        "en": "What other drug did you use?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "schema:value": null,
+                "schema:name": {
+                    "en": "cocaine "
+                }
+            },
+            {
+                "schema:value": null,
+                "schema:name": {
+                    "en": "tranquilizers "
+                }
+            },
+            {
+                "schema:value": null,
+                "schema:name": {
+                    "en": "stimulants "
+                }
+            },
+            {
+                "schema:value": null,
+                "schema:name": {
+                    "en": "heroin or other opiate "
+                }
+            },
+            {
+                "schema:value": null,
+                "schema:name": {
+                    "en": "other drug"
+                }
+            }
+        ]
+    }
+}

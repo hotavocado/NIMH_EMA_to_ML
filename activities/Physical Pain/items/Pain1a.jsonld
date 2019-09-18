@@ -1,0 +1,47 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/hotavocado/schema-standardization/master/contexts/generic.jsonld"
+    ],
+    "@type": "https://raw.githubusercontent.com/hotavocado/schema-standardization/master/schemas/Field.jsonld",
+    "skos:altLabel": "Pain1a",
+    "ui": {
+        "inputType": "radio"
+    },
+    "question": {
+        "en": "Where are you having pain?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "schema:value": null,
+                "schema:name": {
+                    "en": "headache "
+                }
+            },
+            {
+                "schema:value": null,
+                "schema:name": {
+                    "en": "joint/muscle "
+                }
+            },
+            {
+                "schema:value": null,
+                "schema:name": {
+                    "en": "back or neck "
+                }
+            },
+            {
+                "schema:value": null,
+                "schema:name": {
+                    "en": "stomach/bowel "
+                }
+            },
+            {
+                "schema:value": null,
+                "schema:name": {
+                    "en": "other"
+                }
+            }
+        ]
+    }
+}

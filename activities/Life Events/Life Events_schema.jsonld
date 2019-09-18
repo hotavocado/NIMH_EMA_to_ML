@@ -1,0 +1,65 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/hotavocado/schema-standardization/master/contexts/generic.jsonld",
+        "https://raw.githubusercontent.com/hotavocado/NIMH_EMA_to_ML/master/activities/Life Events/Life Events_context.jsonld"
+    ],
+    "@type": "https://raw.githubusercontent.com/hotavocado/schema-standardization/master/schemas/Activity.jsonld",
+    "@id": "Life Events_schema",
+    "skos:prefLabel": "Life Events_schema",
+    "skos:altLabel": "Life Events_schema",
+    "schema:description": "Life Events schema",
+    "schema:schemaVersion": "0.0.1",
+    "schema:version": "0.0.1",
+    "scoringLogic": {},
+    "variableMap": [
+        {
+            "variableName": "",
+            "isAbout": ""
+        },
+        {
+            "variableName": "Event1",
+            "isAbout": "Event1"
+        },
+        {
+            "variableName": "Event2",
+            "isAbout": "Event2"
+        },
+        {
+            "variableName": "Event3",
+            "isAbout": "Event3"
+        },
+        {
+            "variableName": "Event4",
+            "isAbout": "Event4"
+        },
+        {
+            "variableName": "Event4a",
+            "isAbout": "Event4a"
+        },
+        {
+            "variableName": "Event4b",
+            "isAbout": "Event4b"
+        }
+    ],
+    "ui": {
+        "order": [
+            "",
+            "Event1",
+            "Event2",
+            "Event3",
+            "Event4",
+            "Event4a",
+            "Event4b"
+        ],
+        "shuffle": false,
+        "visibility": {
+            "": true,
+            "Event1": true,
+            "Event2": true,
+            "Event3": true,
+            "Event4": true,
+            "Event4a": " Event4   == 1",
+            "Event4b": " Event4   == 1"
+        }
+    }
+}

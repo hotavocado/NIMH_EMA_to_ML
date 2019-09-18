@@ -1,0 +1,53 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/hotavocado/schema-standardization/master/contexts/generic.jsonld"
+    ],
+    "@type": "https://raw.githubusercontent.com/hotavocado/schema-standardization/master/schemas/Field.jsonld",
+    "skos:altLabel": "Daily_a6",
+    "ui": {
+        "inputType": "radio"
+    },
+    "question": {
+        "en": "Did you take them for:"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "schema:value": null,
+                "schema:name": {
+                    "en": "pain (headache/muscle/joint pain etc.) "
+                }
+            },
+            {
+                "schema:value": null,
+                "schema:name": {
+                    "en": "allergies/cold "
+                }
+            },
+            {
+                "schema:value": null,
+                "schema:name": {
+                    "en": "fever/acute illness "
+                }
+            },
+            {
+                "schema:value": null,
+                "schema:name": {
+                    "en": "headache "
+                }
+            },
+            {
+                "schema:value": null,
+                "schema:name": {
+                    "en": "sleep problems "
+                }
+            },
+            {
+                "schema:value": null,
+                "schema:name": {
+                    "en": "other"
+                }
+            }
+        ]
+    }
+}

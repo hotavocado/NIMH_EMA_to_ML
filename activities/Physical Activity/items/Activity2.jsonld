@@ -1,0 +1,35 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/hotavocado/schema-standardization/master/contexts/generic.jsonld"
+    ],
+    "@type": "https://raw.githubusercontent.com/hotavocado/schema-standardization/master/schemas/Field.jsonld",
+    "skos:altLabel": "Activity2",
+    "ui": {
+        "inputType": "radio"
+    },
+    "question": {
+        "en": "Please select the level of activities you did since the last questionnaire."
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "schema:value": null,
+                "schema:name": {
+                    "en": "vigorous activities (e.g. running/ fast cycling/ heavy lifting or digging ) "
+                }
+            },
+            {
+                "schema:value": null,
+                "schema:name": {
+                    "en": "moderate activities (e.g. tennis/bicycling"
+                }
+            },
+            {
+                "schema:value": null,
+                "schema:name": {
+                    "en": "light activities (e.g. walking/climbing stairs/routine household chores) "
+                }
+            }
+        ]
+    }
+}

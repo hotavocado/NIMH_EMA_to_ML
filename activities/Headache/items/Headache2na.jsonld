@@ -1,0 +1,29 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/hotavocado/schema-standardization/master/contexts/generic.jsonld"
+    ],
+    "@type": "https://raw.githubusercontent.com/hotavocado/schema-standardization/master/schemas/Field.jsonld",
+    "skos:altLabel": "Headache2na",
+    "ui": {
+        "inputType": "radio"
+    },
+    "question": {
+        "en": "When did those vision changes occur with respect to the onset of the headache pain?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "schema:value": null,
+                "schema:name": {
+                    "en": "before headache pain "
+                }
+            },
+            {
+                "schema:value": null,
+                "schema:name": {
+                    "en": "after headache pain  "
+                }
+            }
+        ]
+    }
+}

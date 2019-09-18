@@ -1,0 +1,83 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/hotavocado/schema-standardization/master/contexts/generic.jsonld"
+    ],
+    "@type": "https://raw.githubusercontent.com/hotavocado/schema-standardization/master/schemas/Field.jsonld",
+    "skos:altLabel": "Intake2f",
+    "ui": {
+        "inputType": "radio"
+    },
+    "question": {
+        "en": "Please think about all the foods you ate since the last questionnaire. Please select all types of food you ate"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "schema:value": null,
+                "schema:name": {
+                    "en": "beef/pork/lamb "
+                }
+            },
+            {
+                "schema:value": null,
+                "schema:name": {
+                    "en": "chicken or other poultry "
+                }
+            },
+            {
+                "schema:value": null,
+                "schema:name": {
+                    "en": "eggs "
+                }
+            },
+            {
+                "schema:value": null,
+                "schema:name": {
+                    "en": "fish "
+                }
+            },
+            {
+                "schema:value": null,
+                "schema:name": {
+                    "en": "dairy (yogurt/milk/cheese) "
+                }
+            },
+            {
+                "schema:value": null,
+                "schema:name": {
+                    "en": "bread/pasta/cereal/other starchy food "
+                }
+            },
+            {
+                "schema:value": null,
+                "schema:name": {
+                    "en": "fruits "
+                }
+            },
+            {
+                "schema:value": null,
+                "schema:name": {
+                    "en": "vegetables "
+                }
+            },
+            {
+                "schema:value": null,
+                "schema:name": {
+                    "en": "sweet foods or candy "
+                }
+            },
+            {
+                "schema:value": null,
+                "schema:name": {
+                    "en": "energy bars "
+                }
+            },
+            {
+                "schema:value": null,
+                "schema:name": {
+                    "en": "potato chips or other salty snacks"
+                }
+            }
+        ]
+    }
+}

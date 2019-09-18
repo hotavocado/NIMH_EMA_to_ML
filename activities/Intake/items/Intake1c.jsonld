@@ -1,0 +1,47 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/hotavocado/schema-standardization/master/contexts/generic.jsonld"
+    ],
+    "@type": "https://raw.githubusercontent.com/hotavocado/schema-standardization/master/schemas/Field.jsonld",
+    "skos:altLabel": "Intake1c",
+    "ui": {
+        "inputType": "radio"
+    },
+    "question": {
+        "en": "What type of caffeinated beverage did you consume?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "schema:value": null,
+                "schema:name": {
+                    "en": "soda (coke/pepsi/other caffeinated soda) "
+                }
+            },
+            {
+                "schema:value": null,
+                "schema:name": {
+                    "en": "energy drink "
+                }
+            },
+            {
+                "schema:value": null,
+                "schema:name": {
+                    "en": "coffee "
+                }
+            },
+            {
+                "schema:value": null,
+                "schema:name": {
+                    "en": "tea "
+                }
+            },
+            {
+                "schema:value": null,
+                "schema:name": {
+                    "en": "other"
+                }
+            }
+        ]
+    }
+}

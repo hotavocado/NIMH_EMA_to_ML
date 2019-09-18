@@ -1,0 +1,70 @@
+{
+    "@context": {
+        "@version": 1.1,
+        "Mood Circumplex and Physical States": "https://raw.githubusercontent.com/hotavocado/NIMH_EMA_to_ML/master/activities/Mood Circumplex and Physical States/items/",
+        "Mood1": {
+            "@id": "Mood Circumplex and Physical States:Mood1.jsonld",
+            "@type": "@id"
+        },
+        "Mood2": {
+            "@id": "Mood Circumplex and Physical States:Mood2.jsonld",
+            "@type": "@id"
+        },
+        "Mood3": {
+            "@id": "Mood Circumplex and Physical States:Mood3.jsonld",
+            "@type": "@id"
+        },
+        "Mood4": {
+            "@id": "Mood Circumplex and Physical States:Mood4.jsonld",
+            "@type": "@id"
+        },
+        "Mood5": {
+            "@id": "Mood Circumplex and Physical States:Mood5.jsonld",
+            "@type": "@id"
+        },
+        "Mood6": {
+            "@id": "Mood Circumplex and Physical States:Mood6.jsonld",
+            "@type": "@id"
+        },
+        "Mood7": {
+            "@id": "Mood Circumplex and Physical States:Mood7.jsonld",
+            "@type": "@id"
+        },
+        "Mood8": {
+            "@id": "Mood Circumplex and Physical States:Mood8.jsonld",
+            "@type": "@id"
+        },
+        "Mood9": {
+            "@id": "Mood Circumplex and Physical States:Mood9.jsonld",
+            "@type": "@id"
+        },
+        "Mood10": {
+            "@id": "Mood Circumplex and Physical States:Mood10.jsonld",
+            "@type": "@id"
+        },
+        "Mood11": {
+            "@id": "Mood Circumplex and Physical States:Mood11.jsonld",
+            "@type": "@id"
+        },
+        "Mood12": {
+            "@id": "Mood Circumplex and Physical States:Mood12.jsonld",
+            "@type": "@id"
+        },
+        "Mood13": {
+            "@id": "Mood Circumplex and Physical States:Mood13.jsonld",
+            "@type": "@id"
+        },
+        "Mood14": {
+            "@id": "Mood Circumplex and Physical States:Mood14.jsonld",
+            "@type": "@id"
+        },
+        "Mood15": {
+            "@id": "Mood Circumplex and Physical States:Mood15.jsonld",
+            "@type": "@id"
+        },
+        "Mood16": {
+            "@id": "Mood Circumplex and Physical States:Mood16.jsonld",
+            "@type": "@id"
+        }
+    }
+}

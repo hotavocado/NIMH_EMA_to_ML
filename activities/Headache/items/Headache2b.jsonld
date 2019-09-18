@@ -1,0 +1,13 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/hotavocado/schema-standardization/master/contexts/generic.jsonld"
+    ],
+    "@type": "https://raw.githubusercontent.com/hotavocado/schema-standardization/master/schemas/Field.jsonld",
+    "skos:altLabel": "Headache2b",
+    "ui": {
+        "inputType": "timeRange"
+    },
+    "question": {
+        "en": "What time did the headache begin?"
+    }
+}

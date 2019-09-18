@@ -1,0 +1,59 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/hotavocado/schema-standardization/master/contexts/generic.jsonld"
+    ],
+    "@type": "https://raw.githubusercontent.com/hotavocado/schema-standardization/master/schemas/Field.jsonld",
+    "skos:altLabel": "Morning11",
+    "ui": {
+        "inputType": "radio"
+    },
+    "question": {
+        "en": "Which (if any) of the following sleep problems did you have last night?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "schema:value": null,
+                "schema:name": {
+                    "en": "difficulty falling asleep "
+                }
+            },
+            {
+                "schema:value": null,
+                "schema:name": {
+                    "en": "awakening during the night "
+                }
+            },
+            {
+                "schema:value": null,
+                "schema:name": {
+                    "en": "awakening too early "
+                }
+            },
+            {
+                "schema:value": null,
+                "schema:name": {
+                    "en": "feeling unrefreshed or unrestored despite enough hours of sleep "
+                }
+            },
+            {
+                "schema:value": null,
+                "schema:name": {
+                    "en": "nightmares "
+                }
+            },
+            {
+                "schema:value": null,
+                "schema:name": {
+                    "en": "sleep walking  "
+                }
+            },
+            {
+                "schema:value": null,
+                "schema:name": {
+                    "en": "other sleep problem"
+                }
+            }
+        ]
+    }
+}

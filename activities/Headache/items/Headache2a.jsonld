@@ -1,0 +1,53 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/hotavocado/schema-standardization/master/contexts/generic.jsonld"
+    ],
+    "@type": "https://raw.githubusercontent.com/hotavocado/schema-standardization/master/schemas/Field.jsonld",
+    "skos:altLabel": "Headache2a",
+    "ui": {
+        "inputType": "radio"
+    },
+    "question": {
+        "en": "Since the last questionnaire, did you do any of the following to prevent a headache?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "schema:value": null,
+                "schema:name": {
+                    "en": "take prescribed medication "
+                }
+            },
+            {
+                "schema:value": null,
+                "schema:name": {
+                    "en": "take over-the-counter medication "
+                }
+            },
+            {
+                "schema:value": null,
+                "schema:name": {
+                    "en": "reduce or change activities "
+                }
+            },
+            {
+                "schema:value": null,
+                "schema:name": {
+                    "en": "use relaxation/yoga/other techniques "
+                }
+            },
+            {
+                "schema:value": null,
+                "schema:name": {
+                    "en": "rest or take a nap "
+                }
+            },
+            {
+                "schema:value": null,
+                "schema:name": {
+                    "en": "other prevention strategy "
+                }
+            }
+        ]
+    }
+}

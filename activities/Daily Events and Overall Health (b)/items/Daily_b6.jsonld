@@ -1,0 +1,41 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/hotavocado/schema-standardization/master/contexts/generic.jsonld"
+    ],
+    "@type": "https://raw.githubusercontent.com/hotavocado/schema-standardization/master/schemas/Field.jsonld",
+    "skos:altLabel": "Daily_b6",
+    "ui": {
+        "inputType": "radio"
+    },
+    "question": {
+        "en": "Which (if any) of the following gastro-intestinal/stomach symptoms did you have today?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "schema:value": null,
+                "schema:name": {
+                    "en": "pain in your abdomen "
+                }
+            },
+            {
+                "schema:value": null,
+                "schema:name": {
+                    "en": "diarrhea "
+                }
+            },
+            {
+                "schema:value": null,
+                "schema:name": {
+                    "en": "nausea "
+                }
+            },
+            {
+                "schema:value": null,
+                "schema:name": {
+                    "en": "vomiting"
+                }
+            }
+        ]
+    }
+}

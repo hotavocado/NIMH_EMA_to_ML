@@ -1,0 +1,59 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/hotavocado/schema-standardization/master/contexts/generic.jsonld"
+    ],
+    "@type": "https://raw.githubusercontent.com/hotavocado/schema-standardization/master/schemas/Field.jsonld",
+    "skos:altLabel": "Intake1e",
+    "ui": {
+        "inputType": "radio"
+    },
+    "question": {
+        "en": "What type of alcoholic beverage did you consume?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "schema:value": null,
+                "schema:name": {
+                    "en": "red wine "
+                }
+            },
+            {
+                "schema:value": null,
+                "schema:name": {
+                    "en": "white wine "
+                }
+            },
+            {
+                "schema:value": null,
+                "schema:name": {
+                    "en": "champagne/sparkling wine "
+                }
+            },
+            {
+                "schema:value": null,
+                "schema:name": {
+                    "en": "beer "
+                }
+            },
+            {
+                "schema:value": null,
+                "schema:name": {
+                    "en": "cocktail "
+                }
+            },
+            {
+                "schema:value": null,
+                "schema:name": {
+                    "en": "whisky or other strong alcohol "
+                }
+            },
+            {
+                "schema:value": null,
+                "schema:name": {
+                    "en": "other type of alcoholic drink "
+                }
+            }
+        ]
+    }
+}

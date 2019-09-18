@@ -1,0 +1,59 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/hotavocado/schema-standardization/master/contexts/generic.jsonld"
+    ],
+    "@type": "https://raw.githubusercontent.com/hotavocado/schema-standardization/master/schemas/Field.jsonld",
+    "skos:altLabel": "Activity2e",
+    "ui": {
+        "inputType": "select"
+    },
+    "question": {
+        "en": "Since the last questionnaire, how many minutes did you do light activities (activities that may not make you breathe somewhat harder than usual such as walking, climbing stairs, routine household chores, etc.)"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "schema:value": 5,
+                "schema:name": {
+                    "en": "5 "
+                }
+            },
+            {
+                "schema:value": 10,
+                "schema:name": {
+                    "en": "10 "
+                }
+            },
+            {
+                "schema:value": 20,
+                "schema:name": {
+                    "en": "20 "
+                }
+            },
+            {
+                "schema:value": 30,
+                "schema:name": {
+                    "en": "30 "
+                }
+            },
+            {
+                "schema:value": 40,
+                "schema:name": {
+                    "en": "40 "
+                }
+            },
+            {
+                "schema:value": 50,
+                "schema:name": {
+                    "en": "50 "
+                }
+            },
+            {
+                "schema:value": 60,
+                "schema:name": {
+                    "en": "60"
+                }
+            }
+        ]
+    }
+}
