@@ -1,0 +1,61 @@
+{
+"@context": {
+  "activity_path": "https://raw.githubusercontent.com/hotavocado/NIMH_EMA_to_ML/master/activities/",
+
+   "Morning Sleep and Behavior": {
+    "@id": "activity_path:Morning Sleep and Behavior/Morning Sleep and Behavior_schema.jsonld",
+    "@type": "@id"
+  },
+
+   "Context of Assessment": {
+    "@id": "activity_path:Context of Assessment/Context of Assessment_schema.jsonld",
+    "@type": "@id"
+  },
+
+   "Mood Circumplex and Physical States": {
+    "@id": "activity_path:Mood Circumplex and Physical States/Mood Circumplex and Physical States_schema.jsonld",
+    "@type": "@id"
+  },
+
+   "Positive and Negative Thoughts": {
+    "@id": "activity_path:Positive and Negative Thoughts/Positive and Negative Thoughts_schema.jsonld",
+    "@type": "@id"
+  },
+
+   "Physical Activity": {
+    "@id": "activity_path:Physical Activity/Physical Activity_schema.jsonld",
+    "@type": "@id"
+  },
+
+   "Intake": {
+    "@id": "activity_path:Intake/Intake_schema.jsonld",
+    "@type": "@id"
+  },
+
+   "Life Events": {
+    "@id": "activity_path:Life Events/Life Events_schema.jsonld",
+    "@type": "@id"
+  },
+
+  "Physical Pain": {
+    "@id": "activity_path:Physical Pain/Physical Pain.jsonld",
+    "@type": "@id"
+  },
+
+  "Headache": {
+    "@id": "activity_path:Headache/Headache_schema.jsonld",
+    "@type": "@id"
+  },
+
+  "Daily Events and Overall Health (a)": {
+    "@id": "activity_path:Daily Events and Overall Health (a)/Daily Events and Overall Health (a).jsonld",
+    "@type": "@id"
+  },
+
+  "Daily Events and Overall Health (b)": {
+    "@id": "activity_path:Daily Events and Overall Health (b)/Daily Events and Overall Health (b)_schema.jsonld",
+    "@type": "@id"
+  }
+
+}
+}
