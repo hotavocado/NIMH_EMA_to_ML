@@ -1,13 +1,13 @@
 {
     "@context": [
         "https://raw.githubusercontent.com/hotavocado/schema-standardization/master/contexts/generic.jsonld",
-        "https://raw.githubusercontent.com/hotavocado/NIMH_EMA_to_ML/master/activities/Morning Sleep and Behavior/Morning Sleep and Behavior_context.jsonld"
+        "https://raw.githubusercontent.com/hotavocado/NIMH_EMA_to_ML/master/activities/Morning-Sleep-and-Behavior/Morning-Sleep-and-Behavior_context.jsonld"
     ],
     "@type": "https://raw.githubusercontent.com/hotavocado/schema-standardization/master/schemas/Activity.jsonld",
-    "@id": "Morning Sleep and Behavior_schema",
-    "skos:prefLabel": "Morning Sleep and Behavior_schema",
-    "skos:altLabel": "Morning Sleep and Behavior_schema",
-    "schema:description": "Morning Sleep and Behavior schema",
+    "@id": "Morning-Sleep-and-Behavior_schema",
+    "skos:prefLabel": "Morning-Sleep-and-Behavior_schema",
+    "skos:altLabel": "Morning-Sleep-and-Behavior_schema",
+    "schema:description": "Morning-Sleep-and-Behavior schema",
     "schema:schemaVersion": "0.0.1",
     "schema:version": "0.0.1",
     "scoringLogic": {},

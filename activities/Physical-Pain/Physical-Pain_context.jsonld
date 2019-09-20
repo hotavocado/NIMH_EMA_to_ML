@@ -1,0 +1,30 @@
+{
+    "@context": {
+        "@version": 1.1,
+        "Physical-Pain": "https://raw.githubusercontent.com/hotavocado/NIMH_EMA_to_ML/master/activities/Physical-Pain/items/",
+        "Pain1": {
+            "@id": "Physical-Pain:Pain1.jsonld",
+            "@type": "@id"
+        },
+        "Pain1a": {
+            "@id": "Physical-Pain:Pain1a.jsonld",
+            "@type": "@id"
+        },
+        "Pain1b": {
+            "@id": "Physical-Pain:Pain1b.jsonld",
+            "@type": "@id"
+        },
+        "Pain2": {
+            "@id": "Physical-Pain:Pain2.jsonld",
+            "@type": "@id"
+        },
+        "Pain2a": {
+            "@id": "Physical-Pain:Pain2a.jsonld",
+            "@type": "@id"
+        },
+        "Pain2b": {
+            "@id": "Physical-Pain:Pain2b.jsonld",
+            "@type": "@id"
+        }
+    }
+}

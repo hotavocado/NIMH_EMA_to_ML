@@ -1,13 +1,13 @@
 {
     "@context": [
         "https://raw.githubusercontent.com/hotavocado/schema-standardization/master/contexts/generic.jsonld",
-        "https://raw.githubusercontent.com/hotavocado/NIMH_EMA_to_ML/master/activities/Positive and Negative Thoughts/Positive and Negative Thoughts_context.jsonld"
+        "https://raw.githubusercontent.com/hotavocado/NIMH_EMA_to_ML/master/activities/Positive-and-Negative-Thoughts/Positive-and-Negative-Thoughts_context.jsonld"
     ],
     "@type": "https://raw.githubusercontent.com/hotavocado/schema-standardization/master/schemas/Activity.jsonld",
-    "@id": "Positive and Negative Thoughts_schema",
-    "skos:prefLabel": "Positive and Negative Thoughts_schema",
-    "skos:altLabel": "Positive and Negative Thoughts_schema",
-    "schema:description": "Positive and Negative Thoughts schema",
+    "@id": "Positive-and-Negative-Thoughts_schema",
+    "skos:prefLabel": "Positive-and-Negative-Thoughts_schema",
+    "skos:altLabel": "Positive-and-Negative-Thoughts_schema",
+    "schema:description": "Positive-and-Negative-Thoughts schema",
     "schema:schemaVersion": "0.0.1",
     "schema:version": "0.0.1",
     "scoringLogic": {},

@@ -1,0 +1,34 @@
+{
+    "@context": {
+        "@version": 1.1,
+        "Life-Events": "https://raw.githubusercontent.com/hotavocado/NIMH_EMA_to_ML/master/activities/Life-Events/items/",
+        "": {
+            "@id": "Life-Events:.jsonld",
+            "@type": "@id"
+        },
+        "Event1": {
+            "@id": "Life-Events:Event1.jsonld",
+            "@type": "@id"
+        },
+        "Event2": {
+            "@id": "Life-Events:Event2.jsonld",
+            "@type": "@id"
+        },
+        "Event3": {
+            "@id": "Life-Events:Event3.jsonld",
+            "@type": "@id"
+        },
+        "Event4": {
+            "@id": "Life-Events:Event4.jsonld",
+            "@type": "@id"
+        },
+        "Event4a": {
+            "@id": "Life-Events:Event4a.jsonld",
+            "@type": "@id"
+        },
+        "Event4b": {
+            "@id": "Life-Events:Event4b.jsonld",
+            "@type": "@id"
+        }
+    }
+}

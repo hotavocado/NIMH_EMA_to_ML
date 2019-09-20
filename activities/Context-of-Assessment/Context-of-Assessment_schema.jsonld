@@ -1,13 +1,13 @@
 {
     "@context": [
         "https://raw.githubusercontent.com/hotavocado/schema-standardization/master/contexts/generic.jsonld",
-        "https://raw.githubusercontent.com/hotavocado/NIMH_EMA_to_ML/master/activities/Context of Assessment/Context of Assessment_context.jsonld"
+        "https://raw.githubusercontent.com/hotavocado/NIMH_EMA_to_ML/master/activities/Context-of-Assessment/Context-of-Assessment_context.jsonld"
     ],
     "@type": "https://raw.githubusercontent.com/hotavocado/schema-standardization/master/schemas/Activity.jsonld",
-    "@id": "Context of Assessment_schema",
-    "skos:prefLabel": "Context of Assessment_schema",
-    "skos:altLabel": "Context of Assessment_schema",
-    "schema:description": "Context of Assessment schema",
+    "@id": "Context-of-Assessment_schema",
+    "skos:prefLabel": "Context-of-Assessment_schema",
+    "skos:altLabel": "Context-of-Assessment_schema",
+    "schema:description": "Context-of-Assessment schema",
     "schema:schemaVersion": "0.0.1",
     "schema:version": "0.0.1",
     "scoringLogic": {},

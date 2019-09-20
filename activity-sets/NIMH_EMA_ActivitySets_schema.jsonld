@@ -11,17 +11,17 @@
   "schema:version": "0.0.1",
   "ui": {
     "order": [
-      "Morning Sleep and Behavior",
-      "Context of Assessment",
-      "Mood Circumplex and Physical States",
-      "Positive and Negative Thoughts",
-      "Physical Activity",
+      "Morning-Sleep-and-Behavior",
+      "Context-of-Assessment",
+      "Mood-Circumplex-and-Physical-States",
+      "Positive-and-Negative-Thoughts",
+      "Physical-Activity",
       "Intake",
-      "Life Events",
-      "Physical Pain",
+      "Life-Events",
+      "Physical-Pain",
       "Headache",
-      "Daily Events and Overall Health (a)",
-      "Daily Events and Overall Health (b)"                                       
+      "Daily-Events-and-Overall-Health-(a)",
+      "Daily-Events-and-Overall-Health-(b)"                                       
       ],
     "shuffle": false
   }

@@ -1,13 +1,13 @@
 {
     "@context": [
         "https://raw.githubusercontent.com/hotavocado/schema-standardization/master/contexts/generic.jsonld",
-        "https://raw.githubusercontent.com/hotavocado/NIMH_EMA_to_ML/master/activities/Daily Events and Overall Health (a)/Daily Events and Overall Health (a)_context.jsonld"
+        "https://raw.githubusercontent.com/hotavocado/NIMH_EMA_to_ML/master/activities/Daily-Events-and-Overall-Health-(a)/Daily-Events-and-Overall-Health-(a)_context.jsonld"
     ],
     "@type": "https://raw.githubusercontent.com/hotavocado/schema-standardization/master/schemas/Activity.jsonld",
-    "@id": "Daily Events and Overall Health (a)_schema",
-    "skos:prefLabel": "Daily Events and Overall Health (a)_schema",
-    "skos:altLabel": "Daily Events and Overall Health (a)_schema",
-    "schema:description": "Daily Events and Overall Health (a) schema",
+    "@id": "Daily-Events-and-Overall-Health-(a)_schema",
+    "skos:prefLabel": "Daily-Events-and-Overall-Health-(a)_schema",
+    "skos:altLabel": "Daily-Events-and-Overall-Health-(a)_schema",
+    "schema:description": "Daily-Events-and-Overall-Health-(a) schema",
     "schema:schemaVersion": "0.0.1",
     "schema:version": "0.0.1",
     "scoringLogic": {},

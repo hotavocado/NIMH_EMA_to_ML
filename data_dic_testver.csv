@@ -1,63 +1,63 @@
 Variable / Field Name,Form Name,Field Type,Field Label,"Choices, Calculations, OR Slider Labels",Branching Logic (Show field only if...)
-Morning1,Morning Sleep and Behavior,timeRange,About what time did you go to bed last night (regardless of the time you actually fell asleep)?,,
-Morning2,Morning Sleep and Behavior,timeRange,"What time did you turn off the lights (including TV, phone, tablets)?",,
-Morning3,Morning Sleep and Behavior,timeRange,What time did you close your eyes to try to go to sleep?,,
-Morning4,Morning Sleep and Behavior,timeRange,How long did it take you to fall asleep? ,,
-Morning5,Morning Sleep and Behavior,radio,"How many times did you wake up, not counting your final awakening?","1, once | 2, twice | 3 or more, 3 or more times",
-Morning6,Morning Sleep and Behavior,timeRange,What time did you wake up?,,
-Morning7,Morning Sleep and Behavior,timeRange,What time did you get out of bed for the day?,,
-Morning8,Morning Sleep and Behavior,dropdown,About how many hours did you actually sleep?,"0, less than 1 hour | 1,  1 hour | 2, 2 hours | 3, 3 hours | 4, 4 hours | 5, 5 hours | 6, 6 hours | 7, 7 hours | 8, 8 hours | 9, 9 hours | 10, 10 hours | 11, 11 hours | 12, 12 hours | 13, 13 hours | 14, 14 hours | 15, 15 hours | 16, 16 hours",
-Morning9,Morning Sleep and Behavior,slider,How would you rate the quality of your sleep?,"1, very poor | 2, poor | 3, fair | 4, good | 5, very good ",
-Morning10,Morning Sleep and Behavior,slider,How refreshed did you feel when you woke up?,"1, not at all refreshed | 2, 2 | 3, 3 | 4, 4 | 5, 5 | 6, 6 | 7, fully refreshed ",
-Morning11,Morning Sleep and Behavior,radio,Which (if any) of the following sleep problems did you have last night?,"1, difficulty falling asleep | 2, awakening during the night | 3, awakening too early | 4, feeling unrefreshed or unrestored despite enough hours of sleep | 5, nightmares | 6, sleep walking  | 7, other sleep problem",
-Morning11a,Morning Sleep and Behavior,radio,Were the sleep problems due to:,"1, noise or other disturbances | 2, pain | 3, worry | 4, other thoughts | 5, other reason",
-Morning12,Morning Sleep and Behavior,radio,Did you take sleeping pills or anything else to help you sleep last night?,"0, No | 1, Yes",
-Context1,Context of Assessment,radio,Have you taken your activity monitor off since the last assessment?,"0, No | 1, Yes",
-Context1a,Context of Assessment,timeRange,When did you take it off?,,[Context1] = 1
-Context1b,Context of Assessment,timeRange,When did you put it back on?,,[Context1] = 1
-Context2,Context of Assessment,dropdown,Where are you right now?,"1, in my home | 2, in home of relative or friend | 3, at work or in class | 4, in a restaurant/café/bar | 5, in a store or shop | 6, in the gym or fitness center | 7, in a hospital or doctor’s office | 8, in a vehicle (car/bus…) | 9, in a public building | 10, in a park or garden | 11, other place inside | 12, other place outside ",
-Context3,Context of Assessment,radio,Which places have you been since the last assessment? ,"1, in my home | 2, in home of relative or friend |3, at work or in class | 4, in a restaurant/café/bar | 5, in a store or shop | 6, in the gym or fitness center | 7, in a hospital or doctor’s office | 8, in a vehicle (car/bus…) | 9, in a public building | 10, in a park or garden | 11, other place inside | 12, other place outside ",
-Context4,Context of Assessment,radio,Who is with you at this moment?,"1, no one | 2, family member | 3, partner/boyfriend/girlfriend | 4, friend | 5, colleague or classmate | 6, stranger | 7, a pet | 8, other",
-Context5,Context of Assessment,radio,Who have you been with since the last assessment?,"1, no one | 2, family member | 3, partner/boyfriend/girlfriend | 4, friend | 5, colleague or classmate | 6, stranger | 7, a pet | 8, other",
-Context6,Context of Assessment,dropdown,What are you doing at this moment?,"1, nothing or waiting | 2, napping/resting | 3, eating | 4, household chores | 5, working (paid or volunteer) | 6, homework | 7, shopping |8, personal hygiene care | 9,  physical leisure or sports | 10, personal exercise | 11, walking the dog | 12, traveling or commuting | 13, watching tv | 14, reading | 15, listening to music | 16, using a computer/electronic device | 17, talking on the phone | 18, talking in person | 19, texting by phone | 20, other nonphysical leisure | 21, other activity",
-Context7,Context of Assessment,radio,Which of these activities have you done since the last assessment?,"1, nothing or waiting | 2, napping/resting | 3, eating | 4, household chores | 5, working (paid or volunteer) | 6, homework | 7, shopping | 8, personal hygiene care | 9, physical leisure or sports | 10, personal exercise | 11, walking the dog | 12, traveling or commuting | 13, watching tv | 14, reading | 15, listening to music | 16, using a computer/electronic device | 17, talking on the phone | 18, talking in person | 19, texting by phone | 20, other nonphysical leisure | 21, other activity",
-Mood1,Mood Circumplex and Physical States,slider,How happy versus sad do you feel right now?,"1, very/sad/depressed/unhappy| 2, 2 | 3, 3 | 4, 4 | 5, 5 | 6, 6 | 7, very cheerful/happy",
-Mood2,Mood Circumplex and Physical States,slider,How happy do you feel right now?,"1, no emotion | 2, 2 | 3, 3 | 4, 4 | 5, 5 | 6, 6 | 7, very cheerful/happy",
-Mood3,Mood Circumplex and Physical States,slider,How sad do you feel right now?,"1, no emotion | 2, 2 | 3, 3 | 4, 4 | 5, 5 | 6, 6 | 7, very sad/depressed/unhappy",
-Mood4,Mood Circumplex and Physical States,slider,How relaxed versus anxious do you feel right now?,"1, very relaxed/calm | 2, 2 | 3, 3 | 4, 4 | 5, 5 | 6, 6 | 7, very nervous/anxious",
-Mood5,Mood Circumplex and Physical States,slider,How calm vs. excited do you feel right now?,"1, calm/quiet | 2, 2 | 3, 3 | 4, 4 | 5, 5 | 6, 6 | 7, very excited/aroused",
-Mood6,Mood Circumplex and Physical States,slider,How tired vs. energetic do you feel right now?,"1, very tired/sluggish | 2, 2 | 3, 3 | 4, 4 | 5, 5 | 6, 6 | 7, very energetic/lively",
-Mood7,Mood Circumplex and Physical States,slider,How well can you concentrate or focus right now?,"1, very focused/attentive| 2, 2 | 3, 3 | 4, 4 | 5, 5 | 6, 6 | 7, very unfocused/distracted",
-Mood8,Mood Circumplex and Physical States,slider,How irritable or easily angered do you feel right now?,"1, not at all irritable/angry | 2, 2 | 3, 3 | 4, 4 | 5, 5 | 6, 6 | 7, very irritable/angry",
-Mood9,Mood Circumplex and Physical States,slider,Do you feel worried right now?,"1, not at all worried | 2, 2 | 3, 3 | 4, 4 | 5, 5 | 6, 6 | 7, very worried",
-Mood10,Mood Circumplex and Physical States,slider,Do you feel guilty right now?,"1, not at all guilty | 2, 2 | 3, 3 | 4, 4 | 5, 5 | 6, 6 | 7, very guilty",
-Mood11,Mood Circumplex and Physical States,slider,How well can you make decisions right now?,"1, not at all/very indecisive | 2, 2 | 3, 3 | 4, 4 | 5, 5 | 6, 6 | 7, very well/very decisve",
-Mood12,Mood Circumplex and Physical States,slider,How quick is your thinking?,"1, slow/cannot think of things | 2, 2 | 3, 3 | 4, 4 | 5, 5 | 6, 6 | 7, very quick/lots of ideas",
-Mood13,Mood Circumplex and Physical States,slider,How much are you able to enjoy and feel pleasure in things?,"1, no pleasure or enjoyment | 2, 2 | 3, 3 | 4, 4 | 5, 5 | 6, 6 | 7, really enjoying things",
-Mood14,Mood Circumplex and Physical States,slider,How fidgety or restless do you feel right now compared to your usual self?,"1, not at all restless | 2, 2 | 3, 3 | 4, 4 | 5, 5 | 6, 6 | 7, very restless/fidgety/cannot sit still",
-Mood15,Mood Circumplex and Physical States,slider,How hungry do you feel right now?,"1, not at all hungry/full | 2, 2 | 3, 3 | 4, 4 | 5, 5 | 6, 6 | 7, extremely hungry",
-Mood16,Mood Circumplex and Physical States,slider,How sleepy do you feel right now?,"1, not at all sleepy | 2, 2 | 3, 3 | 4, 4 | 5, 5 | 6, 6 | 7, very sleepy",
-Thoughts1,Positive and Negative Thoughts,slider,"To what extent are you having positive thoughts, thinking about nice experiences or things that make you feel good?","1, not at all | 2, 2 | 3, 3 | 4, 4 | 5, 5 | 6, 6 | 7, very frequently",
-Thoughts2,Positive and Negative Thoughts,slider,"To what extent are you having negative thoughts, thinking about unpleasant experiences or things that make you feel bad?","1, not at all | 2, 2 | 3, 3 | 4, 4 | 5, 5 | 6, 6 | 7, very frequently",
-Thoughts2a,Positive and Negative Thoughts,radio,Were these thoughts about:,"things you did that you regret, things you did that you regret | things that happened to you or to others, things that happened to you or to others | worries that you have, worries that you have | other negative thoughts, other negative thoughts",[Thoughts2] = 2 or [Thoughts2] = 3 or [Thoughts2] = 4 or  [Thoughts2] = 5 or  [Thoughts2] = 6  or  [Thoughts2] = 7 
-Thoughts2b,Positive and Negative Thoughts,slider,How severe or disturbing would you say these thoughts were?,"1, not at all severe or disturbing | 2, 2 | 3, 3 | 4, 4 | 5, 5 | 6, 6 | 7, very severe or disturbing",[Thoughts2] = 2 or [Thoughts2] = 3 or [Thoughts2] = 4 or  [Thoughts2] = 5 or  [Thoughts2] = 6  or  [Thoughts2] = 7 
-Thoughts2c,Positive and Negative Thoughts,radio,Were these thoughts about things that could be dangerous for you physically?,"0, No | 1, Yes",[Thoughts2] = 2 or [Thoughts2] = 3 or [Thoughts2] = 4 or  [Thoughts2] = 5 or  [Thoughts2] = 6  or  [Thoughts2] = 7 
-Thoughts2ca,Positive and Negative Thoughts,radio,Since the last signal did you have thoughts of harming yourself or of suicide?,"0, No | 1, Yes",[Thoughts2ca = 1]
-Thoughts2caa,Positive and Negative Thoughts,static,"“IMPORTANT: The information you are providing now is not immediately transmitted to your doctor or to people who can help you. If you think that you are at the slightest risk of hurting yourself, please call the following number now to talk about it. Someone is available at any time of the day or night: XXXX”
+Morning1,Morning-Sleep-and-Behavior,timeRange,About what time did you go to bed last night (regardless of the time you actually fell asleep)?,,
+Morning2,Morning-Sleep-and-Behavior,timeRange,"What time did you turn off the lights (including TV, phone, tablets)?",,
+Morning3,Morning-Sleep-and-Behavior,timeRange,What time did you close your eyes to try to go to sleep?,,
+Morning4,Morning-Sleep-and-Behavior,timeRange,How long did it take you to fall asleep? ,,
+Morning5,Morning-Sleep-and-Behavior,radio,"How many times did you wake up, not counting your final awakening?","1, once | 2, twice | 3 or more, 3 or more times",
+Morning6,Morning-Sleep-and-Behavior,timeRange,What time did you wake up?,,
+Morning7,Morning-Sleep-and-Behavior,timeRange,What time did you get out of bed for the day?,,
+Morning8,Morning-Sleep-and-Behavior,dropdown,About how many hours did you actually sleep?,"0, less than 1 hour | 1,  1 hour | 2, 2 hours | 3, 3 hours | 4, 4 hours | 5, 5 hours | 6, 6 hours | 7, 7 hours | 8, 8 hours | 9, 9 hours | 10, 10 hours | 11, 11 hours | 12, 12 hours | 13, 13 hours | 14, 14 hours | 15, 15 hours | 16, 16 hours",
+Morning9,Morning-Sleep-and-Behavior,slider,How would you rate the quality of your sleep?,"1, very poor | 2, poor | 3, fair | 4, good | 5, very good ",
+Morning10,Morning-Sleep-and-Behavior,slider,How refreshed did you feel when you woke up?,"1, not at all refreshed | 2, 2 | 3, 3 | 4, 4 | 5, 5 | 6, 6 | 7, fully refreshed ",
+Morning11,Morning-Sleep-and-Behavior,radio,Which (if any) of the following sleep problems did you have last night?,"1, difficulty falling asleep | 2, awakening during the night | 3, awakening too early | 4, feeling unrefreshed or unrestored despite enough hours of sleep | 5, nightmares | 6, sleep walking  | 7, other sleep problem",
+Morning11a,Morning-Sleep-and-Behavior,radio,Were the sleep problems due to:,"1, noise or other disturbances | 2, pain | 3, worry | 4, other thoughts | 5, other reason",
+Morning12,Morning-Sleep-and-Behavior,radio,Did you take sleeping pills or anything else to help you sleep last night?,"0, No | 1, Yes",
+Context1,Context-of-Assessment,radio,Have you taken your activity monitor off since the last assessment?,"0, No | 1, Yes",
+Context1a,Context-of-Assessment,timeRange,When did you take it off?,,[Context1] = 1
+Context1b,Context-of-Assessment,timeRange,When did you put it back on?,,[Context1] = 1
+Context2,Context-of-Assessment,dropdown,Where are you right now?,"1, in my home | 2, in home of relative or friend | 3, at work or in class | 4, in a restaurant/café/bar | 5, in a store or shop | 6, in the gym or fitness center | 7, in a hospital or doctor’s office | 8, in a vehicle (car/bus…) | 9, in a public building | 10, in a park or garden | 11, other place inside | 12, other place outside ",
+Context3,Context-of-Assessment,radio,Which places have you been since the last assessment? ,"1, in my home | 2, in home of relative or friend |3, at work or in class | 4, in a restaurant/café/bar | 5, in a store or shop | 6, in the gym or fitness center | 7, in a hospital or doctor’s office | 8, in a vehicle (car/bus…) | 9, in a public building | 10, in a park or garden | 11, other place inside | 12, other place outside ",
+Context4,Context-of-Assessment,radio,Who is with you at this moment?,"1, no one | 2, family member | 3, partner/boyfriend/girlfriend | 4, friend | 5, colleague or classmate | 6, stranger | 7, a pet | 8, other",
+Context5,Context-of-Assessment,radio,Who have you been with since the last assessment?,"1, no one | 2, family member | 3, partner/boyfriend/girlfriend | 4, friend | 5, colleague or classmate | 6, stranger | 7, a pet | 8, other",
+Context6,Context-of-Assessment,dropdown,What are you doing at this moment?,"1, nothing or waiting | 2, napping/resting | 3, eating | 4, household chores | 5, working (paid or volunteer) | 6, homework | 7, shopping |8, personal hygiene care | 9,  physical leisure or sports | 10, personal exercise | 11, walking the dog | 12, traveling or commuting | 13, watching tv | 14, reading | 15, listening to music | 16, using a computer/electronic device | 17, talking on the phone | 18, talking in person | 19, texting by phone | 20, other nonphysical leisure | 21, other activity",
+Context7,Context-of-Assessment,radio,Which of these activities have you done since the last assessment?,"1, nothing or waiting | 2, napping/resting | 3, eating | 4, household chores | 5, working (paid or volunteer) | 6, homework | 7, shopping | 8, personal hygiene care | 9, physical leisure or sports | 10, personal exercise | 11, walking the dog | 12, traveling or commuting | 13, watching tv | 14, reading | 15, listening to music | 16, using a computer/electronic device | 17, talking on the phone | 18, talking in person | 19, texting by phone | 20, other nonphysical leisure | 21, other activity",
+Mood1,Mood-Circumplex-and-Physical-States,slider,How happy versus sad do you feel right now?,"1, very/sad/depressed/unhappy| 2, 2 | 3, 3 | 4, 4 | 5, 5 | 6, 6 | 7, very cheerful/happy",
+Mood2,Mood-Circumplex-and-Physical-States,slider,How happy do you feel right now?,"1, no emotion | 2, 2 | 3, 3 | 4, 4 | 5, 5 | 6, 6 | 7, very cheerful/happy",
+Mood3,Mood-Circumplex-and-Physical-States,slider,How sad do you feel right now?,"1, no emotion | 2, 2 | 3, 3 | 4, 4 | 5, 5 | 6, 6 | 7, very sad/depressed/unhappy",
+Mood4,Mood-Circumplex-and-Physical-States,slider,How relaxed versus anxious do you feel right now?,"1, very relaxed/calm | 2, 2 | 3, 3 | 4, 4 | 5, 5 | 6, 6 | 7, very nervous/anxious",
+Mood5,Mood-Circumplex-and-Physical-States,slider,How calm vs. excited do you feel right now?,"1, calm/quiet | 2, 2 | 3, 3 | 4, 4 | 5, 5 | 6, 6 | 7, very excited/aroused",
+Mood6,Mood-Circumplex-and-Physical-States,slider,How tired vs. energetic do you feel right now?,"1, very tired/sluggish | 2, 2 | 3, 3 | 4, 4 | 5, 5 | 6, 6 | 7, very energetic/lively",
+Mood7,Mood-Circumplex-and-Physical-States,slider,How well can you concentrate or focus right now?,"1, very focused/attentive| 2, 2 | 3, 3 | 4, 4 | 5, 5 | 6, 6 | 7, very unfocused/distracted",
+Mood8,Mood-Circumplex-and-Physical-States,slider,How irritable or easily angered do you feel right now?,"1, not at all irritable/angry | 2, 2 | 3, 3 | 4, 4 | 5, 5 | 6, 6 | 7, very irritable/angry",
+Mood9,Mood-Circumplex-and-Physical-States,slider,Do you feel worried right now?,"1, not at all worried | 2, 2 | 3, 3 | 4, 4 | 5, 5 | 6, 6 | 7, very worried",
+Mood10,Mood-Circumplex-and-Physical-States,slider,Do you feel guilty right now?,"1, not at all guilty | 2, 2 | 3, 3 | 4, 4 | 5, 5 | 6, 6 | 7, very guilty",
+Mood11,Mood-Circumplex-and-Physical-States,slider,How well can you make decisions right now?,"1, not at all/very indecisive | 2, 2 | 3, 3 | 4, 4 | 5, 5 | 6, 6 | 7, very well/very decisve",
+Mood12,Mood-Circumplex-and-Physical-States,slider,How quick is your thinking?,"1, slow/cannot think of things | 2, 2 | 3, 3 | 4, 4 | 5, 5 | 6, 6 | 7, very quick/lots of ideas",
+Mood13,Mood-Circumplex-and-Physical-States,slider,How much are you able to enjoy and feel pleasure in things?,"1, no pleasure or enjoyment | 2, 2 | 3, 3 | 4, 4 | 5, 5 | 6, 6 | 7, really enjoying things",
+Mood14,Mood-Circumplex-and-Physical-States,slider,How fidgety or restless do you feel right now compared to your usual self?,"1, not at all restless | 2, 2 | 3, 3 | 4, 4 | 5, 5 | 6, 6 | 7, very restless/fidgety/cannot sit still",
+Mood15,Mood-Circumplex-and-Physical-States,slider,How hungry do you feel right now?,"1, not at all hungry/full | 2, 2 | 3, 3 | 4, 4 | 5, 5 | 6, 6 | 7, extremely hungry",
+Mood16,Mood-Circumplex-and-Physical-States,slider,How sleepy do you feel right now?,"1, not at all sleepy | 2, 2 | 3, 3 | 4, 4 | 5, 5 | 6, 6 | 7, very sleepy",
+Thoughts1,Positive-and-Negative-Thoughts,slider,"To what extent are you having positive thoughts, thinking about nice experiences or things that make you feel good?","1, not at all | 2, 2 | 3, 3 | 4, 4 | 5, 5 | 6, 6 | 7, very frequently",
+Thoughts2,Positive-and-Negative-Thoughts,slider,"To what extent are you having negative thoughts, thinking about unpleasant experiences or things that make you feel bad?","1, not at all | 2, 2 | 3, 3 | 4, 4 | 5, 5 | 6, 6 | 7, very frequently",
+Thoughts2a,Positive-and-Negative-Thoughts,radio,Were these thoughts about:,"things you did that you regret, things you did that you regret | things that happened to you or to others, things that happened to you or to others | worries that you have, worries that you have | other negative thoughts, other negative thoughts",[Thoughts2] = 2 or [Thoughts2] = 3 or [Thoughts2] = 4 or  [Thoughts2] = 5 or  [Thoughts2] = 6  or  [Thoughts2] = 7 
+Thoughts2b,Positive-and-Negative-Thoughts,slider,How severe or disturbing would you say these thoughts were?,"1, not at all severe or disturbing | 2, 2 | 3, 3 | 4, 4 | 5, 5 | 6, 6 | 7, very severe or disturbing",[Thoughts2] = 2 or [Thoughts2] = 3 or [Thoughts2] = 4 or  [Thoughts2] = 5 or  [Thoughts2] = 6  or  [Thoughts2] = 7 
+Thoughts2c,Positive-and-Negative-Thoughts,radio,Were these thoughts about things that could be dangerous for you physically?,"0, No | 1, Yes",[Thoughts2] = 2 or [Thoughts2] = 3 or [Thoughts2] = 4 or  [Thoughts2] = 5 or  [Thoughts2] = 6  or  [Thoughts2] = 7 
+Thoughts2ca,Positive-and-Negative-Thoughts,radio,Since the last signal did you have thoughts of harming yourself or of suicide?,"0, No | 1, Yes",[Thoughts2ca = 1]
+Thoughts2caa,Positive-and-Negative-Thoughts,static,"“IMPORTANT: The information you are providing now is not immediately transmitted to your doctor or to people who can help you. If you think that you are at the slightest risk of hurting yourself, please call the following number now to talk about it. Someone is available at any time of the day or night: XXXX”
 
 (note to the Team: the contact information is obviously important to think through, so that it is available 24/7.  
 
 Note to investigators: Should this message be completed by minors, laws by country or according to human research approval boards may also require parents to be informed)",,
-Activity1,Physical Activity,radio,"Since the last assessment, did you have a nap or rest?","0, No | 1, Yes",
-Activity1a,Physical Activity,dropdown,About how long was your nap or rest?,"1, 15 min | 2, 30 min | 3, 45 min | 4, 1 hr | 5, 1 hr 30 min | 6, 2 hrs or more",[Activity1] = 1
-Activity1b,Physical Activity,radio,Did you actually fall asleep during the nap or rest?,"0, No | 1, Yes",[Activity1] = 1
-Activity2,Physical Activity,radio,Please select the level of activities you did since the last questionnaire.,"1, vigorous activities (e.g. running/ fast cycling/ heavy lifting or digging ) | 2, moderate activities (e.g. tennis/bicycling, carrying light loads)  | 3, light activities (e.g. walking/climbing stairs/routine household chores) ",
-Activity2a,Physical Activity,dropdown,"Since the last questionnaire, how many minutes did you do vigorous activities including intensive sports or exercise (such as running or fast cycling) or intensive physical work (such as heavy lifting or digging)?","5, 5 | 10, 10 | 20, 20 | 30, 30 | 40, 40 | 50, 50 | 60, 60",[Activity2] = 1
-Activity2b,Physical Activity,radio,Was this vigorous activity (or activities) part of a planned workout or exercise routine?,"0, No | 1, Yes",[Activity2] = 1
-Activity2c,Physical Activity,dropdown,"Since the last questionnaire, how many minutes did you do moderate activities (activities that make you breathe somewhat harder than usual such as playing tennis, bicycling, carrying light loads)","5, 5 | 10, 10 | 20, 20 | 30, 30 | 40, 40 | 50, 50 | 60, 60",[Activity2] = 2
-Activity2d,Physical Activity,radio,Was this moderate activity (or activities) part of a planned workout or exercise routine?,"0, No | 1, Yes",[Activity2] = 2
-Activity2e,Physical Activity,dropdown,"Since the last questionnaire, how many minutes did you do light activities (activities that may not make you breathe somewhat harder than usual such as walking, climbing stairs, routine household chores, etc.)","5, 5 | 10, 10 | 20, 20 | 30, 30 | 40, 40 | 50, 50 | 60, 60",[Activity2] = 3
-Activity2f,Physical Activity,radio,Was this light activity (or activities) part of a planned workout or exercise routine?,"0, No | 1, Yes",[Activity2] = 3
+Activity1,Physical-Activity,radio,"Since the last assessment, did you have a nap or rest?","0, No | 1, Yes",
+Activity1a,Physical-Activity,dropdown,About how long was your nap or rest?,"1, 15 min | 2, 30 min | 3, 45 min | 4, 1 hr | 5, 1 hr 30 min | 6, 2 hrs or more",[Activity1] = 1
+Activity1b,Physical-Activity,radio,Did you actually fall asleep during the nap or rest?,"0, No | 1, Yes",[Activity1] = 1
+Activity2,Physical-Activity,radio,Please select the level of activities you did since the last questionnaire.,"1, vigorous activities (e.g. running/ fast cycling/ heavy lifting or digging ) | 2, moderate activities (e.g. tennis/bicycling, carrying light loads)  | 3, light activities (e.g. walking/climbing stairs/routine household chores) ",
+Activity2a,Physical-Activity,dropdown,"Since the last questionnaire, how many minutes did you do vigorous activities including intensive sports or exercise (such as running or fast cycling) or intensive physical work (such as heavy lifting or digging)?","5, 5 | 10, 10 | 20, 20 | 30, 30 | 40, 40 | 50, 50 | 60, 60",[Activity2] = 1
+Activity2b,Physical-Activity,radio,Was this vigorous activity (or activities) part of a planned workout or exercise routine?,"0, No | 1, Yes",[Activity2] = 1
+Activity2c,Physical-Activity,dropdown,"Since the last questionnaire, how many minutes did you do moderate activities (activities that make you breathe somewhat harder than usual such as playing tennis, bicycling, carrying light loads)","5, 5 | 10, 10 | 20, 20 | 30, 30 | 40, 40 | 50, 50 | 60, 60",[Activity2] = 2
+Activity2d,Physical-Activity,radio,Was this moderate activity (or activities) part of a planned workout or exercise routine?,"0, No | 1, Yes",[Activity2] = 2
+Activity2e,Physical-Activity,dropdown,"Since the last questionnaire, how many minutes did you do light activities (activities that may not make you breathe somewhat harder than usual such as walking, climbing stairs, routine household chores, etc.)","5, 5 | 10, 10 | 20, 20 | 30, 30 | 40, 40 | 50, 50 | 60, 60",[Activity2] = 3
+Activity2f,Physical-Activity,radio,Was this light activity (or activities) part of a planned workout or exercise routine?,"0, No | 1, Yes",[Activity2] = 3
 Intake1,Intake,radio,"Since the last questionnaire, did you drink: ","1, water | 2, milk | 3, a caffeinated beverage (like coffee/tea/soda...) | 4, an alcoholic beverage (wine/beer/liquor…) | 5, a beverage containing sugar like juice or caffeine free soda | 6, another type of drink | 7, none",
 Intake1a,Intake,dropdown,How many 8 oz glasses of water did you consume?,"1, 1 | 2, 2 | 3, 3 | 4, 4 | 5, 5 ",[Intake1] = 1
 Intake1b,Intake,dropdown,How many 8 oz glasses of milk did you consume?,"1, 1 | 2, 2 | 3, 3 | 4, 4 | 5, 5 ",[Intake1] = 2
@@ -78,19 +78,19 @@ Intake3,Intake,radio,"Since the last questionnaire, which of the following did y
 Intake3a,Intake,dropdown,How many cigarettes did you have?,"1, 1 | 2, 2 | 3, 3 | 4, 4 | 5, 5 | 6, 6 | 7, 7 | 8, 8 | 9, 9 | 10, 10 | 15, 15 | 20, 20",[Intake3] = 1
 Intake3b,Intake,dropdown,How many joints did you have?,"1, 1 | 2, 2 | 3, 3 | 4, 4 | 5, 5 | 6, 6 | 7, 7 | 8, 8 | 9, 9 | 10, 10 | 15, 15 | 20, 20",[Intake3] = 2
 Intake3c,Intake,dropdown,What other drug did you use?,"1, cocaine | 2, tranquilizers | 3, stimulants | 4, heroin or other opiate | 5, other drug",[Intake3] = 3
-,Life Events,radio,"Since the last assessment, please think of the ONE event that affected you the most (positively or negatively), no matter how slightly.",,
-Event1,Life Events,radio,Which of the following categories best describes the area of your life in which the event occurred?,"1, work | 2, education | 3, family or friend relationships | 4, interactions with colleagues | 5, interactions with strangers | 6, housing or residence | 7, leisure | 8, exercise | 9, health | 10, finances | 11, religion or spirituality | 12, legal or judicial | 13, traveling or commuting | 14, other",
-Event2,Life Events,slider,To what degree did this event have a positive impact on you?,"1, no positive impact | 2, 2 | 3, 3 | 4, 4 | 5, 5 | 6, 6 | 7, extremely positive",
-Event3,Life Events,slider,To what degree did this event have a negative impact on you? ,"1, no negative impact | 2, 2 | 3, 3 | 4, 4 | 5, 5 | 6, 6 | 7, extremely negative",
-Event4,Life Events,radio,Did more than one event occur that significantly influenced you? ,"0, No | 1, Yes",
-Event4a,Life Events,slider,To what degree did this other event have a positive impact on you?,"1, no positive impact | 2, 2 | 3, 3 | 4, 4 | 5, 5 | 6, 6 | 7, extremely positive",[Event4] = 1
-Event4b,Life Events,slider,To what degree did this other event have a negative impact on you? ,"1, no negative impact | 2, 2 | 3, 3 | 4, 4 | 5, 5 | 6, 6 | 7, extremely negative",[Event4] = 1
-Pain1,Physical Pain,radio,Are you having pain right now?,"0, No | 1, Yes",
-Pain1a,Physical Pain,radio,Where are you having pain?,"1, headache | 2, joint/muscle | 3, back or neck | 4, stomach/bowel | 5, other",[Pain1] = 1
-Pain1b,Physical Pain,slider,How severe is your pain right now?,"1, very minor pain | 2, 2 | 3, 3 | 4, 4 | 5, 5 | 6, 6 | 7, extreme pain",[Pain1] = 1
-Pain2,Physical Pain,radio,Have you experienced any pain since the last questionnaire?,"0, No | 1, Yes",
-Pain2a,Physical Pain,radio,Where did this pain occur,"1, headache | 2, joint/muscle | 3, back or neck | 4, stomach/bowel | 5, other",[Pain2] = 1
-Pain2b,Physical Pain,slider,How severe was the pain you experienced since the last questionnaire,"1, very minor pain | 2, 2 | 3, 3 | 4, 4 | 5, 5 | 6, 6 | 7, extreme pain",[Pain2] = 1
+,Life-Events,radio,"Since the last assessment, please think of the ONE event that affected you the most (positively or negatively), no matter how slightly.",,
+Event1,Life-Events,radio,Which of the following categories best describes the area of your life in which the event occurred?,"1, work | 2, education | 3, family or friend relationships | 4, interactions with colleagues | 5, interactions with strangers | 6, housing or residence | 7, leisure | 8, exercise | 9, health | 10, finances | 11, religion or spirituality | 12, legal or judicial | 13, traveling or commuting | 14, other",
+Event2,Life-Events,slider,To what degree did this event have a positive impact on you?,"1, no positive impact | 2, 2 | 3, 3 | 4, 4 | 5, 5 | 6, 6 | 7, extremely positive",
+Event3,Life-Events,slider,To what degree did this event have a negative impact on you? ,"1, no negative impact | 2, 2 | 3, 3 | 4, 4 | 5, 5 | 6, 6 | 7, extremely negative",
+Event4,Life-Events,radio,Did more than one event occur that significantly influenced you? ,"0, No | 1, Yes",
+Event4a,Life-Events,slider,To what degree did this other event have a positive impact on you?,"1, no positive impact | 2, 2 | 3, 3 | 4, 4 | 5, 5 | 6, 6 | 7, extremely positive",[Event4] = 1
+Event4b,Life-Events,slider,To what degree did this other event have a negative impact on you? ,"1, no negative impact | 2, 2 | 3, 3 | 4, 4 | 5, 5 | 6, 6 | 7, extremely negative",[Event4] = 1
+Pain1,Physical-Pain,radio,Are you having pain right now?,"0, No | 1, Yes",
+Pain1a,Physical-Pain,radio,Where are you having pain?,"1, headache | 2, joint/muscle | 3, back or neck | 4, stomach/bowel | 5, other",[Pain1] = 1
+Pain1b,Physical-Pain,slider,How severe is your pain right now?,"1, very minor pain | 2, 2 | 3, 3 | 4, 4 | 5, 5 | 6, 6 | 7, extreme pain",[Pain1] = 1
+Pain2,Physical-Pain,radio,Have you experienced any pain since the last questionnaire?,"0, No | 1, Yes",
+Pain2a,Physical-Pain,radio,Where did this pain occur,"1, headache | 2, joint/muscle | 3, back or neck | 4, stomach/bowel | 5, other",[Pain2] = 1
+Pain2b,Physical-Pain,slider,How severe was the pain you experienced since the last questionnaire,"1, very minor pain | 2, 2 | 3, 3 | 4, 4 | 5, 5 | 6, 6 | 7, extreme pain",[Pain2] = 1
 Headache1,Headache,radio,Are you currently experiencing a headache?,"0, No | 1, Yes",
 Headache1a,Headache,radio,Is this the same headache that you reported for last assessment?,"0, No | 1, Yes",[Headache1] = 1
 Headache2,Headache,radio,Have you experienced a headache since the last questionnaire?,"0, No | 1, Yes",
@@ -116,24 +116,24 @@ Headache2p,Headache,radio,"Does (or did) the headache make it difficult to speak
 Headache2pa,Headache,radio,When did this difficulty occur with respect to the onset of the headache?,"1, before headache pain | 2, after headache pain  ",[Headache2p] = 1
 Headache2q,Headache,radio,Which (if any) did you take to treat your headache?,"1, no medications | 2, over-the-counter medications | 3, prescription medications",[Headache2] = 1
 Headache2r,Headache,slider,How much does (or did) the headache interfere with your activities?,"1, not at all | 2, mildly | 3, moderately | 4, severely ",[Headache2] = 1
-Daily_a1,Daily Events and Overall Health (a),slider,How stressful was your day overall?,"1, no stress experienced | 2, 2 | 3, 3 | 4, 4 | 5, 5 | 6, 6 | 7, extreme stress experienced",
-Daily_a2,Daily Events and Overall Health (a),radio,What areas were stressful for you today? ,"1, none | 2, physical health | 3, education or work | 4, financial matters | 5, relationship with friends | 6, relationships with family |7, relationships with spouse/partner | 8, interaction with strangers | 9, other",
-Daily_a3,Daily Events and Overall Health (a),radio,Was today a relatively typical day for you in terms of routines/stress?,"0, No | 1, Yes",
-Daily_a4,Daily Events and Overall Health (a),slider,How was your physical health today?,"1, very poor | 2, 2 | 3, 3 | 4, 4 | 5, 5 | 6, 6 | 7, very good/excellent",
-Daily_a5,Daily Events and Overall Health (a),radio,Did you take any over-the-counter medications today?,"0, No | 1, Yes",
-Daily_a6,Daily Events and Overall Health (a),radio,Did you take them for:,"1, pain (headache/muscle/joint pain etc.) | 2, allergies/cold | 3, fever/acute illness | 4, headache | 5, sleep problems | 6, other",
-Daily_a7,Daily Events and Overall Health (a),radio,Did you take any prescription medications today?,"0, No | 1, Yes",
-Daily_a8,Daily Events and Overall Health (a),radio,For which of the following conditions?,"1, birth control | 2, heart/blood pressure/cholesterol | 3, thyroid/metabolic | 4, sleep | 5, anxiety/depression | 6, attention/hyperactivity  | 7, asthma/allergies/breathing problems | 8, arthritis/joint/back pain | 9, headache | 10, other",
-Daily_a9,Daily Events and Overall Health (a),radio,FEMALES (ages 12-50) Are you currently having your menstrual period?,"0, No | 1, Yes",
-Daily_b1,Daily Events and Overall Health (b),radio,"Did you feel like you had no physical energy, as if you were weighted down or had a heavy feeling in your arms or legs for most of the day?","0, No | 1, Yes",
-Daily_b2,Daily Events and Overall Health (b),radio,"Do you have a cold, cough, or flu today?","0, No | 1, Yes",
-Daily_b3,Daily Events and Overall Health (b),radio,Did you have any of the following problems today?,"1, allergies | 2, asthma or respiratory difficulties | 3, gastrointestinal/nausea/vomiting/bowel or stomach problems | 4, muscle/joint pain | 5, heart racing or pounding | 6, headache | 7, diziness/feeling light-headed or faint | 8, hit or hurt your head",
-Daily_b4,Daily Events and Overall Health (b),slider,How much did your allergies bother you today?,"1, not at all | 2, mildly | 3, moderately | 4, severely ",[Daily_b3] = 1
-Daily_b5,Daily Events and Overall Health (b),slider,How much did your asthma or respiratory difficulties bother you today?,"1, not at all | 2, mildly | 3, moderately | 4, severely ",[Daily_b3] = 2
-Daily_b6,Daily Events and Overall Health (b),radio,Which (if any) of the following gastro-intestinal/stomach symptoms did you have today?,"1, pain in your abdomen | 2, diarrhea | 3, nausea | 4, vomiting",[Daily_b3] = 3
-Daily_b7,Daily Events and Overall Health (b),slider,How much did this (or these) gastro-intestinal/stomach symptom(s) bother you today?,"1, not at all | 2, mildly | 3, moderately | 4, severely ",[Daily_b3] = 3
-Daily_b8,Daily Events and Overall Health (b),slider,How much did your muscle/joint pain bother you today?,"1, not at all | 2, mildly | 3, moderately | 4, severely ",[Daily_b3] = 4
-Daily_b9,Daily Events and Overall Health (b),slider,How much did your heart racing or pounding bother you today?,"1, not at all | 2, mildly | 3, moderately | 4, severely ",[Daily_b3] = 5
-Daily_b10,Daily Events and Overall Health (b),radio,"Did these feelings occur in a particular situation (in a bus, in hot weather, or other condition?)","0, No | 1, Yes",[Daily_b3] = 7
-Daily_b11,Daily Events and Overall Health (b),radio,Did you actually faint today?,"0, No | 1, Yes",[Daily_b3] = 7
-Daily_b12,Daily Events and Overall Health (b),dropdown,"If you reported a headache present at any assessment today, how many hours did the headache(s) last in total?","1, 1 | 2, 2 | 3, 3 | 4, 4 | 5, 5 | 6, 6 | 7, 7 | 8, 8 | 9, 9 | 10, 10 | 11, 11 | 12, 12 | 13, 13 | 14, 14 | 15, 15 | 16, 16 | 17, 17 | 18, 18 | 19, 19 | 20, 20 | 21, 21 | 22, 22 | 23, 23 | 24, 24",[Daily_b3] = 6
+Daily_a1,Daily-Events-and-Overall-Health-(a),slider,How stressful was your day overall?,"1, no stress experienced | 2, 2 | 3, 3 | 4, 4 | 5, 5 | 6, 6 | 7, extreme stress experienced",
+Daily_a2,Daily-Events-and-Overall-Health-(a),radio,What areas were stressful for you today? ,"1, none | 2, physical health | 3, education or work | 4, financial matters | 5, relationship with friends | 6, relationships with family |7, relationships with spouse/partner | 8, interaction with strangers | 9, other",
+Daily_a3,Daily-Events-and-Overall-Health-(a),radio,Was today a relatively typical day for you in terms of routines/stress?,"0, No | 1, Yes",
+Daily_a4,Daily-Events-and-Overall-Health-(a),slider,How was your physical health today?,"1, very poor | 2, 2 | 3, 3 | 4, 4 | 5, 5 | 6, 6 | 7, very good/excellent",
+Daily_a5,Daily-Events-and-Overall-Health-(a),radio,Did you take any over-the-counter medications today?,"0, No | 1, Yes",
+Daily_a6,Daily-Events-and-Overall-Health-(a),radio,Did you take them for:,"1, pain (headache/muscle/joint pain etc.) | 2, allergies/cold | 3, fever/acute illness | 4, headache | 5, sleep problems | 6, other",
+Daily_a7,Daily-Events-and-Overall-Health-(a),radio,Did you take any prescription medications today?,"0, No | 1, Yes",
+Daily_a8,Daily-Events-and-Overall-Health-(a),radio,For which of the following conditions?,"1, birth control | 2, heart/blood pressure/cholesterol | 3, thyroid/metabolic | 4, sleep | 5, anxiety/depression | 6, attention/hyperactivity  | 7, asthma/allergies/breathing problems | 8, arthritis/joint/back pain | 9, headache | 10, other",
+Daily_a9,Daily-Events-and-Overall-Health-(a),radio,FEMALES (ages 12-50) Are you currently having your menstrual period?,"0, No | 1, Yes",
+Daily_b1,Daily-Events-and-Overall-Health-(b),radio,"Did you feel like you had no physical energy, as if you were weighted down or had a heavy feeling in your arms or legs for most of the day?","0, No | 1, Yes",
+Daily_b2,Daily-Events-and-Overall-Health-(b),radio,"Do you have a cold, cough, or flu today?","0, No | 1, Yes",
+Daily_b3,Daily-Events-and-Overall-Health-(b),radio,Did you have any of the following problems today?,"1, allergies | 2, asthma or respiratory difficulties | 3, gastrointestinal/nausea/vomiting/bowel or stomach problems | 4, muscle/joint pain | 5, heart racing or pounding | 6, headache | 7, diziness/feeling light-headed or faint | 8, hit or hurt your head",
+Daily_b4,Daily-Events-and-Overall-Health-(b),slider,How much did your allergies bother you today?,"1, not at all | 2, mildly | 3, moderately | 4, severely ",[Daily_b3] = 1
+Daily_b5,Daily-Events-and-Overall-Health-(b),slider,How much did your asthma or respiratory difficulties bother you today?,"1, not at all | 2, mildly | 3, moderately | 4, severely ",[Daily_b3] = 2
+Daily_b6,Daily-Events-and-Overall-Health-(b),radio,Which (if any) of the following gastro-intestinal/stomach symptoms did you have today?,"1, pain in your abdomen | 2, diarrhea | 3, nausea | 4, vomiting",[Daily_b3] = 3
+Daily_b7,Daily-Events-and-Overall-Health-(b),slider,How much did this (or these) gastro-intestinal/stomach symptom(s) bother you today?,"1, not at all | 2, mildly | 3, moderately | 4, severely ",[Daily_b3] = 3
+Daily_b8,Daily-Events-and-Overall-Health-(b),slider,How much did your muscle/joint pain bother you today?,"1, not at all | 2, mildly | 3, moderately | 4, severely ",[Daily_b3] = 4
+Daily_b9,Daily-Events-and-Overall-Health-(b),slider,How much did your heart racing or pounding bother you today?,"1, not at all | 2, mildly | 3, moderately | 4, severely ",[Daily_b3] = 5
+Daily_b10,Daily-Events-and-Overall-Health-(b),radio,"Did these feelings occur in a particular situation (in a bus, in hot weather, or other condition?)","0, No | 1, Yes",[Daily_b3] = 7
+Daily_b11,Daily-Events-and-Overall-Health-(b),radio,Did you actually faint today?,"0, No | 1, Yes",[Daily_b3] = 7
+Daily_b12,Daily-Events-and-Overall-Health-(b),dropdown,"If you reported a headache present at any assessment today, how many hours did the headache(s) last in total?","1, 1 | 2, 2 | 3, 3 | 4, 4 | 5, 5 | 6, 6 | 7, 7 | 8, 8 | 9, 9 | 10, 10 | 11, 11 | 12, 12 | 13, 13 | 14, 14 | 15, 15 | 16, 16 | 17, 17 | 18, 18 | 19, 19 | 20, 20 | 21, 21 | 22, 22 | 23, 23 | 24, 24",[Daily_b3] = 6

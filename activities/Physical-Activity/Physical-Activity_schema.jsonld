@@ -1,13 +1,13 @@
 {
     "@context": [
         "https://raw.githubusercontent.com/hotavocado/schema-standardization/master/contexts/generic.jsonld",
-        "https://raw.githubusercontent.com/hotavocado/NIMH_EMA_to_ML/master/activities/Physical Activity/Physical Activity_context.jsonld"
+        "https://raw.githubusercontent.com/hotavocado/NIMH_EMA_to_ML/master/activities/Physical-Activity/Physical-Activity_context.jsonld"
     ],
     "@type": "https://raw.githubusercontent.com/hotavocado/schema-standardization/master/schemas/Activity.jsonld",
-    "@id": "Physical Activity_schema",
-    "skos:prefLabel": "Physical Activity_schema",
-    "skos:altLabel": "Physical Activity_schema",
-    "schema:description": "Physical Activity schema",
+    "@id": "Physical-Activity_schema",
+    "skos:prefLabel": "Physical-Activity_schema",
+    "skos:altLabel": "Physical-Activity_schema",
+    "schema:description": "Physical-Activity schema",
     "schema:schemaVersion": "0.0.1",
     "schema:version": "0.0.1",
     "scoringLogic": {},
