@@ -1,0 +1,28 @@
+{
+  "@context": [ "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/contexts/generic",
+                "https://raw.githubusercontent.com/hotavocado/NIMH_EMA_to_ML/master/activity-sets/ksadsActivitySets_context"
+                ],
+  "@type": "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/schemas/ActivitySet",
+  "@id": "NIMH_EMA_schema",
+  "skos:prefLabel": "NIMH EMA",
+  "skos:altLabel": "nimh_ema",
+  "schema:description": "activity set for NIMH EMA",
+  "schema:schemaVersion": "0.0.1",
+  "schema:version": "0.0.1",
+  "ui": {
+    "order": [
+      "Morning-Sleep-and-Behavior",
+      "Context-of-Assessment",
+      "Mood-Circumplex-and-Physical-States",
+      "Positive-and-Negative-Thoughts",
+      "Physical-Activity",
+      "Intake",
+      "Life-Events",
+      "Physical-Pain",
+      "Headache",
+      "Daily-Events-and-Overall-Health-(a)",
+      "Daily-Events-and-Overall-Health-(b)"                                       
+      ],
+    "shuffle": false
+  }
+}
