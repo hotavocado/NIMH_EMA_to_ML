@@ -38,7 +38,7 @@
   },
 
   "Physical-Pain": {
-    "@id": "activity_path:Physical-Pain/Physical-Pain",
+    "@id": "activity_path:Physical-Pain/Physical-Pain_schema",
     "@type": "@id"
   },
 
@@ -48,7 +48,7 @@
   },
 
   "Daily-Events-and-Overall-Health-(a)": {
-    "@id": "activity_path:Daily-Events-and-Overall-Health-(a)/Daily-Events-and-Overall-Health-(a)",
+    "@id": "activity_path:Daily-Events-and-Overall-Health-(a)/Daily-Events-and-Overall-Health-(a)_schema",
     "@type": "@id"
   },
 
