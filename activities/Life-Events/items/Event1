@@ -1,0 +1,101 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/contexts/generic"
+    ],
+    "@type": "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/schemas/Field",
+    "skos:altLabel": "Event1",
+    "ui": {
+        "inputType": "radio"
+    },
+    "question": {
+        "en": "Which of the following categories best describes the area of your life in which the event occurred?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "schema:value": 1,
+                "schema:name": {
+                    "en": "work "
+                }
+            },
+            {
+                "schema:value": 2,
+                "schema:name": {
+                    "en": "education "
+                }
+            },
+            {
+                "schema:value": 3,
+                "schema:name": {
+                    "en": "family or friend relationships "
+                }
+            },
+            {
+                "schema:value": 4,
+                "schema:name": {
+                    "en": "interactions with colleagues "
+                }
+            },
+            {
+                "schema:value": 5,
+                "schema:name": {
+                    "en": "interactions with strangers "
+                }
+            },
+            {
+                "schema:value": 6,
+                "schema:name": {
+                    "en": "housing or residence "
+                }
+            },
+            {
+                "schema:value": 7,
+                "schema:name": {
+                    "en": "leisure "
+                }
+            },
+            {
+                "schema:value": 8,
+                "schema:name": {
+                    "en": "exercise "
+                }
+            },
+            {
+                "schema:value": 9,
+                "schema:name": {
+                    "en": "health "
+                }
+            },
+            {
+                "schema:value": 10,
+                "schema:name": {
+                    "en": "finances "
+                }
+            },
+            {
+                "schema:value": 11,
+                "schema:name": {
+                    "en": "religion or spirituality "
+                }
+            },
+            {
+                "schema:value": 12,
+                "schema:name": {
+                    "en": "legal or judicial "
+                }
+            },
+            {
+                "schema:value": 13,
+                "schema:name": {
+                    "en": "traveling or commuting "
+                }
+            },
+            {
+                "schema:value": 14,
+                "schema:name": {
+                    "en": "other"
+                }
+            }
+        ]
+    }
+}

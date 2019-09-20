@@ -1,0 +1,35 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/contexts/generic"
+    ],
+    "@type": "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/schemas/Field",
+    "skos:altLabel": "Activity2",
+    "ui": {
+        "inputType": "radio"
+    },
+    "question": {
+        "en": "Please select the level of activities you did since the last questionnaire."
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "schema:value": 1,
+                "schema:name": {
+                    "en": "vigorous activities (e.g. running/ fast cycling/ heavy lifting or digging ) "
+                }
+            },
+            {
+                "schema:value": 2,
+                "schema:name": {
+                    "en": "moderate activities (e.g. tennis/bicycling"
+                }
+            },
+            {
+                "schema:value": 3,
+                "schema:name": {
+                    "en": "light activities (e.g. walking/climbing stairs/routine household chores) "
+                }
+            }
+        ]
+    }
+}

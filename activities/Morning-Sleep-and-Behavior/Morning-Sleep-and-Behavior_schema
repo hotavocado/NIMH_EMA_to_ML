@@ -1,0 +1,101 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/contexts/generic",
+        "https://raw.githubusercontent.com/hotavocado/NIMH_EMA_to_ML/master/activities/Morning-Sleep-and-Behavior/Morning-Sleep-and-Behavior_context"
+    ],
+    "@type": "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/schemas/Activity",
+    "@id": "Morning-Sleep-and-Behavior_schema",
+    "skos:prefLabel": "Morning-Sleep-and-Behavior_schema",
+    "skos:altLabel": "Morning-Sleep-and-Behavior_schema",
+    "schema:description": "Morning-Sleep-and-Behavior schema",
+    "schema:schemaVersion": "0.0.1",
+    "schema:version": "0.0.1",
+    "scoringLogic": {},
+    "variableMap": [
+        {
+            "variableName": "Morning1",
+            "isAbout": "Morning1"
+        },
+        {
+            "variableName": "Morning2",
+            "isAbout": "Morning2"
+        },
+        {
+            "variableName": "Morning3",
+            "isAbout": "Morning3"
+        },
+        {
+            "variableName": "Morning4",
+            "isAbout": "Morning4"
+        },
+        {
+            "variableName": "Morning5",
+            "isAbout": "Morning5"
+        },
+        {
+            "variableName": "Morning6",
+            "isAbout": "Morning6"
+        },
+        {
+            "variableName": "Morning7",
+            "isAbout": "Morning7"
+        },
+        {
+            "variableName": "Morning8",
+            "isAbout": "Morning8"
+        },
+        {
+            "variableName": "Morning9",
+            "isAbout": "Morning9"
+        },
+        {
+            "variableName": "Morning10",
+            "isAbout": "Morning10"
+        },
+        {
+            "variableName": "Morning11",
+            "isAbout": "Morning11"
+        },
+        {
+            "variableName": "Morning11a",
+            "isAbout": "Morning11a"
+        },
+        {
+            "variableName": "Morning12",
+            "isAbout": "Morning12"
+        }
+    ],
+    "ui": {
+        "order": [
+            "Morning1",
+            "Morning2",
+            "Morning3",
+            "Morning4",
+            "Morning5",
+            "Morning6",
+            "Morning7",
+            "Morning8",
+            "Morning9",
+            "Morning10",
+            "Morning11",
+            "Morning11a",
+            "Morning12"
+        ],
+        "shuffle": false,
+        "visibility": {
+            "Morning1": true,
+            "Morning2": true,
+            "Morning3": true,
+            "Morning4": true,
+            "Morning5": true,
+            "Morning6": true,
+            "Morning7": true,
+            "Morning8": true,
+            "Morning9": true,
+            "Morning10": true,
+            "Morning11": true,
+            "Morning11a": true,
+            "Morning12": true
+        }
+    }
+}

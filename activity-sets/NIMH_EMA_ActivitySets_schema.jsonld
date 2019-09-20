@@ -1,8 +1,8 @@
 {
-  "@context": [ "https://raw.githubusercontent.com/hotavocado/schema-standardization/master/contexts/generic.jsonld",
-                "https://raw.githubusercontent.com/hotavocado/NIMH_EMA_to_ML/master/activity-sets/ksadsActivitySets_context.jsonld"
+  "@context": [ "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/contexts/generic",
+                "https://raw.githubusercontent.com/hotavocado/NIMH_EMA_to_ML/master/activity-sets/ksadsActivitySets_context"
                 ],
-  "@type": "https://raw.githubusercontent.com/hotavocado/schema-standardization/master/schemas/ActivitySet.jsonld",
+  "@type": "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/schemas/ActivitySet",
   "@id": "NIMH_EMA_schema",
   "skos:prefLabel": "NIMH EMA",
   "skos:altLabel": "nimh_ema",

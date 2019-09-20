@@ -1,0 +1,173 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/contexts/generic",
+        "https://raw.githubusercontent.com/hotavocado/NIMH_EMA_to_ML/master/activities/Headache/Headache_context"
+    ],
+    "@type": "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/schemas/Activity",
+    "@id": "Headache_schema",
+    "skos:prefLabel": "Headache_schema",
+    "skos:altLabel": "Headache_schema",
+    "schema:description": "Headache schema",
+    "schema:schemaVersion": "0.0.1",
+    "schema:version": "0.0.1",
+    "scoringLogic": {},
+    "variableMap": [
+        {
+            "variableName": "Headache1",
+            "isAbout": "Headache1"
+        },
+        {
+            "variableName": "Headache1a",
+            "isAbout": "Headache1a"
+        },
+        {
+            "variableName": "Headache2",
+            "isAbout": "Headache2"
+        },
+        {
+            "variableName": "Headache2a",
+            "isAbout": "Headache2a"
+        },
+        {
+            "variableName": "Headache2b",
+            "isAbout": "Headache2b"
+        },
+        {
+            "variableName": "Headache2c",
+            "isAbout": "Headache2c"
+        },
+        {
+            "variableName": "Headache2d",
+            "isAbout": "Headache2d"
+        },
+        {
+            "variableName": "Headache2e",
+            "isAbout": "Headache2e"
+        },
+        {
+            "variableName": "Headache2f",
+            "isAbout": "Headache2f"
+        },
+        {
+            "variableName": "Headache2fa",
+            "isAbout": "Headache2fa"
+        },
+        {
+            "variableName": "Headache2g",
+            "isAbout": "Headache2g"
+        },
+        {
+            "variableName": "Headache2h",
+            "isAbout": "Headache2h"
+        },
+        {
+            "variableName": "Headache2i",
+            "isAbout": "Headache2i"
+        },
+        {
+            "variableName": "Headache2j",
+            "isAbout": "Headache2j"
+        },
+        {
+            "variableName": "Headache2k",
+            "isAbout": "Headache2k"
+        },
+        {
+            "variableName": "Headache2l",
+            "isAbout": "Headache2l"
+        },
+        {
+            "variableName": "Headache2m",
+            "isAbout": "Headache2m"
+        },
+        {
+            "variableName": "Headache2n",
+            "isAbout": "Headache2n"
+        },
+        {
+            "variableName": "Headache2na",
+            "isAbout": "Headache2na"
+        },
+        {
+            "variableName": "Headache2o",
+            "isAbout": "Headache2o"
+        },
+        {
+            "variableName": "Headache2oa",
+            "isAbout": "Headache2oa"
+        },
+        {
+            "variableName": "Headache2p",
+            "isAbout": "Headache2p"
+        },
+        {
+            "variableName": "Headache2pa",
+            "isAbout": "Headache2pa"
+        },
+        {
+            "variableName": "Headache2q",
+            "isAbout": "Headache2q"
+        },
+        {
+            "variableName": "Headache2r",
+            "isAbout": "Headache2r"
+        }
+    ],
+    "ui": {
+        "order": [
+            "Headache1",
+            "Headache1a",
+            "Headache2",
+            "Headache2a",
+            "Headache2b",
+            "Headache2c",
+            "Headache2d",
+            "Headache2e",
+            "Headache2f",
+            "Headache2fa",
+            "Headache2g",
+            "Headache2h",
+            "Headache2i",
+            "Headache2j",
+            "Headache2k",
+            "Headache2l",
+            "Headache2m",
+            "Headache2n",
+            "Headache2na",
+            "Headache2o",
+            "Headache2oa",
+            "Headache2p",
+            "Headache2pa",
+            "Headache2q",
+            "Headache2r"
+        ],
+        "shuffle": false,
+        "visibility": {
+            "Headache1": true,
+            "Headache1a": " Headache1   == 1",
+            "Headache2": true,
+            "Headache2a": " Headache2   == 0",
+            "Headache2b": " Headache2   == 1",
+            "Headache2c": " Headache2   == 1",
+            "Headache2d": " Headache2   == 1",
+            "Headache2e": " Headache2   == 1",
+            "Headache2f": " Headache2   == 1",
+            "Headache2fa": " Headache2   == 1",
+            "Headache2g": " Headache2   == 1",
+            "Headache2h": " Headache2   == 1",
+            "Headache2i": " Headache2   == 1",
+            "Headache2j": " Headache2   == 1",
+            "Headache2k": " Headache2   == 1",
+            "Headache2l": " Headache2   == 1",
+            "Headache2m": " Headache2   == 1",
+            "Headache2n": " Headache2   == 1",
+            "Headache2na": " Headache2n   == 1 ||  Headache2n   == 2 ||  Headache2n   == 3 ||  Headache2n   == 4",
+            "Headache2o": " Headache2   == 1",
+            "Headache2oa": " Headache2o   == 1",
+            "Headache2p": " Headache2   == 1",
+            "Headache2pa": " Headache2p   == 1",
+            "Headache2q": " Headache2   == 1",
+            "Headache2r": " Headache2   == 1"
+        }
+    }
+}

@@ -1,0 +1,119 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/contexts/generic"
+    ],
+    "@type": "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/schemas/Field",
+    "skos:altLabel": "Morning8",
+    "ui": {
+        "inputType": "select"
+    },
+    "question": {
+        "en": "About how many hours did you actually sleep?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "schema:value": 0,
+                "schema:name": {
+                    "en": "less than 1 hour "
+                }
+            },
+            {
+                "schema:value": 1,
+                "schema:name": {
+                    "en": " 1 hour "
+                }
+            },
+            {
+                "schema:value": 2,
+                "schema:name": {
+                    "en": "2 hours "
+                }
+            },
+            {
+                "schema:value": 3,
+                "schema:name": {
+                    "en": "3 hours "
+                }
+            },
+            {
+                "schema:value": 4,
+                "schema:name": {
+                    "en": "4 hours "
+                }
+            },
+            {
+                "schema:value": 5,
+                "schema:name": {
+                    "en": "5 hours "
+                }
+            },
+            {
+                "schema:value": 6,
+                "schema:name": {
+                    "en": "6 hours "
+                }
+            },
+            {
+                "schema:value": 7,
+                "schema:name": {
+                    "en": "7 hours "
+                }
+            },
+            {
+                "schema:value": 8,
+                "schema:name": {
+                    "en": "8 hours "
+                }
+            },
+            {
+                "schema:value": 9,
+                "schema:name": {
+                    "en": "9 hours "
+                }
+            },
+            {
+                "schema:value": 10,
+                "schema:name": {
+                    "en": "10 hours "
+                }
+            },
+            {
+                "schema:value": 11,
+                "schema:name": {
+                    "en": "11 hours "
+                }
+            },
+            {
+                "schema:value": 12,
+                "schema:name": {
+                    "en": "12 hours "
+                }
+            },
+            {
+                "schema:value": 13,
+                "schema:name": {
+                    "en": "13 hours "
+                }
+            },
+            {
+                "schema:value": 14,
+                "schema:name": {
+                    "en": "14 hours "
+                }
+            },
+            {
+                "schema:value": 15,
+                "schema:name": {
+                    "en": "15 hours "
+                }
+            },
+            {
+                "schema:value": 16,
+                "schema:name": {
+                    "en": "16 hours"
+                }
+            }
+        ]
+    }
+}

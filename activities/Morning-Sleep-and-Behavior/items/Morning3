@@ -1,0 +1,13 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/contexts/generic"
+    ],
+    "@type": "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/schemas/Field",
+    "skos:altLabel": "Morning3",
+    "ui": {
+        "inputType": "timeRange"
+    },
+    "question": {
+        "en": "What time did you close your eyes to try to go to sleep?"
+    }
+}

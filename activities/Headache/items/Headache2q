@@ -1,0 +1,35 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/contexts/generic"
+    ],
+    "@type": "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/schemas/Field",
+    "skos:altLabel": "Headache2q",
+    "ui": {
+        "inputType": "radio"
+    },
+    "question": {
+        "en": "Which (if any) did you take to treat your headache?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "schema:value": 1,
+                "schema:name": {
+                    "en": "no medications "
+                }
+            },
+            {
+                "schema:value": 2,
+                "schema:name": {
+                    "en": "over-the-counter medications "
+                }
+            },
+            {
+                "schema:value": 3,
+                "schema:name": {
+                    "en": "prescription medications"
+                }
+            }
+        ]
+    }
+}

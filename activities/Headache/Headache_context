@@ -1,0 +1,106 @@
+{
+    "@context": {
+        "@version": 1.1,
+        "Headache": "https://raw.githubusercontent.com/hotavocado/NIMH_EMA_to_ML/master/activities/Headache/items/",
+        "Headache1": {
+            "@id": "Headache:Headache1",
+            "@type": "@id"
+        },
+        "Headache1a": {
+            "@id": "Headache:Headache1a",
+            "@type": "@id"
+        },
+        "Headache2": {
+            "@id": "Headache:Headache2",
+            "@type": "@id"
+        },
+        "Headache2a": {
+            "@id": "Headache:Headache2a",
+            "@type": "@id"
+        },
+        "Headache2b": {
+            "@id": "Headache:Headache2b",
+            "@type": "@id"
+        },
+        "Headache2c": {
+            "@id": "Headache:Headache2c",
+            "@type": "@id"
+        },
+        "Headache2d": {
+            "@id": "Headache:Headache2d",
+            "@type": "@id"
+        },
+        "Headache2e": {
+            "@id": "Headache:Headache2e",
+            "@type": "@id"
+        },
+        "Headache2f": {
+            "@id": "Headache:Headache2f",
+            "@type": "@id"
+        },
+        "Headache2fa": {
+            "@id": "Headache:Headache2fa",
+            "@type": "@id"
+        },
+        "Headache2g": {
+            "@id": "Headache:Headache2g",
+            "@type": "@id"
+        },
+        "Headache2h": {
+            "@id": "Headache:Headache2h",
+            "@type": "@id"
+        },
+        "Headache2i": {
+            "@id": "Headache:Headache2i",
+            "@type": "@id"
+        },
+        "Headache2j": {
+            "@id": "Headache:Headache2j",
+            "@type": "@id"
+        },
+        "Headache2k": {
+            "@id": "Headache:Headache2k",
+            "@type": "@id"
+        },
+        "Headache2l": {
+            "@id": "Headache:Headache2l",
+            "@type": "@id"
+        },
+        "Headache2m": {
+            "@id": "Headache:Headache2m",
+            "@type": "@id"
+        },
+        "Headache2n": {
+            "@id": "Headache:Headache2n",
+            "@type": "@id"
+        },
+        "Headache2na": {
+            "@id": "Headache:Headache2na",
+            "@type": "@id"
+        },
+        "Headache2o": {
+            "@id": "Headache:Headache2o",
+            "@type": "@id"
+        },
+        "Headache2oa": {
+            "@id": "Headache:Headache2oa",
+            "@type": "@id"
+        },
+        "Headache2p": {
+            "@id": "Headache:Headache2p",
+            "@type": "@id"
+        },
+        "Headache2pa": {
+            "@id": "Headache:Headache2pa",
+            "@type": "@id"
+        },
+        "Headache2q": {
+            "@id": "Headache:Headache2q",
+            "@type": "@id"
+        },
+        "Headache2r": {
+            "@id": "Headache:Headache2r",
+            "@type": "@id"
+        }
+    }
+}

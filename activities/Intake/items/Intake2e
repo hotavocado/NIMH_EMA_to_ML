@@ -1,0 +1,65 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/contexts/generic"
+    ],
+    "@type": "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/schemas/Field",
+    "skos:altLabel": "Intake2e",
+    "ui": {
+        "inputType": "select"
+    },
+    "question": {
+        "en": "For how long did you eat?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "schema:value": 1,
+                "schema:name": {
+                    "en": "5 min "
+                }
+            },
+            {
+                "schema:value": 2,
+                "schema:name": {
+                    "en": "10 min "
+                }
+            },
+            {
+                "schema:value": 3,
+                "schema:name": {
+                    "en": "15 min "
+                }
+            },
+            {
+                "schema:value": 4,
+                "schema:name": {
+                    "en": "30 min "
+                }
+            },
+            {
+                "schema:value": 5,
+                "schema:name": {
+                    "en": "45 min "
+                }
+            },
+            {
+                "schema:value": 6,
+                "schema:name": {
+                    "en": "1 hr "
+                }
+            },
+            {
+                "schema:value": 7,
+                "schema:name": {
+                    "en": "1 hr 30 min "
+                }
+            },
+            {
+                "schema:value": 8,
+                "schema:name": {
+                    "en": "2 hrs or more"
+                }
+            }
+        ]
+    }
+}

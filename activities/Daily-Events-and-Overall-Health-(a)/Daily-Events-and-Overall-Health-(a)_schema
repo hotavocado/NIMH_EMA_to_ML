@@ -1,0 +1,77 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/contexts/generic",
+        "https://raw.githubusercontent.com/hotavocado/NIMH_EMA_to_ML/master/activities/Daily-Events-and-Overall-Health-(a)/Daily-Events-and-Overall-Health-(a)_context"
+    ],
+    "@type": "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/schemas/Activity",
+    "@id": "Daily-Events-and-Overall-Health-(a)_schema",
+    "skos:prefLabel": "Daily-Events-and-Overall-Health-(a)_schema",
+    "skos:altLabel": "Daily-Events-and-Overall-Health-(a)_schema",
+    "schema:description": "Daily-Events-and-Overall-Health-(a) schema",
+    "schema:schemaVersion": "0.0.1",
+    "schema:version": "0.0.1",
+    "scoringLogic": {},
+    "variableMap": [
+        {
+            "variableName": "Daily_a1",
+            "isAbout": "Daily_a1"
+        },
+        {
+            "variableName": "Daily_a2",
+            "isAbout": "Daily_a2"
+        },
+        {
+            "variableName": "Daily_a3",
+            "isAbout": "Daily_a3"
+        },
+        {
+            "variableName": "Daily_a4",
+            "isAbout": "Daily_a4"
+        },
+        {
+            "variableName": "Daily_a5",
+            "isAbout": "Daily_a5"
+        },
+        {
+            "variableName": "Daily_a6",
+            "isAbout": "Daily_a6"
+        },
+        {
+            "variableName": "Daily_a7",
+            "isAbout": "Daily_a7"
+        },
+        {
+            "variableName": "Daily_a8",
+            "isAbout": "Daily_a8"
+        },
+        {
+            "variableName": "Daily_a9",
+            "isAbout": "Daily_a9"
+        }
+    ],
+    "ui": {
+        "order": [
+            "Daily_a1",
+            "Daily_a2",
+            "Daily_a3",
+            "Daily_a4",
+            "Daily_a5",
+            "Daily_a6",
+            "Daily_a7",
+            "Daily_a8",
+            "Daily_a9"
+        ],
+        "shuffle": false,
+        "visibility": {
+            "Daily_a1": true,
+            "Daily_a2": true,
+            "Daily_a3": true,
+            "Daily_a4": true,
+            "Daily_a5": true,
+            "Daily_a6": true,
+            "Daily_a7": true,
+            "Daily_a8": true,
+            "Daily_a9": true
+        }
+    }
+}

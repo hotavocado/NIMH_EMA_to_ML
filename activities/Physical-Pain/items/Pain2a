@@ -1,0 +1,47 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/contexts/generic"
+    ],
+    "@type": "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/schemas/Field",
+    "skos:altLabel": "Pain2a",
+    "ui": {
+        "inputType": "radio"
+    },
+    "question": {
+        "en": "Where did this pain occur"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "schema:value": 1,
+                "schema:name": {
+                    "en": "headache "
+                }
+            },
+            {
+                "schema:value": 2,
+                "schema:name": {
+                    "en": "joint/muscle "
+                }
+            },
+            {
+                "schema:value": 3,
+                "schema:name": {
+                    "en": "back or neck "
+                }
+            },
+            {
+                "schema:value": 4,
+                "schema:name": {
+                    "en": "stomach/bowel "
+                }
+            },
+            {
+                "schema:value": 5,
+                "schema:name": {
+                    "en": "other"
+                }
+            }
+        ]
+    }
+}

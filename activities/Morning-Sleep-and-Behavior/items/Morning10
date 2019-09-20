@@ -1,0 +1,59 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/contexts/generic"
+    ],
+    "@type": "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/schemas/Field",
+    "skos:altLabel": "Morning10",
+    "ui": {
+        "inputType": "slider"
+    },
+    "question": {
+        "en": "How refreshed did you feel when you woke up?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "schema:value": 1,
+                "schema:name": {
+                    "en": "not at all refreshed "
+                }
+            },
+            {
+                "schema:value": 2,
+                "schema:name": {
+                    "en": "2 "
+                }
+            },
+            {
+                "schema:value": 3,
+                "schema:name": {
+                    "en": "3 "
+                }
+            },
+            {
+                "schema:value": 4,
+                "schema:name": {
+                    "en": "4 "
+                }
+            },
+            {
+                "schema:value": 5,
+                "schema:name": {
+                    "en": "5 "
+                }
+            },
+            {
+                "schema:value": 6,
+                "schema:name": {
+                    "en": "6 "
+                }
+            },
+            {
+                "schema:value": 7,
+                "schema:name": {
+                    "en": "fully refreshed "
+                }
+            }
+        ]
+    }
+}

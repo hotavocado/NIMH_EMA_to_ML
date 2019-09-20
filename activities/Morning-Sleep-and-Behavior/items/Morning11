@@ -1,0 +1,59 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/contexts/generic"
+    ],
+    "@type": "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/schemas/Field",
+    "skos:altLabel": "Morning11",
+    "ui": {
+        "inputType": "radio"
+    },
+    "question": {
+        "en": "Which (if any) of the following sleep problems did you have last night?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "schema:value": 1,
+                "schema:name": {
+                    "en": "difficulty falling asleep "
+                }
+            },
+            {
+                "schema:value": 2,
+                "schema:name": {
+                    "en": "awakening during the night "
+                }
+            },
+            {
+                "schema:value": 3,
+                "schema:name": {
+                    "en": "awakening too early "
+                }
+            },
+            {
+                "schema:value": 4,
+                "schema:name": {
+                    "en": "feeling unrefreshed or unrestored despite enough hours of sleep "
+                }
+            },
+            {
+                "schema:value": 5,
+                "schema:name": {
+                    "en": "nightmares "
+                }
+            },
+            {
+                "schema:value": 6,
+                "schema:name": {
+                    "en": "sleep walking  "
+                }
+            },
+            {
+                "schema:value": 7,
+                "schema:name": {
+                    "en": "other sleep problem"
+                }
+            }
+        ]
+    }
+}

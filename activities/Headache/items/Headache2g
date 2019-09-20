@@ -1,0 +1,41 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/contexts/generic"
+    ],
+    "@type": "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/schemas/Field",
+    "skos:altLabel": "Headache2g",
+    "ui": {
+        "inputType": "radio"
+    },
+    "question": {
+        "en": "Where is (or was) the headache?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "schema:value": 1,
+                "schema:name": {
+                    "en": "both sides of your head "
+                }
+            },
+            {
+                "schema:value": 2,
+                "schema:name": {
+                    "en": "left side only "
+                }
+            },
+            {
+                "schema:value": 3,
+                "schema:name": {
+                    "en": "right side only "
+                }
+            },
+            {
+                "schema:value": 4,
+                "schema:name": {
+                    "en": "moved from one side to another"
+                }
+            }
+        ]
+    }
+}

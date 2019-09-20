@@ -1,0 +1,86 @@
+{
+    "@context": {
+        "@version": 1.1,
+        "Intake": "https://raw.githubusercontent.com/hotavocado/NIMH_EMA_to_ML/master/activities/Intake/items/",
+        "Intake1": {
+            "@id": "Intake:Intake1",
+            "@type": "@id"
+        },
+        "Intake1a": {
+            "@id": "Intake:Intake1a",
+            "@type": "@id"
+        },
+        "Intake1b": {
+            "@id": "Intake:Intake1b",
+            "@type": "@id"
+        },
+        "Intake1c": {
+            "@id": "Intake:Intake1c",
+            "@type": "@id"
+        },
+        "Intake1d": {
+            "@id": "Intake:Intake1d",
+            "@type": "@id"
+        },
+        "Intake1e": {
+            "@id": "Intake:Intake1e",
+            "@type": "@id"
+        },
+        "Intake1f": {
+            "@id": "Intake:Intake1f",
+            "@type": "@id"
+        },
+        "Intake1g": {
+            "@id": "Intake:Intake1g",
+            "@type": "@id"
+        },
+        "Intake2": {
+            "@id": "Intake:Intake2",
+            "@type": "@id"
+        },
+        "Intake2a": {
+            "@id": "Intake:Intake2a",
+            "@type": "@id"
+        },
+        "Intake2b": {
+            "@id": "Intake:Intake2b",
+            "@type": "@id"
+        },
+        "Intake2c": {
+            "@id": "Intake:Intake2c",
+            "@type": "@id"
+        },
+        "Intake2d": {
+            "@id": "Intake:Intake2d",
+            "@type": "@id"
+        },
+        "Intake2e": {
+            "@id": "Intake:Intake2e",
+            "@type": "@id"
+        },
+        "Intake2f": {
+            "@id": "Intake:Intake2f",
+            "@type": "@id"
+        },
+        "Intake2fa": {
+            "@id": "Intake:Intake2fa",
+            "@type": "@id"
+        },
+        "Intake3": {
+            "@id": "Intake:Intake3",
+            "@type": "@id"
+        },
+        "Intake3a": {
+            "@id": "Intake:Intake3a",
+            "@type": "@id"
+        },
+        "Intake3b": {
+            "@id": "Intake:Intake3b",
+            "@type": "@id"
+        },
+        "Intake3c": {
+            "@id": "Intake:Intake3c",
+            "@type": "@id"
+        }
+    }
+}

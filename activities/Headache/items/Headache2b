@@ -1,0 +1,13 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/contexts/generic"
+    ],
+    "@type": "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/schemas/Field",
+    "skos:altLabel": "Headache2b",
+    "ui": {
+        "inputType": "timeRange"
+    },
+    "question": {
+        "en": "What time did the headache begin?"
+    }
+}
