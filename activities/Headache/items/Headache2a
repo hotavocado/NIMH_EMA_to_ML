@@ -49,8 +49,8 @@
                 }
             }
         ],
-        "multipleChoice": "true",
         "minValue": "",
-        "maxValue": ""
+        "maxValue": "",
+        "multipleChoice": "true"
     }
 }

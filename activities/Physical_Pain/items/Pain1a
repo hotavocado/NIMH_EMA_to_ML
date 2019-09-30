@@ -1,0 +1,50 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/contexts/generic"
+    ],
+    "@type": "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/schemas/Field",
+    "skos:altLabel": "Pain1a",
+    "ui": {
+        "inputType": "checklist"
+    },
+    "question": {
+        "en": "Where are you having pain?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "schema:value": null,
+                "schema:name": {
+                    "en": "headache "
+                }
+            },
+            {
+                "schema:value": null,
+                "schema:name": {
+                    "en": "joint/muscle "
+                }
+            },
+            {
+                "schema:value": null,
+                "schema:name": {
+                    "en": "back or neck "
+                }
+            },
+            {
+                "schema:value": null,
+                "schema:name": {
+                    "en": "stomach/bowel "
+                }
+            },
+            {
+                "schema:value": null,
+                "schema:name": {
+                    "en": "other"
+                }
+            }
+        ],
+        "minValue": "",
+        "maxValue": "",
+        "multipleChoice": "true"
+    }
+}

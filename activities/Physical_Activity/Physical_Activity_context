@@ -1,0 +1,46 @@
+{
+    "@context": {
+        "@version": 1.1,
+        "Physical_Activity": "https://raw.githubusercontent.com/hotavocado/NIMH_EMA_to_ML/master/activities/Physical_Activity/items/",
+        "Activity1": {
+            "@id": "Physical_Activity:Activity1",
+            "@type": "@id"
+        },
+        "Activity1a": {
+            "@id": "Physical_Activity:Activity1a",
+            "@type": "@id"
+        },
+        "Activity1b": {
+            "@id": "Physical_Activity:Activity1b",
+            "@type": "@id"
+        },
+        "Activity2": {
+            "@id": "Physical_Activity:Activity2",
+            "@type": "@id"
+        },
+        "Activity2a": {
+            "@id": "Physical_Activity:Activity2a",
+            "@type": "@id"
+        },
+        "Activity2b": {
+            "@id": "Physical_Activity:Activity2b",
+            "@type": "@id"
+        },
+        "Activity2c": {
+            "@id": "Physical_Activity:Activity2c",
+            "@type": "@id"
+        },
+        "Activity2d": {
+            "@id": "Physical_Activity:Activity2d",
+            "@type": "@id"
+        },
+        "Activity2e": {
+            "@id": "Physical_Activity:Activity2e",
+            "@type": "@id"
+        },
+        "Activity2f": {
+            "@id": "Physical_Activity:Activity2f",
+            "@type": "@id"
+        }
+    }
+}

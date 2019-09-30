@@ -1,0 +1,42 @@
+{
+    "@context": {
+        "@version": 1.1,
+        "Context_of_Assessment": "https://raw.githubusercontent.com/hotavocado/NIMH_EMA_to_ML/master/activities/Context_of_Assessment/items/",
+        "Context1": {
+            "@id": "Context_of_Assessment:Context1",
+            "@type": "@id"
+        },
+        "Context1a": {
+            "@id": "Context_of_Assessment:Context1a",
+            "@type": "@id"
+        },
+        "Context1b": {
+            "@id": "Context_of_Assessment:Context1b",
+            "@type": "@id"
+        },
+        "Context2": {
+            "@id": "Context_of_Assessment:Context2",
+            "@type": "@id"
+        },
+        "Context3": {
+            "@id": "Context_of_Assessment:Context3",
+            "@type": "@id"
+        },
+        "Context4": {
+            "@id": "Context_of_Assessment:Context4",
+            "@type": "@id"
+        },
+        "Context5": {
+            "@id": "Context_of_Assessment:Context5",
+            "@type": "@id"
+        },
+        "Context6": {
+            "@id": "Context_of_Assessment:Context6",
+            "@type": "@id"
+        },
+        "Context7": {
+            "@id": "Context_of_Assessment:Context7",
+            "@type": "@id"
+        }
+    }
+}

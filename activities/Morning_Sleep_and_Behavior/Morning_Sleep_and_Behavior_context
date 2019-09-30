@@ -1,0 +1,58 @@
+{
+    "@context": {
+        "@version": 1.1,
+        "Morning_Sleep_and_Behavior": "https://raw.githubusercontent.com/hotavocado/NIMH_EMA_to_ML/master/activities/Morning_Sleep_and_Behavior/items/",
+        "Morning1": {
+            "@id": "Morning_Sleep_and_Behavior:Morning1",
+            "@type": "@id"
+        },
+        "Morning2": {
+            "@id": "Morning_Sleep_and_Behavior:Morning2",
+            "@type": "@id"
+        },
+        "Morning3": {
+            "@id": "Morning_Sleep_and_Behavior:Morning3",
+            "@type": "@id"
+        },
+        "Morning4": {
+            "@id": "Morning_Sleep_and_Behavior:Morning4",
+            "@type": "@id"
+        },
+        "Morning5": {
+            "@id": "Morning_Sleep_and_Behavior:Morning5",
+            "@type": "@id"
+        },
+        "Morning6": {
+            "@id": "Morning_Sleep_and_Behavior:Morning6",
+            "@type": "@id"
+        },
+        "Morning7": {
+            "@id": "Morning_Sleep_and_Behavior:Morning7",
+            "@type": "@id"
+        },
+        "Morning8": {
+            "@id": "Morning_Sleep_and_Behavior:Morning8",
+            "@type": "@id"
+        },
+        "Morning9": {
+            "@id": "Morning_Sleep_and_Behavior:Morning9",
+            "@type": "@id"
+        },
+        "Morning10": {
+            "@id": "Morning_Sleep_and_Behavior:Morning10",
+            "@type": "@id"
+        },
+        "Morning11": {
+            "@id": "Morning_Sleep_and_Behavior:Morning11",
+            "@type": "@id"
+        },
+        "Morning11a": {
+            "@id": "Morning_Sleep_and_Behavior:Morning11a",
+            "@type": "@id"
+        },
+        "Morning12": {
+            "@id": "Morning_Sleep_and_Behavior:Morning12",
+            "@type": "@id"
+        }
+    }
+}

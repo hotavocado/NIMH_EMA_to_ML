@@ -1,0 +1,65 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/contexts/generic",
+        "https://raw.githubusercontent.com/hotavocado/NIMH_EMA_to_ML/master/activities/Life_Events/Life_Events_context"
+    ],
+    "@type": "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/schemas/Activity",
+    "@id": "Life_Events_schema",
+    "skos:prefLabel": "Life_Events_schema",
+    "skos:altLabel": "Life_Events_schema",
+    "schema:description": "Life_Events schema",
+    "schema:schemaVersion": "0.0.1",
+    "schema:version": "0.0.1",
+    "scoringLogic": {},
+    "variableMap": [
+        {
+            "variableName": "NA",
+            "isAbout": "NA"
+        },
+        {
+            "variableName": "Event1",
+            "isAbout": "Event1"
+        },
+        {
+            "variableName": "Event2",
+            "isAbout": "Event2"
+        },
+        {
+            "variableName": "Event3",
+            "isAbout": "Event3"
+        },
+        {
+            "variableName": "Event4",
+            "isAbout": "Event4"
+        },
+        {
+            "variableName": "Event4a",
+            "isAbout": "Event4a"
+        },
+        {
+            "variableName": "Event4b",
+            "isAbout": "Event4b"
+        }
+    ],
+    "ui": {
+        "order": [
+            "NA",
+            "Event1",
+            "Event2",
+            "Event3",
+            "Event4",
+            "Event4a",
+            "Event4b"
+        ],
+        "shuffle": false,
+        "visibility": {
+            "NA": "NA",
+            "Event1": "NA",
+            "Event2": "NA",
+            "Event3": "NA",
+            "Event4": "NA",
+            "Event4a": " Event4   == 1",
+            "Event4b": " Event4   == 1"
+        }
+    }
+}

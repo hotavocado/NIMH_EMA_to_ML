@@ -1,0 +1,24 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/contexts/generic"
+    ],
+    "@type": "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/schemas/Field",
+    "skos:altLabel": "Morning7",
+    "ui": {
+        "inputType": "timeRange"
+    },
+    "question": {
+        "en": "What time did you get out of bed for the day?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "schema:value": null,
+                "schema:name": {}
+            }
+        ],
+        "minValue": "",
+        "maxValue": "",
+        "multipleChoice": ""
+    }
+}

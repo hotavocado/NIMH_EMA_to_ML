@@ -43,8 +43,8 @@
                 }
             }
         ],
-        "multipleChoice": "",
         "minValue": "",
-        "maxValue": ""
+        "maxValue": "",
+        "multipleChoice": ""
     }
 }

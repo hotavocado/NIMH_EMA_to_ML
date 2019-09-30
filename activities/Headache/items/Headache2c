@@ -17,8 +17,8 @@
                 "schema:name": {}
             }
         ],
-        "multipleChoice": "",
         "minValue": "",
-        "maxValue": ""
+        "maxValue": "",
+        "multipleChoice": ""
     }
 }

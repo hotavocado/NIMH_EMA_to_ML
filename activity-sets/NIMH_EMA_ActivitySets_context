@@ -2,28 +2,28 @@
 "@context": {
   "activity_path": "https://raw.githubusercontent.com/hotavocado/NIMH_EMA_to_ML/master/activities/",
 
-   "Morning Sleep and Behavior": {
-    "@id": "activity_path:Morning Sleep and Behavior/Morning Sleep and Behavior_schema",
+   "Morning_Sleep_and_Behavior": {
+    "@id": "activity_path:Morning_Sleep_and_Behavior/Morning_Sleep_and_Behavior_schema",
     "@type": "@id"
   },
 
-   "Context of Assessment": {
-    "@id": "activity_path:Context of Assessment/Context of Assessment_schema",
+   "Context_of_Assessment": {
+    "@id": "activity_path:Context_of_Assessment/Context_of_Assessment_schema",
     "@type": "@id"
   },
 
-   "Mood Circumplex and Physical States": {
-    "@id": "activity_path:Mood Circumplex and Physical States/Mood Circumplex and Physical States_schema",
+   "Mood_Circumplex_and_Physical_States": {
+    "@id": "activity_path:Mood_Circumplex_and_Physical_States/Mood_Circumplex_and_Physical States_schema",
     "@type": "@id"
   },
 
-   "Positive and Negative Thoughts": {
-    "@id": "activity_path:Positive and Negative Thoughts/Positive and Negative Thoughts_schema",
+   "Positive_and_Negative_Thoughts": {
+    "@id": "activity_path:Positive_and_Negative_Thoughts/Positive_and_Negative_Thoughts_schema",
     "@type": "@id"
   },
 
-   "Physical Activity": {
-    "@id": "activity_path:Physical Activity/Physical Activity_schema",
+   "Physical_Activity": {
+    "@id": "activity_path:Physical_Activity/Physical_Activity_schema",
     "@type": "@id"
   },
 
@@ -32,13 +32,13 @@
     "@type": "@id"
   },
 
-   "Life Events": {
-    "@id": "activity_path:Life Events/Life Events_schema",
+   "Life_Events": {
+    "@id": "activity_path:Life_Events/Life_Events_schema",
     "@type": "@id"
   },
 
-  "Physical Pain": {
-    "@id": "activity_path:Physical Pain/Physical Pain_schema",
+  "Physical_Pain": {
+    "@id": "activity_path:Physical_Pain/Physical_Pain_schema",
     "@type": "@id"
   },
 
@@ -47,13 +47,13 @@
     "@type": "@id"
   },
 
-  "Daily Events and Overall Health (a)": {
-    "@id": "activity_path:Daily Events and Overall Health (a)/Daily Events and Overall Health (a)_schema",
+  "Daily_Events_and_Overall_Health_(a)": {
+    "@id": "activity_path:Daily_Events_and_Overall_Health_(a)/Daily_Events_and_Overall_Health_(a)_schema",
     "@type": "@id"
   },
 
-  "Daily Events and Overall Health (b)": {
-    "@id": "activity_path:Daily Events and Overall Health (b)/Daily Events and Overall Health (b)_schema",
+  "Daily_Events_and_Overall_Health_(b)": {
+    "@id": "activity_path:Daily_Events_and_Overall_Health_(b)/Daily_Events_and_Overall_Health_(b)_schema",
     "@type": "@id"
   }
 
