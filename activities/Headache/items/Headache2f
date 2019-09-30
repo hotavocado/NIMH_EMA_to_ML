@@ -8,7 +8,7 @@
         "inputType": "radio"
     },
     "question": {
-        "en": "Did something in particular trigger the headache? "
+        "en": "Did something in particular trigger the headache?"
     },
     "responseOptions": {
         "choices": [
@@ -24,6 +24,9 @@
                     "en": "Yes"
                 }
             }
-        ]
+        ],
+        "multipleChoice": "",
+        "minValue": "",
+        "maxValue": ""
     }
 }

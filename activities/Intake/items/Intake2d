@@ -25,11 +25,14 @@
                 }
             },
             {
-                "schema:value": 3,
+                "schema:value": null,
                 "schema:name": {
                     "en": "more than 2"
                 }
             }
-        ]
+        ],
+        "multipleChoice": "",
+        "minValue": "",
+        "maxValue": ""
     }
 }

@@ -5,7 +5,7 @@
     "@type": "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/schemas/Field",
     "skos:altLabel": "Intake2f",
     "ui": {
-        "inputType": "radio"
+        "inputType": "checklist"
     },
     "question": {
         "en": "Please think about all the foods you ate since the last questionnaire. Please select all types of food you ate"
@@ -13,71 +13,74 @@
     "responseOptions": {
         "choices": [
             {
-                "schema:value": 1,
+                "schema:value": null,
                 "schema:name": {
                     "en": "beef/pork/lamb "
                 }
             },
             {
-                "schema:value": 2,
+                "schema:value": null,
                 "schema:name": {
                     "en": "chicken or other poultry "
                 }
             },
             {
-                "schema:value": 3,
+                "schema:value": null,
                 "schema:name": {
                     "en": "eggs "
                 }
             },
             {
-                "schema:value": 6,
+                "schema:value": null,
                 "schema:name": {
                     "en": "fish "
                 }
             },
             {
-                "schema:value": 7,
+                "schema:value": null,
                 "schema:name": {
                     "en": "dairy (yogurt/milk/cheese) "
                 }
             },
             {
-                "schema:value": 8,
+                "schema:value": null,
                 "schema:name": {
                     "en": "bread/pasta/cereal/other starchy food "
                 }
             },
             {
-                "schema:value": 9,
+                "schema:value": null,
                 "schema:name": {
                     "en": "fruits "
                 }
             },
             {
-                "schema:value": 10,
+                "schema:value": null,
                 "schema:name": {
                     "en": "vegetables "
                 }
             },
             {
-                "schema:value": 11,
+                "schema:value": null,
                 "schema:name": {
                     "en": "sweet foods or candy "
                 }
             },
             {
-                "schema:value": 12,
+                "schema:value": null,
                 "schema:name": {
                     "en": "energy bars "
                 }
             },
             {
-                "schema:value": 13,
+                "schema:value": null,
                 "schema:name": {
                     "en": "potato chips or other salty snacks"
                 }
             }
-        ]
+        ],
+        "multipleChoice": "true",
+        "minValue": "",
+        "maxValue": ""
     }
 }

@@ -8,7 +8,7 @@
         "inputType": "radio"
     },
     "question": {
-        "en": "Did the headache come on suddenly? "
+        "en": "Did the headache come on suddenly?"
     },
     "responseOptions": {
         "choices": [
@@ -24,6 +24,9 @@
                     "en": "Yes"
                 }
             }
-        ]
+        ],
+        "multipleChoice": "",
+        "minValue": "",
+        "maxValue": ""
     }
 }

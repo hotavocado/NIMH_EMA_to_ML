@@ -13,35 +13,38 @@
     "responseOptions": {
         "choices": [
             {
-                "schema:value": 1,
+                "schema:value": null,
                 "schema:name": {
                     "en": "cocaine "
                 }
             },
             {
-                "schema:value": 2,
+                "schema:value": null,
                 "schema:name": {
                     "en": "tranquilizers "
                 }
             },
             {
-                "schema:value": 3,
+                "schema:value": null,
                 "schema:name": {
                     "en": "stimulants "
                 }
             },
             {
-                "schema:value": 4,
+                "schema:value": null,
                 "schema:name": {
                     "en": "heroin or other opiate "
                 }
             },
             {
-                "schema:value": 5,
+                "schema:value": null,
                 "schema:name": {
                     "en": "other drug"
                 }
             }
-        ]
+        ],
+        "multipleChoice": "",
+        "minValue": "",
+        "maxValue": ""
     }
 }

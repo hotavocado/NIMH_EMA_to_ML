@@ -1,0 +1,34 @@
+{
+    "@context": {
+        "@version": 1.1,
+        "Positive and Negative Thoughts": "https://raw.githubusercontent.com/hotavocado/NIMH_EMA_to_ML/master/activities/Positive and Negative Thoughts/items/",
+        "Thoughts1": {
+            "@id": "Positive and Negative Thoughts:Thoughts1",
+            "@type": "@id"
+        },
+        "Thoughts2": {
+            "@id": "Positive and Negative Thoughts:Thoughts2",
+            "@type": "@id"
+        },
+        "Thoughts2a": {
+            "@id": "Positive and Negative Thoughts:Thoughts2a",
+            "@type": "@id"
+        },
+        "Thoughts2b": {
+            "@id": "Positive and Negative Thoughts:Thoughts2b",
+            "@type": "@id"
+        },
+        "Thoughts2c": {
+            "@id": "Positive and Negative Thoughts:Thoughts2c",
+            "@type": "@id"
+        },
+        "Thoughts2ca": {
+            "@id": "Positive and Negative Thoughts:Thoughts2ca",
+            "@type": "@id"
+        },
+        "Thoughts2caa": {
+            "@id": "Positive and Negative Thoughts:Thoughts2caa",
+            "@type": "@id"
+        }
+    }
+}

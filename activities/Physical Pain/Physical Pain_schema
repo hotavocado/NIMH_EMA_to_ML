@@ -1,0 +1,59 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/contexts/generic",
+        "https://raw.githubusercontent.com/hotavocado/NIMH_EMA_to_ML/master/activities/Physical Pain/Physical Pain_context"
+    ],
+    "@type": "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/schemas/Activity",
+    "@id": "Physical Pain_schema",
+    "skos:prefLabel": "Physical Pain_schema",
+    "skos:altLabel": "Physical Pain_schema",
+    "schema:description": "Physical Pain schema",
+    "schema:schemaVersion": "0.0.1",
+    "schema:version": "0.0.1",
+    "scoringLogic": {},
+    "variableMap": [
+        {
+            "variableName": "Pain1",
+            "isAbout": "Pain1"
+        },
+        {
+            "variableName": "Pain1a",
+            "isAbout": "Pain1a"
+        },
+        {
+            "variableName": "Pain1b",
+            "isAbout": "Pain1b"
+        },
+        {
+            "variableName": "Pain2",
+            "isAbout": "Pain2"
+        },
+        {
+            "variableName": "Pain2a",
+            "isAbout": "Pain2a"
+        },
+        {
+            "variableName": "Pain2b",
+            "isAbout": "Pain2b"
+        }
+    ],
+    "ui": {
+        "order": [
+            "Pain1",
+            "Pain1a",
+            "Pain1b",
+            "Pain2",
+            "Pain2a",
+            "Pain2b"
+        ],
+        "shuffle": false,
+        "visibility": {
+            "Pain1": "NA",
+            "Pain1a": " Pain1   == 1",
+            "Pain1b": " Pain1   == 1",
+            "Pain2": "NA",
+            "Pain2a": " Pain2   == 1",
+            "Pain2b": " Pain2   == 1"
+        }
+    }
+}

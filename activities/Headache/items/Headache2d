@@ -54,6 +54,9 @@
                     "en": "extremely intense"
                 }
             }
-        ]
+        ],
+        "multipleChoice": "",
+        "minValue": "Min",
+        "maxValue": "Max"
     }
 }

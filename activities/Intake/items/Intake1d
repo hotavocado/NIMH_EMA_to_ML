@@ -39,9 +39,12 @@
             {
                 "schema:value": 5,
                 "schema:name": {
-                    "en": "5 "
+                    "en": "5"
                 }
             }
-        ]
+        ],
+        "multipleChoice": "",
+        "minValue": "",
+        "maxValue": ""
     }
 }

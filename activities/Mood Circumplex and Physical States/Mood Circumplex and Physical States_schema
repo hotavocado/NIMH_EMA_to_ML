@@ -1,0 +1,119 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/contexts/generic",
+        "https://raw.githubusercontent.com/hotavocado/NIMH_EMA_to_ML/master/activities/Mood Circumplex and Physical States/Mood Circumplex and Physical States_context"
+    ],
+    "@type": "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/schemas/Activity",
+    "@id": "Mood Circumplex and Physical States_schema",
+    "skos:prefLabel": "Mood Circumplex and Physical States_schema",
+    "skos:altLabel": "Mood Circumplex and Physical States_schema",
+    "schema:description": "Mood Circumplex and Physical States schema",
+    "schema:schemaVersion": "0.0.1",
+    "schema:version": "0.0.1",
+    "scoringLogic": {},
+    "variableMap": [
+        {
+            "variableName": "Mood1",
+            "isAbout": "Mood1"
+        },
+        {
+            "variableName": "Mood2",
+            "isAbout": "Mood2"
+        },
+        {
+            "variableName": "Mood3",
+            "isAbout": "Mood3"
+        },
+        {
+            "variableName": "Mood4",
+            "isAbout": "Mood4"
+        },
+        {
+            "variableName": "Mood5",
+            "isAbout": "Mood5"
+        },
+        {
+            "variableName": "Mood6",
+            "isAbout": "Mood6"
+        },
+        {
+            "variableName": "Mood7",
+            "isAbout": "Mood7"
+        },
+        {
+            "variableName": "Mood8",
+            "isAbout": "Mood8"
+        },
+        {
+            "variableName": "Mood9",
+            "isAbout": "Mood9"
+        },
+        {
+            "variableName": "Mood10",
+            "isAbout": "Mood10"
+        },
+        {
+            "variableName": "Mood11",
+            "isAbout": "Mood11"
+        },
+        {
+            "variableName": "Mood12",
+            "isAbout": "Mood12"
+        },
+        {
+            "variableName": "Mood13",
+            "isAbout": "Mood13"
+        },
+        {
+            "variableName": "Mood14",
+            "isAbout": "Mood14"
+        },
+        {
+            "variableName": "Mood15",
+            "isAbout": "Mood15"
+        },
+        {
+            "variableName": "Mood16",
+            "isAbout": "Mood16"
+        }
+    ],
+    "ui": {
+        "order": [
+            "Mood1",
+            "Mood2",
+            "Mood3",
+            "Mood4",
+            "Mood5",
+            "Mood6",
+            "Mood7",
+            "Mood8",
+            "Mood9",
+            "Mood10",
+            "Mood11",
+            "Mood12",
+            "Mood13",
+            "Mood14",
+            "Mood15",
+            "Mood16"
+        ],
+        "shuffle": false,
+        "visibility": {
+            "Mood1": "NA",
+            "Mood2": "NA",
+            "Mood3": "NA",
+            "Mood4": "NA",
+            "Mood5": "NA",
+            "Mood6": "NA",
+            "Mood7": "NA",
+            "Mood8": "NA",
+            "Mood9": "NA",
+            "Mood10": "NA",
+            "Mood11": "NA",
+            "Mood12": "NA",
+            "Mood13": "NA",
+            "Mood14": "NA",
+            "Mood15": "NA",
+            "Mood16": "NA"
+        }
+    }
+}

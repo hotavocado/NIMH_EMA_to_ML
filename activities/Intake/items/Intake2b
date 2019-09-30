@@ -43,11 +43,14 @@
                 }
             },
             {
-                "schema:value": 6,
+                "schema:value": null,
                 "schema:name": {
                     "en": "more than 5"
                 }
             }
-        ]
+        ],
+        "multipleChoice": "",
+        "minValue": "",
+        "maxValue": ""
     }
 }

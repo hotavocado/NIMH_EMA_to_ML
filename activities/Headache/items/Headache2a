@@ -5,7 +5,7 @@
     "@type": "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/schemas/Field",
     "skos:altLabel": "Headache2a",
     "ui": {
-        "inputType": "radio"
+        "inputType": "checklist"
     },
     "question": {
         "en": "Since the last questionnaire, did you do any of the following to prevent a headache?"
@@ -13,41 +13,44 @@
     "responseOptions": {
         "choices": [
             {
-                "schema:value": 1,
+                "schema:value": null,
                 "schema:name": {
                     "en": "take prescribed medication "
                 }
             },
             {
-                "schema:value": 2,
+                "schema:value": null,
                 "schema:name": {
                     "en": "take over-the-counter medication "
                 }
             },
             {
-                "schema:value": 3,
+                "schema:value": null,
                 "schema:name": {
                     "en": "reduce or change activities "
                 }
             },
             {
-                "schema:value": 4,
+                "schema:value": null,
                 "schema:name": {
                     "en": "use relaxation/yoga/other techniques "
                 }
             },
             {
-                "schema:value": 5,
+                "schema:value": null,
                 "schema:name": {
                     "en": "rest or take a nap "
                 }
             },
             {
-                "schema:value": 6,
+                "schema:value": null,
                 "schema:name": {
-                    "en": "other prevention strategy "
+                    "en": "other prevention strategy"
                 }
             }
-        ]
+        ],
+        "multipleChoice": "true",
+        "minValue": "",
+        "maxValue": ""
     }
 }

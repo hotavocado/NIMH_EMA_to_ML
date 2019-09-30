@@ -33,9 +33,12 @@
             {
                 "schema:value": 4,
                 "schema:name": {
-                    "en": "severely "
+                    "en": "severely"
                 }
             }
-        ]
+        ],
+        "multipleChoice": "",
+        "minValue": "Min",
+        "maxValue": "Max"
     }
 }

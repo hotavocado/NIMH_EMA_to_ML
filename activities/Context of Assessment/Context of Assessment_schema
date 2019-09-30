@@ -1,0 +1,77 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/contexts/generic",
+        "https://raw.githubusercontent.com/hotavocado/NIMH_EMA_to_ML/master/activities/Context of Assessment/Context of Assessment_context"
+    ],
+    "@type": "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/schemas/Activity",
+    "@id": "Context of Assessment_schema",
+    "skos:prefLabel": "Context of Assessment_schema",
+    "skos:altLabel": "Context of Assessment_schema",
+    "schema:description": "Context of Assessment schema",
+    "schema:schemaVersion": "0.0.1",
+    "schema:version": "0.0.1",
+    "scoringLogic": {},
+    "variableMap": [
+        {
+            "variableName": "Context1",
+            "isAbout": "Context1"
+        },
+        {
+            "variableName": "Context1a",
+            "isAbout": "Context1a"
+        },
+        {
+            "variableName": "Context1b",
+            "isAbout": "Context1b"
+        },
+        {
+            "variableName": "Context2",
+            "isAbout": "Context2"
+        },
+        {
+            "variableName": "Context3",
+            "isAbout": "Context3"
+        },
+        {
+            "variableName": "Context4",
+            "isAbout": "Context4"
+        },
+        {
+            "variableName": "Context5",
+            "isAbout": "Context5"
+        },
+        {
+            "variableName": "Context6",
+            "isAbout": "Context6"
+        },
+        {
+            "variableName": "Context7",
+            "isAbout": "Context7"
+        }
+    ],
+    "ui": {
+        "order": [
+            "Context1",
+            "Context1a",
+            "Context1b",
+            "Context2",
+            "Context3",
+            "Context4",
+            "Context5",
+            "Context6",
+            "Context7"
+        ],
+        "shuffle": false,
+        "visibility": {
+            "Context1": "NA",
+            "Context1a": " Context1   == 1",
+            "Context1b": " Context1   == 1",
+            "Context2": "NA",
+            "Context3": "NA",
+            "Context4": "NA",
+            "Context5": "NA",
+            "Context6": "NA",
+            "Context7": "NA"
+        }
+    }
+}

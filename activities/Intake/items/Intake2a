@@ -73,11 +73,14 @@
                 }
             },
             {
-                "schema:value": 11,
+                "schema:value": null,
                 "schema:name": {
                     "en": "more than 10"
                 }
             }
-        ]
+        ],
+        "multipleChoice": "",
+        "minValue": "",
+        "maxValue": ""
     }
 }

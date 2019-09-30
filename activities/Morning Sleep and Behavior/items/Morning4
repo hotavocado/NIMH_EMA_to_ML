@@ -1,0 +1,24 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/contexts/generic"
+    ],
+    "@type": "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/schemas/Field",
+    "skos:altLabel": "Morning4",
+    "ui": {
+        "inputType": "timeRange"
+    },
+    "question": {
+        "en": "How long did it take you to fall asleep?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "schema:value": null,
+                "schema:name": {}
+            }
+        ],
+        "multipleChoice": "",
+        "minValue": "",
+        "maxValue": ""
+    }
+}

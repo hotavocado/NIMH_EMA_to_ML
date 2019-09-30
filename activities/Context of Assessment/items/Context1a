@@ -1,0 +1,24 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/contexts/generic"
+    ],
+    "@type": "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/schemas/Field",
+    "skos:altLabel": "Context1a",
+    "ui": {
+        "inputType": "timeRange"
+    },
+    "question": {
+        "en": "When did you take it off?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "schema:value": null,
+                "schema:name": {}
+            }
+        ],
+        "multipleChoice": "",
+        "minValue": "",
+        "maxValue": ""
+    }
+}

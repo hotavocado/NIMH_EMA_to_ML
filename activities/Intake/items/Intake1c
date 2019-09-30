@@ -5,7 +5,7 @@
     "@type": "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/schemas/Field",
     "skos:altLabel": "Intake1c",
     "ui": {
-        "inputType": "radio"
+        "inputType": "checklist"
     },
     "question": {
         "en": "What type of caffeinated beverage did you consume?"
@@ -13,35 +13,38 @@
     "responseOptions": {
         "choices": [
             {
-                "schema:value": 1,
+                "schema:value": null,
                 "schema:name": {
                     "en": "soda (coke/pepsi/other caffeinated soda) "
                 }
             },
             {
-                "schema:value": 2,
+                "schema:value": null,
                 "schema:name": {
                     "en": "energy drink "
                 }
             },
             {
-                "schema:value": 3,
+                "schema:value": null,
                 "schema:name": {
                     "en": "coffee "
                 }
             },
             {
-                "schema:value": 4,
+                "schema:value": null,
                 "schema:name": {
                     "en": "tea "
                 }
             },
             {
-                "schema:value": 5,
+                "schema:value": null,
                 "schema:name": {
                     "en": "other"
                 }
             }
-        ]
+        ],
+        "multipleChoice": "true",
+        "minValue": "",
+        "maxValue": ""
     }
 }

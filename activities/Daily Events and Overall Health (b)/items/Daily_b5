@@ -1,0 +1,44 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/contexts/generic"
+    ],
+    "@type": "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/schemas/Field",
+    "skos:altLabel": "Daily_b5",
+    "ui": {
+        "inputType": "slider"
+    },
+    "question": {
+        "en": "How much did your asthma or respiratory difficulties bother you today?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "schema:value": 1,
+                "schema:name": {
+                    "en": "not at all "
+                }
+            },
+            {
+                "schema:value": 2,
+                "schema:name": {
+                    "en": "mildly "
+                }
+            },
+            {
+                "schema:value": 3,
+                "schema:name": {
+                    "en": "moderately "
+                }
+            },
+            {
+                "schema:value": 4,
+                "schema:name": {
+                    "en": "severely"
+                }
+            }
+        ],
+        "multipleChoice": "",
+        "minValue": "Min",
+        "maxValue": "Max"
+    }
+}

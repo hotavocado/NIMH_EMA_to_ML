@@ -9,5 +9,16 @@
     },
     "question": {
         "en": "What time did the headache begin?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "schema:value": null,
+                "schema:name": {}
+            }
+        ],
+        "multipleChoice": "",
+        "minValue": "",
+        "maxValue": ""
     }
 }

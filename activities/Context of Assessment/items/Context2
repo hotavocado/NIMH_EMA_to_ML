@@ -1,0 +1,92 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/contexts/generic"
+    ],
+    "@type": "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/schemas/Field",
+    "skos:altLabel": "Context2",
+    "ui": {
+        "inputType": "select"
+    },
+    "question": {
+        "en": "Where are you right now?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "schema:value": null,
+                "schema:name": {
+                    "en": "in my home "
+                }
+            },
+            {
+                "schema:value": null,
+                "schema:name": {
+                    "en": "in home of relative or friend "
+                }
+            },
+            {
+                "schema:value": null,
+                "schema:name": {
+                    "en": "at work or in class "
+                }
+            },
+            {
+                "schema:value": null,
+                "schema:name": {
+                    "en": "in a restaurant/caf�/bar "
+                }
+            },
+            {
+                "schema:value": null,
+                "schema:name": {
+                    "en": "in a store or shop "
+                }
+            },
+            {
+                "schema:value": null,
+                "schema:name": {
+                    "en": "in the gym or fitness center "
+                }
+            },
+            {
+                "schema:value": null,
+                "schema:name": {
+                    "en": "in a hospital or doctor�s office "
+                }
+            },
+            {
+                "schema:value": null,
+                "schema:name": {
+                    "en": "in a vehicle (car/bus�) "
+                }
+            },
+            {
+                "schema:value": null,
+                "schema:name": {
+                    "en": "in a public building "
+                }
+            },
+            {
+                "schema:value": null,
+                "schema:name": {
+                    "en": "in a park or garden "
+                }
+            },
+            {
+                "schema:value": null,
+                "schema:name": {
+                    "en": "other place inside "
+                }
+            },
+            {
+                "schema:value": null,
+                "schema:name": {
+                    "en": "other place outside"
+                }
+            }
+        ],
+        "multipleChoice": "",
+        "minValue": "",
+        "maxValue": ""
+    }
+}

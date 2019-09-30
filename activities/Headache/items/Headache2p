@@ -24,6 +24,9 @@
                     "en": "Yes"
                 }
             }
-        ]
+        ],
+        "multipleChoice": "",
+        "minValue": "",
+        "maxValue": ""
     }
 }

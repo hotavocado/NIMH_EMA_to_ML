@@ -5,7 +5,7 @@
     "@type": "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/schemas/Field",
     "skos:altLabel": "Intake2",
     "ui": {
-        "inputType": "radio"
+        "inputType": "checklist"
     },
     "question": {
         "en": "Since the last questionnaire, which of the following did you have?"
@@ -13,35 +13,38 @@
     "responseOptions": {
         "choices": [
             {
-                "schema:value": 1,
+                "schema:value": null,
                 "schema:name": {
                     "en": "snacks (e.g. candy bar/cookie/small bag of chips) "
                 }
             },
             {
-                "schema:value": 2,
+                "schema:value": null,
                 "schema:name": {
                     "en": "small meals "
                 }
             },
             {
-                "schema:value": 3,
+                "schema:value": null,
                 "schema:name": {
                     "en": "regular/full meals "
                 }
             },
             {
-                "schema:value": 4,
+                "schema:value": null,
                 "schema:name": {
                     "en": "large meals "
                 }
             },
             {
-                "schema:value": 5,
+                "schema:value": null,
                 "schema:name": {
                     "en": "none"
                 }
             }
-        ]
+        ],
+        "multipleChoice": "true",
+        "minValue": "",
+        "maxValue": ""
     }
 }

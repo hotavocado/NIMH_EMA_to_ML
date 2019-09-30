@@ -17,8 +17,10 @@ const schemaMap = {
     "Text Validation Min": "minValue",
     "Text Validation Max": "maxValue",
     "Choices, Calculations, OR Slider Labels": "choices",
-    "Branching Logic (Show field only if...)": "visibility"
+    "Branching Logic (Show field only if...)": "visibility",
+    "multiple": "multipleChoice"
 };
+
 const inputTypeMap = {
     "calc": "number",
     "checkbox": "radio",

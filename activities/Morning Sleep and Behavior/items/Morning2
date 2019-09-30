@@ -1,0 +1,24 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/contexts/generic"
+    ],
+    "@type": "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/schemas/Field",
+    "skos:altLabel": "Morning2",
+    "ui": {
+        "inputType": "timeRange"
+    },
+    "question": {
+        "en": "What time did you turn off the lights (including TV, phone, tablets)?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "schema:value": null,
+                "schema:name": {}
+            }
+        ],
+        "multipleChoice": "",
+        "minValue": "",
+        "maxValue": ""
+    }
+}
