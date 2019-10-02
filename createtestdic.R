@@ -17,4 +17,7 @@ datadic <- datadic %>%
   mutate(multiple = ifelse(`Field Type` %in% 'checklist', 'true', ""))
 
 
+#change spaces in 'Form Name' to underscore
+datadic <- datadic %>% mutate(`Form Name` = str_replace_all(`Form Name`, "\ ", "_"))
+
 write_csv(datadic, 'data_dic_test2.csv')
