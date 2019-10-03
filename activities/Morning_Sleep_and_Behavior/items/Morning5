@@ -31,8 +31,7 @@
                 }
             }
         ],
-        "minValue": "",
-        "maxValue": "",
+ 
         "multipleChoice": "false"
     }
 }
