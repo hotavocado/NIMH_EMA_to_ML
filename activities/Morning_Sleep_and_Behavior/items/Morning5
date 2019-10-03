@@ -10,27 +10,29 @@
     "question": {
         "en": "How many times did you wake up, not counting your final awakening?"
     },
-    "responseOptions": {
+   "responseOptions": {
         "choices": [
+            {
+                "schema:value": 0,
+                "schema:name": {
+                    "en": "No "
+                }
+            },
             {
                 "schema:value": 1,
                 "schema:name": {
-                    "en": "once "
+                    "en": "Yes "
                 }
             },
             {
-                "schema:value": 2,
+                "schema:value": 9,
                 "schema:name": {
-                    "en": "twice "
-                }
-            },
-            {
-                "schema:value": 3,
-                "schema:name": {
-                    "en": "3 or more times"
+                    "en": "Unk"
                 }
             }
-        ]
- 
+        ],
+        "minValue": "",
+        "maxValue": "",
+        "requiredValue": ""
     }
 }
