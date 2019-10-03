@@ -33,6 +33,6 @@
         ],
         "minValue": "",
         "maxValue": "",
-        "multipleChoice": ""
+        "multipleChoice": "false"
     }
 }
