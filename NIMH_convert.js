@@ -72,7 +72,7 @@ csv
             shell.mkdir('-p', 'activities/' + data['Form Name'] + '/items');          
         }
         //create directory for protocol
-        shell.mkdir('protocols/' + process.argv[3]);
+        shell.mkdir('-p', 'protocols/' + process.argv[3]);
         // console.log(62, data);
         datas[data['Form Name']].push(data);
     })
