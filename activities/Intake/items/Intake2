@@ -1,50 +1,50 @@
 {
     "@context": [
-        "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/contexts/generic"
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
     ],
-    "@type": "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/schemas/Field",
+    "@type": "reproschema:Field",
     "skos:altLabel": "Intake2",
     "ui": {
-        "inputType": "checklist"
-    },
-    "question": {
-        "en": "Since the last questionnaire, which of the following did you have?"
+        "inputType": "radio"
     },
     "responseOptions": {
+        "multipleChoice": true,
         "choices": [
             {
-                "schema:value": null,
+                "schema:value": 1,
                 "schema:name": {
                     "en": "snacks (e.g. candy bar/cookie/small bag of chips) "
                 }
             },
             {
-                "schema:value": null,
+                "schema:value": 2,
                 "schema:name": {
                     "en": "small meals "
                 }
             },
             {
-                "schema:value": null,
+                "schema:value": 3,
                 "schema:name": {
                     "en": "regular/full meals "
                 }
             },
             {
-                "schema:value": null,
+                "schema:value": 4,
                 "schema:name": {
                     "en": "large meals "
                 }
             },
             {
-                "schema:value": null,
+                "schema:value": 5,
                 "schema:name": {
                     "en": "none"
                 }
             }
         ],
         "minValue": "",
-        "maxValue": "",
-        "multipleChoice": "true"
+        "maxValue": ""
+    },
+    "question": {
+        "en": "Since the last questionnaire, which of the following did you have?"
     }
 }

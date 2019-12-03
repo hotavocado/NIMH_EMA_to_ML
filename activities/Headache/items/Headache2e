@@ -1,14 +1,14 @@
 {
     "@context": [
-        "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/contexts/generic"
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
     ],
-    "@type": "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/schemas/Field",
+    "@type": "reproschema:Field",
     "skos:altLabel": "Headache2e",
     "ui": {
         "inputType": "radio"
     },
     "question": {
-        "en": "Did the headache come on suddenly?"
+        "en": "Did the headache come on suddenly? "
     },
     "responseOptions": {
         "choices": [
@@ -26,7 +26,6 @@
             }
         ],
         "minValue": "",
-        "maxValue": "",
-        "multipleChoice": ""
+        "maxValue": ""
     }
 }

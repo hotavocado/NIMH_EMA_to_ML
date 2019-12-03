@@ -1,50 +1,50 @@
 {
     "@context": [
-        "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/contexts/generic"
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
     ],
-    "@type": "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/schemas/Field",
+    "@type": "reproschema:Field",
     "skos:altLabel": "Intake1c",
     "ui": {
-        "inputType": "checklist"
-    },
-    "question": {
-        "en": "What type of caffeinated beverage did you consume?"
+        "inputType": "radio"
     },
     "responseOptions": {
+        "multipleChoice": true,
         "choices": [
             {
-                "schema:value": null,
+                "schema:value": 1,
                 "schema:name": {
                     "en": "soda (coke/pepsi/other caffeinated soda) "
                 }
             },
             {
-                "schema:value": null,
+                "schema:value": 2,
                 "schema:name": {
                     "en": "energy drink "
                 }
             },
             {
-                "schema:value": null,
+                "schema:value": 3,
                 "schema:name": {
                     "en": "coffee "
                 }
             },
             {
-                "schema:value": null,
+                "schema:value": 4,
                 "schema:name": {
                     "en": "tea "
                 }
             },
             {
-                "schema:value": null,
+                "schema:value": 5,
                 "schema:name": {
                     "en": "other"
                 }
             }
         ],
         "minValue": "",
-        "maxValue": "",
-        "multipleChoice": "true"
+        "maxValue": ""
+    },
+    "question": {
+        "en": "What type of caffeinated beverage did you consume?"
     }
 }

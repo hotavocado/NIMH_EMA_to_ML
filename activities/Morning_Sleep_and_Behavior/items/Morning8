@@ -1,8 +1,8 @@
 {
     "@context": [
-        "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/contexts/generic"
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
     ],
-    "@type": "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/schemas/Field",
+    "@type": "reproschema:Field",
     "skos:altLabel": "Morning8",
     "ui": {
         "inputType": "select"
@@ -116,7 +116,6 @@
             }
         ],
         "minValue": "",
-        "maxValue": "",
-        "multipleChoice": ""
+        "maxValue": ""
     }
 }

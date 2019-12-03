@@ -1,20 +1,20 @@
 {
     "@context": [
-        "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/contexts/generic",
-        "https://raw.githubusercontent.com/hotavocado/NIMH_EMA_to_ML/master/activities/Life_Events/Life_Events_context"
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+        "https://raw.githubusercontent.com/hotavocado/NIMH_EMA_to_ML/master/activities/life_events/life_events_context"
     ],
-    "@type": "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/schemas/Activity",
-    "@id": "Life_Events_schema",
-    "skos:prefLabel": "Life_Events_schema",
-    "skos:altLabel": "Life_Events_schema",
-    "schema:description": "Life_Events schema",
+    "@type": "reproschema:Activity",
+    "@id": "life_events_schema",
+    "skos:prefLabel": "life_events",
+    "skos:altLabel": "life_events_schema",
+    "schema:description": "life_events",
     "schema:schemaVersion": "0.0.1",
     "schema:version": "0.0.1",
     "scoringLogic": {},
     "variableMap": [
         {
-            "variableName": "NA",
-            "isAbout": "NA"
+            "variableName": "Event0",
+            "isAbout": "Event0"
         },
         {
             "variableName": "Event1",
@@ -43,7 +43,7 @@
     ],
     "ui": {
         "order": [
-            "NA",
+            "Event0",
             "Event1",
             "Event2",
             "Event3",
@@ -53,13 +53,13 @@
         ],
         "shuffle": false,
         "visibility": {
-            "NA": "NA",
-            "Event1": "NA",
-            "Event2": "NA",
-            "Event3": "NA",
-            "Event4": "NA",
-            "Event4a": " Event4   == 1",
-            "Event4b": " Event4   == 1"
+            "Event0": true,
+            "Event1": true,
+            "Event2": true,
+            "Event3": true,
+            "Event4": true,
+            "Event4a": "Event4 == 1",
+            "Event4b": "Event4 == 1"
         }
     }
 }

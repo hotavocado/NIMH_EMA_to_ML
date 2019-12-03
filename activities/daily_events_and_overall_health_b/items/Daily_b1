@@ -1,0 +1,31 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
+    ],
+    "@type": "reproschema:Field",
+    "skos:altLabel": "Daily_b1",
+    "ui": {
+        "inputType": "radio"
+    },
+    "question": {
+        "en": "Did you feel like you had no physical energy, as if you were weighted down or had a heavy feeling in your arms or legs for most of the day?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "schema:value": 0,
+                "schema:name": {
+                    "en": "No "
+                }
+            },
+            {
+                "schema:value": 1,
+                "schema:name": {
+                    "en": "Yes"
+                }
+            }
+        ],
+        "minValue": "",
+        "maxValue": ""
+    }
+}

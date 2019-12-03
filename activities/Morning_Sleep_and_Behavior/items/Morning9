@@ -1,8 +1,8 @@
 {
     "@context": [
-        "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/contexts/generic"
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
     ],
-    "@type": "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/schemas/Field",
+    "@type": "reproschema:Field",
     "skos:altLabel": "Morning9",
     "ui": {
         "inputType": "slider"
@@ -39,12 +39,11 @@
             {
                 "schema:value": 5,
                 "schema:name": {
-                    "en": "very good"
+                    "en": "very good "
                 }
             }
         ],
-        "minValue": "Min",
-        "maxValue": "Max",
-        "multipleChoice": ""
+        "minValue": "",
+        "maxValue": ""
     }
 }

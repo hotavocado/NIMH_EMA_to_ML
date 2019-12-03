@@ -1,0 +1,56 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
+    ],
+    "@type": "reproschema:Field",
+    "skos:altLabel": "Daily_a6",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "multipleChoice": true,
+        "choices": [
+            {
+                "schema:value": 1,
+                "schema:name": {
+                    "en": "pain (headache/muscle/joint pain etc.) "
+                }
+            },
+            {
+                "schema:value": 2,
+                "schema:name": {
+                    "en": "allergies/cold "
+                }
+            },
+            {
+                "schema:value": 3,
+                "schema:name": {
+                    "en": "fever/acute illness "
+                }
+            },
+            {
+                "schema:value": 4,
+                "schema:name": {
+                    "en": "headache "
+                }
+            },
+            {
+                "schema:value": 5,
+                "schema:name": {
+                    "en": "sleep problems "
+                }
+            },
+            {
+                "schema:value": 6,
+                "schema:name": {
+                    "en": "other"
+                }
+            }
+        ],
+        "minValue": "",
+        "maxValue": ""
+    },
+    "question": {
+        "en": "Did you take them for:"
+    }
+}

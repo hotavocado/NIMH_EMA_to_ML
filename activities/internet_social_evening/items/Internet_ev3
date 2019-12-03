@@ -1,0 +1,50 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
+    ],
+    "@type": "reproschema:Field",
+    "skos:altLabel": "Internet_ev3",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "multipleChoice": true,
+        "choices": [
+            {
+                "schema:value": 1,
+                "schema:name": {
+                    "en": "home "
+                }
+            },
+            {
+                "schema:value": 2,
+                "schema:name": {
+                    "en": "school "
+                }
+            },
+            {
+                "schema:value": 3,
+                "schema:name": {
+                    "en": "coffee shop or caf� "
+                }
+            },
+            {
+                "schema:value": 4,
+                "schema:name": {
+                    "en": "library "
+                }
+            },
+            {
+                "schema:value": 5,
+                "schema:name": {
+                    "en": "friend or family's house"
+                }
+            }
+        ],
+        "minValue": "",
+        "maxValue": ""
+    },
+    "question": {
+        "en": "Where did you use the internet?"
+    }
+}

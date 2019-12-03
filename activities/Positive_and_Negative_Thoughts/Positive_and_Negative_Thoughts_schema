@@ -1,13 +1,13 @@
 {
     "@context": [
-        "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/contexts/generic",
-        "https://raw.githubusercontent.com/hotavocado/NIMH_EMA_to_ML/master/activities/Positive_and_Negative_Thoughts/Positive_and_Negative_Thoughts_context"
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+        "https://raw.githubusercontent.com/hotavocado/NIMH_EMA_to_ML/master/activities/positive_and_negative_thoughts/positive_and_negative_thoughts_context"
     ],
-    "@type": "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/schemas/Activity",
-    "@id": "Positive_and_Negative_Thoughts_schema",
-    "skos:prefLabel": "Positive_and_Negative_Thoughts_schema",
-    "skos:altLabel": "Positive_and_Negative_Thoughts_schema",
-    "schema:description": "Positive_and_Negative_Thoughts schema",
+    "@type": "reproschema:Activity",
+    "@id": "positive_and_negative_thoughts_schema",
+    "skos:prefLabel": "positive_and_negative_thoughts",
+    "skos:altLabel": "positive_and_negative_thoughts_schema",
+    "schema:description": "positive_and_negative_thoughts",
     "schema:schemaVersion": "0.0.1",
     "schema:version": "0.0.1",
     "scoringLogic": {},
@@ -27,18 +27,6 @@
         {
             "variableName": "Thoughts2b",
             "isAbout": "Thoughts2b"
-        },
-        {
-            "variableName": "Thoughts2c",
-            "isAbout": "Thoughts2c"
-        },
-        {
-            "variableName": "Thoughts2ca",
-            "isAbout": "Thoughts2ca"
-        },
-        {
-            "variableName": "Thoughts2caa",
-            "isAbout": "Thoughts2caa"
         }
     ],
     "ui": {
@@ -46,20 +34,14 @@
             "Thoughts1",
             "Thoughts2",
             "Thoughts2a",
-            "Thoughts2b",
-            "Thoughts2c",
-            "Thoughts2ca",
-            "Thoughts2caa"
+            "Thoughts2b"
         ],
         "shuffle": false,
         "visibility": {
-            "Thoughts1": "NA",
-            "Thoughts2": "NA",
-            "Thoughts2a": " Thoughts2   == 2 ||  Thoughts2   == 3 ||  Thoughts2   == 4 ||   Thoughts2   == 5 ||   Thoughts2   == 6  ||   Thoughts2   == 7",
-            "Thoughts2b": " Thoughts2   == 2 ||  Thoughts2   == 3 ||  Thoughts2   == 4 ||   Thoughts2   == 5 ||   Thoughts2   == 6  ||   Thoughts2   == 7",
-            "Thoughts2c": " Thoughts2   == 2 ||  Thoughts2   == 3 ||  Thoughts2   == 4 ||   Thoughts2   == 5 ||   Thoughts2   == 6  ||   Thoughts2   == 7",
-            "Thoughts2ca": " Thoughts2ca  == 1 ",
-            "Thoughts2caa": "NA"
+            "Thoughts1": true,
+            "Thoughts2": true,
+            "Thoughts2a": "Thoughts2 == 2 || Thoughts2 == 3 || Thoughts2 == 4 ||  Thoughts2 == 5 ||  Thoughts2 == 6  ||  Thoughts2 == 7 ",
+            "Thoughts2b": "Thoughts2 == 2 || Thoughts2 == 3 || Thoughts2 == 4 ||  Thoughts2 == 5 ||  Thoughts2 == 6  ||  Thoughts2 == 7 "
         }
     }
 }

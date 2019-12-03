@@ -1,0 +1,74 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
+    ],
+    "@type": "reproschema:Field",
+    "skos:altLabel": "Daily_a2",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "multipleChoice": true,
+        "choices": [
+            {
+                "schema:value": 1,
+                "schema:name": {
+                    "en": "none "
+                }
+            },
+            {
+                "schema:value": 2,
+                "schema:name": {
+                    "en": "physical health "
+                }
+            },
+            {
+                "schema:value": 3,
+                "schema:name": {
+                    "en": "education or work "
+                }
+            },
+            {
+                "schema:value": 4,
+                "schema:name": {
+                    "en": "financial matters "
+                }
+            },
+            {
+                "schema:value": 5,
+                "schema:name": {
+                    "en": "relationship with friends "
+                }
+            },
+            {
+                "schema:value": 6,
+                "schema:name": {
+                    "en": "relationships with family "
+                }
+            },
+            {
+                "schema:value": 7,
+                "schema:name": {
+                    "en": "relationships with spouse/partner "
+                }
+            },
+            {
+                "schema:value": 8,
+                "schema:name": {
+                    "en": "interaction with strangers "
+                }
+            },
+            {
+                "schema:value": 9,
+                "schema:name": {
+                    "en": "other"
+                }
+            }
+        ],
+        "minValue": "",
+        "maxValue": ""
+    },
+    "question": {
+        "en": "What areas were stressful for you today? "
+    }
+}

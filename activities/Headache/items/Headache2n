@@ -1,44 +1,44 @@
 {
     "@context": [
-        "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/contexts/generic"
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
     ],
-    "@type": "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/schemas/Field",
+    "@type": "reproschema:Field",
     "skos:altLabel": "Headache2n",
     "ui": {
-        "inputType": "checklist"
-    },
-    "question": {
-        "en": "Which (if any) of the following vision changes did you experience?"
+        "inputType": "radio"
     },
     "responseOptions": {
+        "multipleChoice": true,
         "choices": [
             {
-                "schema:value": null,
+                "schema:value": 1,
                 "schema:name": {
                     "en": "no vision changes "
                 }
             },
             {
-                "schema:value": null,
+                "schema:value": 2,
                 "schema:name": {
-                    "en": " blurred or distorted vision "
+                    "en": "blurred or distorted vision "
                 }
             },
             {
-                "schema:value": null,
+                "schema:value": 3,
                 "schema:name": {
                     "en": "flashing lights/shapes "
                 }
             },
             {
-                "schema:value": null,
+                "schema:value": 4,
                 "schema:name": {
                     "en": "blind spots or missing parts"
                 }
             }
         ],
         "minValue": "",
-        "maxValue": "",
-        "multipleChoice": "true"
+        "maxValue": ""
+    },
+    "question": {
+        "en": "Which (if any) of the following vision changes did you experience?"
     }
 }

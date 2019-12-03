@@ -1,0 +1,54 @@
+{
+    "@context": {
+        "@version": 1.1,
+        "daily_events_and_overall_health_b": "https://raw.githubusercontent.com/hotavocado/NIMH_EMA_to_ML/master/activities/daily_events_and_overall_health_b/items/",
+        "Daily_b1": {
+            "@id": "daily_events_and_overall_health_b:Daily_b1",
+            "@type": "@id"
+        },
+        "Daily_b2": {
+            "@id": "daily_events_and_overall_health_b:Daily_b2",
+            "@type": "@id"
+        },
+        "Daily_b3": {
+            "@id": "daily_events_and_overall_health_b:Daily_b3",
+            "@type": "@id"
+        },
+        "Daily_b3a": {
+            "@id": "daily_events_and_overall_health_b:Daily_b3a",
+            "@type": "@id"
+        },
+        "Daily_b3b": {
+            "@id": "daily_events_and_overall_health_b:Daily_b3b",
+            "@type": "@id"
+        },
+        "Daily_b3c": {
+            "@id": "daily_events_and_overall_health_b:Daily_b3c",
+            "@type": "@id"
+        },
+        "Daily_b3d": {
+            "@id": "daily_events_and_overall_health_b:Daily_b3d",
+            "@type": "@id"
+        },
+        "Daily_b3e": {
+            "@id": "daily_events_and_overall_health_b:Daily_b3e",
+            "@type": "@id"
+        },
+        "Daily_b3f": {
+            "@id": "daily_events_and_overall_health_b:Daily_b3f",
+            "@type": "@id"
+        },
+        "Daily_b3g": {
+            "@id": "daily_events_and_overall_health_b:Daily_b3g",
+            "@type": "@id"
+        },
+        "Daily_b3h": {
+            "@id": "daily_events_and_overall_health_b:Daily_b3h",
+            "@type": "@id"
+        },
+        "Daily_b3i": {
+            "@id": "daily_events_and_overall_health_b:Daily_b3i",
+            "@type": "@id"
+        }
+    }
+}

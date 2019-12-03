@@ -1,8 +1,8 @@
 {
     "@context": [
-        "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/contexts/generic"
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
     ],
-    "@type": "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/schemas/Field",
+    "@type": "reproschema:Field",
     "skos:altLabel": "Activity2d",
     "ui": {
         "inputType": "radio"
@@ -26,7 +26,6 @@
             }
         ],
         "minValue": "",
-        "maxValue": "",
-        "multipleChoice": ""
+        "maxValue": ""
     }
 }

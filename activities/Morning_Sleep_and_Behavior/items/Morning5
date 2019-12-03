@@ -1,8 +1,8 @@
 {
     "@context": [
-        "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/contexts/generic"
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
     ],
-    "@type": "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/schemas/Field",
+    "@type": "reproschema:Field",
     "skos:altLabel": "Morning5",
     "ui": {
         "inputType": "radio"
@@ -10,29 +10,28 @@
     "question": {
         "en": "How many times did you wake up, not counting your final awakening?"
     },
-   "responseOptions": {
+    "responseOptions": {
         "choices": [
-            {
-                "schema:value": 0,
-                "schema:name": {
-                    "en": "No "
-                }
-            },
             {
                 "schema:value": 1,
                 "schema:name": {
-                    "en": "Yes "
+                    "en": "once "
                 }
             },
             {
-                "schema:value": 9,
+                "schema:value": 2,
                 "schema:name": {
-                    "en": "Unk"
+                    "en": "twice "
+                }
+            },
+            {
+                "schema:value": 3,
+                "schema:name": {
+                    "en": "3 or more times"
                 }
             }
         ],
         "minValue": "",
-        "maxValue": "",
-        "requiredValue": ""
+        "maxValue": ""
     }
 }

@@ -1,0 +1,80 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
+    ],
+    "@type": "reproschema:Field",
+    "skos:altLabel": "Daily_a8",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "multipleChoice": true,
+        "choices": [
+            {
+                "schema:value": 1,
+                "schema:name": {
+                    "en": "birth control "
+                }
+            },
+            {
+                "schema:value": 2,
+                "schema:name": {
+                    "en": "heart/blood pressure/cholesterol "
+                }
+            },
+            {
+                "schema:value": 3,
+                "schema:name": {
+                    "en": "thyroid/metabolic "
+                }
+            },
+            {
+                "schema:value": 4,
+                "schema:name": {
+                    "en": "sleep "
+                }
+            },
+            {
+                "schema:value": 5,
+                "schema:name": {
+                    "en": "anxiety/depression "
+                }
+            },
+            {
+                "schema:value": 6,
+                "schema:name": {
+                    "en": "attention/hyperactivity  "
+                }
+            },
+            {
+                "schema:value": 7,
+                "schema:name": {
+                    "en": "asthma/allergies/breathing problems "
+                }
+            },
+            {
+                "schema:value": 8,
+                "schema:name": {
+                    "en": "arthritis/joint/back pain "
+                }
+            },
+            {
+                "schema:value": 9,
+                "schema:name": {
+                    "en": "headache "
+                }
+            },
+            {
+                "schema:value": 10,
+                "schema:name": {
+                    "en": "other"
+                }
+            }
+        ],
+        "minValue": "",
+        "maxValue": ""
+    },
+    "question": {
+        "en": "For which of the following conditions?"
+    }
+}

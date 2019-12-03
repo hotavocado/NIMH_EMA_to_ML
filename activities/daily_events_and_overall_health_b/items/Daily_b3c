@@ -1,0 +1,50 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
+    ],
+    "@type": "reproschema:Field",
+    "skos:altLabel": "Daily_b3c",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "multipleChoice": true,
+        "choices": [
+            {
+                "schema:value": 1,
+                "schema:name": {
+                    "en": "pain in your abdomen "
+                }
+            },
+            {
+                "schema:value": 2,
+                "schema:name": {
+                    "en": "diarrhea "
+                }
+            },
+            {
+                "schema:value": 3,
+                "schema:name": {
+                    "en": "nausea "
+                }
+            },
+            {
+                "schema:value": 4,
+                "schema:name": {
+                    "en": "vomiting "
+                }
+            },
+            {
+                "schema:value": 5,
+                "schema:name": {
+                    "en": "other"
+                }
+            }
+        ],
+        "minValue": "",
+        "maxValue": ""
+    },
+    "question": {
+        "en": "Which (if any) of the following gastro-intestinal/stomach symptoms did you have today?"
+    }
+}

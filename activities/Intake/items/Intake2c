@@ -1,8 +1,8 @@
 {
     "@context": [
-        "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/contexts/generic"
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
     ],
-    "@type": "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/schemas/Field",
+    "@type": "reproschema:Field",
     "skos:altLabel": "Intake2c",
     "ui": {
         "inputType": "select"
@@ -31,14 +31,13 @@
                 }
             },
             {
-                "schema:value": null,
+                "schema:value": 4,
                 "schema:name": {
                     "en": "more than 3"
                 }
             }
         ],
         "minValue": "",
-        "maxValue": "",
-        "multipleChoice": ""
+        "maxValue": ""
     }
 }

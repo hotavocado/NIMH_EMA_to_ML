@@ -1,0 +1,35 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+        "https://raw.githubusercontent.com/hotavocado/NIMH_EMA_to_ML/master/activities/internet_social_morning/internet_social_morning_context"
+    ],
+    "@type": "reproschema:Activity",
+    "@id": "internet_social_morning_schema",
+    "skos:prefLabel": "internet_social_morning",
+    "skos:altLabel": "internet_social_morning_schema",
+    "schema:description": "internet_social_morning",
+    "schema:schemaVersion": "0.0.1",
+    "schema:version": "0.0.1",
+    "scoringLogic": {},
+    "variableMap": [
+        {
+            "variableName": "Internet_mn1",
+            "isAbout": "Internet_mn1"
+        },
+        {
+            "variableName": "Internet_mn2",
+            "isAbout": "Internet_mn2"
+        }
+    ],
+    "ui": {
+        "order": [
+            "Internet_mn1",
+            "Internet_mn2"
+        ],
+        "shuffle": false,
+        "visibility": {
+            "Internet_mn1": true,
+            "Internet_mn2": true
+        }
+    }
+}

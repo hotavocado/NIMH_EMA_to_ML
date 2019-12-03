@@ -1,33 +1,21 @@
 {
     "@context": {
         "@version": 1.1,
-        "Positive_and_Negative_Thoughts": "https://raw.githubusercontent.com/hotavocado/NIMH_EMA_to_ML/master/activities/Positive_and_Negative_Thoughts/items/",
+        "positive_and_negative_thoughts": "https://raw.githubusercontent.com/hotavocado/NIMH_EMA_to_ML/master/activities/positive_and_negative_thoughts/items/",
         "Thoughts1": {
-            "@id": "Positive_and_Negative_Thoughts:Thoughts1",
+            "@id": "positive_and_negative_thoughts:Thoughts1",
             "@type": "@id"
         },
         "Thoughts2": {
-            "@id": "Positive_and_Negative_Thoughts:Thoughts2",
+            "@id": "positive_and_negative_thoughts:Thoughts2",
             "@type": "@id"
         },
         "Thoughts2a": {
-            "@id": "Positive_and_Negative_Thoughts:Thoughts2a",
+            "@id": "positive_and_negative_thoughts:Thoughts2a",
             "@type": "@id"
         },
         "Thoughts2b": {
-            "@id": "Positive_and_Negative_Thoughts:Thoughts2b",
-            "@type": "@id"
-        },
-        "Thoughts2c": {
-            "@id": "Positive_and_Negative_Thoughts:Thoughts2c",
-            "@type": "@id"
-        },
-        "Thoughts2ca": {
-            "@id": "Positive_and_Negative_Thoughts:Thoughts2ca",
-            "@type": "@id"
-        },
-        "Thoughts2caa": {
-            "@id": "Positive_and_Negative_Thoughts:Thoughts2caa",
+            "@id": "positive_and_negative_thoughts:Thoughts2b",
             "@type": "@id"
         }
     }

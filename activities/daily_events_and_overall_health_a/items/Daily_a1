@@ -1,0 +1,61 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
+    ],
+    "@type": "reproschema:Field",
+    "skos:altLabel": "Daily_a1",
+    "ui": {
+        "inputType": "slider"
+    },
+    "question": {
+        "en": "How stressful was your day overall?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "schema:value": 1,
+                "schema:name": {
+                    "en": "1 "
+                }
+            },
+            {
+                "schema:value": 2,
+                "schema:name": {
+                    "en": "2 "
+                }
+            },
+            {
+                "schema:value": 3,
+                "schema:name": {
+                    "en": "3 "
+                }
+            },
+            {
+                "schema:value": 4,
+                "schema:name": {
+                    "en": "4 "
+                }
+            },
+            {
+                "schema:value": 5,
+                "schema:name": {
+                    "en": "5 "
+                }
+            },
+            {
+                "schema:value": 6,
+                "schema:name": {
+                    "en": "6 "
+                }
+            },
+            {
+                "schema:value": 7,
+                "schema:name": {
+                    "en": "7"
+                }
+            }
+        ],
+        "minValue": "no stress experienced",
+        "maxValue": "extreme stress experienced"
+    }
+}

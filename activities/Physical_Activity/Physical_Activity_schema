@@ -1,13 +1,13 @@
 {
     "@context": [
-        "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/contexts/generic",
-        "https://raw.githubusercontent.com/hotavocado/NIMH_EMA_to_ML/master/activities/Physical_Activity/Physical_Activity_context"
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+        "https://raw.githubusercontent.com/hotavocado/NIMH_EMA_to_ML/master/activities/physical_activity/physical_activity_context"
     ],
-    "@type": "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/schemas/Activity",
-    "@id": "Physical_Activity_schema",
-    "skos:prefLabel": "Physical_Activity_schema",
-    "skos:altLabel": "Physical_Activity_schema",
-    "schema:description": "Physical_Activity schema",
+    "@type": "reproschema:Activity",
+    "@id": "physical_activity_schema",
+    "skos:prefLabel": "physical_activity",
+    "skos:altLabel": "physical_activity_schema",
+    "schema:description": "physical_activity",
     "schema:schemaVersion": "0.0.1",
     "schema:version": "0.0.1",
     "scoringLogic": {},
@@ -68,16 +68,16 @@
         ],
         "shuffle": false,
         "visibility": {
-            "Activity1": "NA",
-            "Activity1a": " Activity1   == 1",
-            "Activity1b": " Activity1   == 1",
-            "Activity2": "NA",
-            "Activity2a": " Activity2   == 'vigorous activites'",
-            "Activity2b": " Activity2   == 'vigorous activites'",
-            "Activity2c": " Activity2   == 'moderate activities'",
-            "Activity2d": " Activity2   == 'moderate activities'",
-            "Activity2e": " Activity2   == 'light activities'",
-            "Activity2f": " Activity2   == 'light activities'"
+            "Activity1": true,
+            "Activity1a": "Activity1 == 1",
+            "Activity1b": "Activity1 == 1",
+            "Activity2": true,
+            "Activity2a": "Activity2 == 1",
+            "Activity2b": "Activity2 == 1",
+            "Activity2c": "Activity2 == 2",
+            "Activity2d": "Activity2 == 2",
+            "Activity2e": "Activity2 == 3",
+            "Activity2f": "Activity2 == 3"
         }
     }
 }

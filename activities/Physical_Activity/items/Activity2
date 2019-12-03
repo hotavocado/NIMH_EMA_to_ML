@@ -1,38 +1,38 @@
 {
     "@context": [
-        "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/contexts/generic"
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
     ],
-    "@type": "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/schemas/Field",
+    "@type": "reproschema:Field",
     "skos:altLabel": "Activity2",
     "ui": {
-        "inputType": "checklist"
-    },
-    "question": {
-        "en": "Please select the level of activities you did since the last questionnaire."
+        "inputType": "radio"
     },
     "responseOptions": {
+        "multipleChoice": true,
         "choices": [
             {
-                "schema:value": null,
+                "schema:value": 1,
                 "schema:name": {
                     "en": "vigorous activities (e.g. running/ fast cycling/ heavy lifting or digging ) "
                 }
             },
             {
-                "schema:value": null,
+                "schema:value": 2,
                 "schema:name": {
                     "en": "moderate activities (e.g. tennis/bicycling"
                 }
             },
             {
-                "schema:value": null,
+                "schema:value": 3,
                 "schema:name": {
-                    "en": "light activities (e.g. walking/climbing stairs/routine household chores)"
+                    "en": "light activities (e.g. walking/climbing stairs/routine household chores) "
                 }
             }
         ],
         "minValue": "",
-        "maxValue": "",
-        "multipleChoice": "true"
+        "maxValue": ""
+    },
+    "question": {
+        "en": "Please select the level of activities you did since the last questionnaire."
     }
 }

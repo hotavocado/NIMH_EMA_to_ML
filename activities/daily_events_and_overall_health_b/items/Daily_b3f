@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
+    ],
+    "@type": "reproschema:Field",
+    "skos:altLabel": "Daily_b3f",
+    "ui": {
+        "inputType": "radio"
+    },
+    "question": {
+        "en": "How much did your heart racing or pounding bother you today?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "schema:value": 1,
+                "schema:name": {
+                    "en": "not at all "
+                }
+            },
+            {
+                "schema:value": 2,
+                "schema:name": {
+                    "en": "mildly "
+                }
+            },
+            {
+                "schema:value": 3,
+                "schema:name": {
+                    "en": "moderately "
+                }
+            },
+            {
+                "schema:value": 4,
+                "schema:name": {
+                    "en": "severely "
+                }
+            }
+        ],
+        "minValue": "",
+        "maxValue": ""
+    }
+}

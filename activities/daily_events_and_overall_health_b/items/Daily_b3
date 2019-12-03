@@ -1,0 +1,68 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
+    ],
+    "@type": "reproschema:Field",
+    "skos:altLabel": "Daily_b3",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "multipleChoice": true,
+        "choices": [
+            {
+                "schema:value": 1,
+                "schema:name": {
+                    "en": "allergies "
+                }
+            },
+            {
+                "schema:value": 2,
+                "schema:name": {
+                    "en": "asthma or respiratory difficulties "
+                }
+            },
+            {
+                "schema:value": 3,
+                "schema:name": {
+                    "en": "gastrointestinal/nausea/vomiting/bowel or stomach problems "
+                }
+            },
+            {
+                "schema:value": 4,
+                "schema:name": {
+                    "en": "muscle/joint pain "
+                }
+            },
+            {
+                "schema:value": 5,
+                "schema:name": {
+                    "en": "heart racing or pounding "
+                }
+            },
+            {
+                "schema:value": 6,
+                "schema:name": {
+                    "en": "headache "
+                }
+            },
+            {
+                "schema:value": 7,
+                "schema:name": {
+                    "en": "diziness/feeling light-headed or faint "
+                }
+            },
+            {
+                "schema:value": 8,
+                "schema:name": {
+                    "en": "hit or hurt your head"
+                }
+            }
+        ],
+        "minValue": "",
+        "maxValue": ""
+    },
+    "question": {
+        "en": "Did you have any of the following problems today?"
+    }
+}

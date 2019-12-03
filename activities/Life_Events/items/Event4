@@ -1,14 +1,14 @@
 {
     "@context": [
-        "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/contexts/generic"
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
     ],
-    "@type": "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/schemas/Field",
+    "@type": "reproschema:Field",
     "skos:altLabel": "Event4",
     "ui": {
         "inputType": "radio"
     },
     "question": {
-        "en": "Did more than one event occur that significantly influenced you?"
+        "en": "Did more than one event occur that significantly influenced you? "
     },
     "responseOptions": {
         "choices": [
@@ -26,7 +26,6 @@
             }
         ],
         "minValue": "",
-        "maxValue": "",
-        "multipleChoice": ""
+        "maxValue": ""
     }
 }

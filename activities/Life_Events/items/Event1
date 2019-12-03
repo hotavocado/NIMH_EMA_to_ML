@@ -1,8 +1,8 @@
 {
     "@context": [
-        "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/contexts/generic"
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
     ],
-    "@type": "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/schemas/Field",
+    "@type": "reproschema:Field",
     "skos:altLabel": "Event1",
     "ui": {
         "inputType": "radio"
@@ -13,84 +13,91 @@
     "responseOptions": {
         "choices": [
             {
-                "schema:value": null,
+                "schema:value": 1,
                 "schema:name": {
                     "en": "work "
                 }
             },
             {
-                "schema:value": null,
+                "schema:value": 2,
                 "schema:name": {
                     "en": "education "
                 }
             },
             {
-                "schema:value": null,
+                "schema:value": 3,
                 "schema:name": {
                     "en": "family or friend relationships "
                 }
             },
             {
-                "schema:value": null,
-                "schema:name": {}
+                "schema:value": 4,
+                "schema:name": {
+                    "en": "interactions with colleagues "
+                }
             },
             {
-                "schema:value": null,
-                "schema:name": {}
+                "schema:value": 5,
+                "schema:name": {
+                    "en": "interactions with strangers "
+                }
             },
             {
-                "schema:value": null,
-                "schema:name": {}
+                "schema:value": 6,
+                "schema:name": {
+                    "en": "housing or residence "
+                }
             },
             {
-                "schema:value": null,
+                "schema:value": 7,
                 "schema:name": {
                     "en": "leisure "
                 }
             },
             {
-                "schema:value": null,
-                "schema:name": {}
+                "schema:value": 8,
+                "schema:name": {
+                    "en": "exercise "
+                }
             },
             {
-                "schema:value": null,
+                "schema:value": 9,
                 "schema:name": {
                     "en": "health "
                 }
             },
             {
-                "schema:value": null,
+                "schema:value": 10,
                 "schema:name": {
                     "en": "finances "
                 }
             },
             {
-                "schema:value": null,
+                "schema:value": 11,
                 "schema:name": {
                     "en": "religion or spirituality "
                 }
             },
             {
-                "schema:value": null,
+                "schema:value": 12,
                 "schema:name": {
                     "en": "legal or judicial "
                 }
             },
             {
-                "schema:value": null,
+                "schema:value": 13,
                 "schema:name": {
                     "en": "traveling or commuting "
                 }
             },
             {
-                "schema:value": null,
+                "schema:value": 14,
                 "schema:name": {
                     "en": "other"
                 }
             }
         ],
         "minValue": "",
-        "maxValue": "",
-        "multipleChoice": ""
+        "maxValue": ""
     }
 }

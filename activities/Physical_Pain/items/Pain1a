@@ -1,50 +1,50 @@
 {
     "@context": [
-        "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/contexts/generic"
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
     ],
-    "@type": "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/schemas/Field",
+    "@type": "reproschema:Field",
     "skos:altLabel": "Pain1a",
     "ui": {
-        "inputType": "checklist"
-    },
-    "question": {
-        "en": "Where are you having pain?"
+        "inputType": "radio"
     },
     "responseOptions": {
+        "multipleChoice": true,
         "choices": [
             {
-                "schema:value": null,
+                "schema:value": 1,
                 "schema:name": {
                     "en": "headache "
                 }
             },
             {
-                "schema:value": null,
+                "schema:value": 2,
                 "schema:name": {
                     "en": "joint/muscle "
                 }
             },
             {
-                "schema:value": null,
+                "schema:value": 3,
                 "schema:name": {
                     "en": "back or neck "
                 }
             },
             {
-                "schema:value": null,
+                "schema:value": 4,
                 "schema:name": {
                     "en": "stomach/bowel "
                 }
             },
             {
-                "schema:value": null,
+                "schema:value": 5,
                 "schema:name": {
                     "en": "other"
                 }
             }
         ],
         "minValue": "",
-        "maxValue": "",
-        "multipleChoice": "true"
+        "maxValue": ""
+    },
+    "question": {
+        "en": "Where are you having pain?"
     }
 }

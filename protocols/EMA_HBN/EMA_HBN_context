@@ -1,0 +1,62 @@
+{
+    "@context": {
+        "@version": 1.1,
+        "activity_path": "https://raw.githubusercontent.com/hotavocado/NIMH_EMA_to_ML/master/activities/",
+        "morning_sleep_and_behavior": {
+            "@id": "activity_path:morning_sleep_and_behavior_schema",
+            "@type": "@id"
+        },
+        "context_of_assessment": {
+            "@id": "activity_path:context_of_assessment_schema",
+            "@type": "@id"
+        },
+        "mood_circumplex_and_physical_states": {
+            "@id": "activity_path:mood_circumplex_and_physical_states_schema",
+            "@type": "@id"
+        },
+        "positive_and_negative_thoughts": {
+            "@id": "activity_path:positive_and_negative_thoughts_schema",
+            "@type": "@id"
+        },
+        "physical_activity": {
+            "@id": "activity_path:physical_activity_schema",
+            "@type": "@id"
+        },
+        "intake": {
+            "@id": "activity_path:intake_schema",
+            "@type": "@id"
+        },
+        "life_events": {
+            "@id": "activity_path:life_events_schema",
+            "@type": "@id"
+        },
+        "physical_pain": {
+            "@id": "activity_path:physical_pain_schema",
+            "@type": "@id"
+        },
+        "headache": {
+            "@id": "activity_path:headache_schema",
+            "@type": "@id"
+        },
+        "daily_events_and_overall_health_a": {
+            "@id": "activity_path:daily_events_and_overall_health_a_schema",
+            "@type": "@id"
+        },
+        "daily_events_and_overall_health_b": {
+            "@id": "activity_path:daily_events_and_overall_health_b_schema",
+            "@type": "@id"
+        },
+        "internet_social_evening": {
+            "@id": "activity_path:internet_social_evening_schema",
+            "@type": "@id"
+        },
+        "internet_social_morning": {
+            "@id": "activity_path:internet_social_morning_schema",
+            "@type": "@id"
+        },
+        "pre_questionnaire": {
+            "@id": "activity_path:pre_questionnaire_schema",
+            "@type": "@id"
+        }
+    }
+}

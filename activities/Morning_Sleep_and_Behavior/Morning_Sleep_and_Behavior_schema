@@ -1,13 +1,13 @@
 {
     "@context": [
-        "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/contexts/generic",
-        "https://raw.githubusercontent.com/hotavocado/NIMH_EMA_to_ML/master/activities/Morning_Sleep_and_Behavior/Morning_Sleep_and_Behavior_context"
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+        "https://raw.githubusercontent.com/hotavocado/NIMH_EMA_to_ML/master/activities/morning_sleep_and_behavior/morning_sleep_and_behavior_context"
     ],
-    "@type": "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/schemas/Activity",
-    "@id": "Morning_Sleep_and_Behavior_schema",
-    "skos:prefLabel": "Morning_Sleep_and_Behavior_schema",
-    "skos:altLabel": "Morning_Sleep_and_Behavior_schema",
-    "schema:description": "Morning_Sleep_and_Behavior schema",
+    "@type": "reproschema:Activity",
+    "@id": "morning_sleep_and_behavior_schema",
+    "skos:prefLabel": "morning_sleep_and_behavior",
+    "skos:altLabel": "morning_sleep_and_behavior_schema",
+    "schema:description": "morning_sleep_and_behavior",
     "schema:schemaVersion": "0.0.1",
     "schema:version": "0.0.1",
     "scoringLogic": {},
@@ -83,19 +83,19 @@
         ],
         "shuffle": false,
         "visibility": {
-            "Morning1": "NA",
-            "Morning2": "NA",
-            "Morning3": "NA",
-            "Morning4": "NA",
-            "Morning5": "NA",
-            "Morning6": "NA",
-            "Morning7": "NA",
-            "Morning8": "NA",
-            "Morning9": "NA",
-            "Morning10": "NA",
-            "Morning11": "NA",
-            "Morning11a": "NA",
-            "Morning12": "NA"
+            "Morning1": true,
+            "Morning2": true,
+            "Morning3": true,
+            "Morning4": true,
+            "Morning5": true,
+            "Morning6": true,
+            "Morning7": true,
+            "Morning8": true,
+            "Morning9": true,
+            "Morning10": true,
+            "Morning11": true,
+            "Morning11a": true,
+            "Morning12": true
         }
     }
 }

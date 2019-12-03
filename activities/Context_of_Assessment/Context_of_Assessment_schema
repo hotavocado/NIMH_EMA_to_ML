@@ -1,13 +1,13 @@
 {
     "@context": [
-        "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/contexts/generic",
-        "https://raw.githubusercontent.com/hotavocado/NIMH_EMA_to_ML/master/activities/Context_of_Assessment/Context_of_Assessment_context"
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+        "https://raw.githubusercontent.com/hotavocado/NIMH_EMA_to_ML/master/activities/context_of_assessment/context_of_assessment_context"
     ],
-    "@type": "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/schemas/Activity",
-    "@id": "Context_of_Assessment_schema",
-    "skos:prefLabel": "Context_of_Assessment_schema",
-    "skos:altLabel": "Context_of_Assessment_schema",
-    "schema:description": "Context_of_Assessment schema",
+    "@type": "reproschema:Activity",
+    "@id": "context_of_assessment_schema",
+    "skos:prefLabel": "context_of_assessment",
+    "skos:altLabel": "context_of_assessment_schema",
+    "schema:description": "context_of_assessment",
     "schema:schemaVersion": "0.0.1",
     "schema:version": "0.0.1",
     "scoringLogic": {},
@@ -63,15 +63,15 @@
         ],
         "shuffle": false,
         "visibility": {
-            "Context1": "NA",
-            "Context1a": " Context1   == 1",
-            "Context1b": " Context1   == 1",
-            "Context2": "NA",
-            "Context3": "NA",
-            "Context4": "NA",
-            "Context5": "NA",
-            "Context6": "NA",
-            "Context7": "NA"
+            "Context1": true,
+            "Context1a": "Context1 == 1",
+            "Context1b": "Context1 == 1",
+            "Context2": true,
+            "Context3": true,
+            "Context4": true,
+            "Context5": true,
+            "Context6": true,
+            "Context7": true
         }
     }
 }

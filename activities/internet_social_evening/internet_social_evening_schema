@@ -1,0 +1,53 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+        "https://raw.githubusercontent.com/hotavocado/NIMH_EMA_to_ML/master/activities/internet_social_evening/internet_social_evening_context"
+    ],
+    "@type": "reproschema:Activity",
+    "@id": "internet_social_evening_schema",
+    "skos:prefLabel": "internet_social_evening",
+    "skos:altLabel": "internet_social_evening_schema",
+    "schema:description": "internet_social_evening",
+    "schema:schemaVersion": "0.0.1",
+    "schema:version": "0.0.1",
+    "scoringLogic": {},
+    "variableMap": [
+        {
+            "variableName": "Internet_ev1",
+            "isAbout": "Internet_ev1"
+        },
+        {
+            "variableName": "Internet_ev2",
+            "isAbout": "Internet_ev2"
+        },
+        {
+            "variableName": "Internet_ev3",
+            "isAbout": "Internet_ev3"
+        },
+        {
+            "variableName": "Internet_ev4",
+            "isAbout": "Internet_ev4"
+        },
+        {
+            "variableName": "Internet_ev5",
+            "isAbout": "Internet_ev5"
+        }
+    ],
+    "ui": {
+        "order": [
+            "Internet_ev1",
+            "Internet_ev2",
+            "Internet_ev3",
+            "Internet_ev4",
+            "Internet_ev5"
+        ],
+        "shuffle": false,
+        "visibility": {
+            "Internet_ev1": true,
+            "Internet_ev2": true,
+            "Internet_ev3": true,
+            "Internet_ev4": true,
+            "Internet_ev5": true
+        }
+    }
+}

@@ -1,21 +1,21 @@
 {
     "@context": [
-        "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/contexts/generic"
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
     ],
-    "@type": "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/schemas/Field",
+    "@type": "reproschema:Field",
     "skos:altLabel": "Event3",
     "ui": {
         "inputType": "slider"
     },
     "question": {
-        "en": "To what degree did this event have a negative impact on you?"
+        "en": "To what degree did this event have a negative impact on you? "
     },
     "responseOptions": {
         "choices": [
             {
                 "schema:value": 1,
                 "schema:name": {
-                    "en": "no negative impact "
+                    "en": "1 "
                 }
             },
             {
@@ -51,12 +51,11 @@
             {
                 "schema:value": 7,
                 "schema:name": {
-                    "en": "extremely negative"
+                    "en": "7"
                 }
             }
         ],
-        "minValue": "Min",
-        "maxValue": "Max",
-        "multipleChoice": ""
+        "minValue": "no negative impact",
+        "maxValue": "extremely negative"
     }
 }

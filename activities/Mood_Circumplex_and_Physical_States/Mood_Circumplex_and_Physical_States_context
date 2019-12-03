@@ -1,69 +1,69 @@
 {
     "@context": {
         "@version": 1.1,
-        "Mood_Circumplex_and_Physical_States": "https://raw.githubusercontent.com/hotavocado/NIMH_EMA_to_ML/master/activities/Mood_Circumplex_and_Physical_States/items/",
+        "mood_circumplex_and_physical_states": "https://raw.githubusercontent.com/hotavocado/NIMH_EMA_to_ML/master/activities/mood_circumplex_and_physical_states/items/",
         "Mood1": {
-            "@id": "Mood_Circumplex_and_Physical_States:Mood1",
+            "@id": "mood_circumplex_and_physical_states:Mood1",
             "@type": "@id"
         },
         "Mood2": {
-            "@id": "Mood_Circumplex_and_Physical_States:Mood2",
+            "@id": "mood_circumplex_and_physical_states:Mood2",
             "@type": "@id"
         },
         "Mood3": {
-            "@id": "Mood_Circumplex_and_Physical_States:Mood3",
+            "@id": "mood_circumplex_and_physical_states:Mood3",
             "@type": "@id"
         },
         "Mood4": {
-            "@id": "Mood_Circumplex_and_Physical_States:Mood4",
+            "@id": "mood_circumplex_and_physical_states:Mood4",
             "@type": "@id"
         },
         "Mood5": {
-            "@id": "Mood_Circumplex_and_Physical_States:Mood5",
+            "@id": "mood_circumplex_and_physical_states:Mood5",
             "@type": "@id"
         },
         "Mood6": {
-            "@id": "Mood_Circumplex_and_Physical_States:Mood6",
+            "@id": "mood_circumplex_and_physical_states:Mood6",
             "@type": "@id"
         },
         "Mood7": {
-            "@id": "Mood_Circumplex_and_Physical_States:Mood7",
+            "@id": "mood_circumplex_and_physical_states:Mood7",
             "@type": "@id"
         },
         "Mood8": {
-            "@id": "Mood_Circumplex_and_Physical_States:Mood8",
+            "@id": "mood_circumplex_and_physical_states:Mood8",
             "@type": "@id"
         },
         "Mood9": {
-            "@id": "Mood_Circumplex_and_Physical_States:Mood9",
+            "@id": "mood_circumplex_and_physical_states:Mood9",
             "@type": "@id"
         },
         "Mood10": {
-            "@id": "Mood_Circumplex_and_Physical_States:Mood10",
+            "@id": "mood_circumplex_and_physical_states:Mood10",
             "@type": "@id"
         },
         "Mood11": {
-            "@id": "Mood_Circumplex_and_Physical_States:Mood11",
+            "@id": "mood_circumplex_and_physical_states:Mood11",
             "@type": "@id"
         },
         "Mood12": {
-            "@id": "Mood_Circumplex_and_Physical_States:Mood12",
+            "@id": "mood_circumplex_and_physical_states:Mood12",
             "@type": "@id"
         },
         "Mood13": {
-            "@id": "Mood_Circumplex_and_Physical_States:Mood13",
+            "@id": "mood_circumplex_and_physical_states:Mood13",
             "@type": "@id"
         },
         "Mood14": {
-            "@id": "Mood_Circumplex_and_Physical_States:Mood14",
+            "@id": "mood_circumplex_and_physical_states:Mood14",
             "@type": "@id"
         },
         "Mood15": {
-            "@id": "Mood_Circumplex_and_Physical_States:Mood15",
+            "@id": "mood_circumplex_and_physical_states:Mood15",
             "@type": "@id"
         },
         "Mood16": {
-            "@id": "Mood_Circumplex_and_Physical_States:Mood16",
+            "@id": "mood_circumplex_and_physical_states:Mood16",
             "@type": "@id"
         }
     }

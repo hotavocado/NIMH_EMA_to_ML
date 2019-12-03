@@ -1,33 +1,33 @@
 {
     "@context": {
         "@version": 1.1,
-        "Life_Events": "https://raw.githubusercontent.com/hotavocado/NIMH_EMA_to_ML/master/activities/Life_Events/items/",
-        "NA": {
-            "@id": "Life_Events:NA",
+        "life_events": "https://raw.githubusercontent.com/hotavocado/NIMH_EMA_to_ML/master/activities/life_events/items/",
+        "Event0": {
+            "@id": "life_events:Event0",
             "@type": "@id"
         },
         "Event1": {
-            "@id": "Life_Events:Event1",
+            "@id": "life_events:Event1",
             "@type": "@id"
         },
         "Event2": {
-            "@id": "Life_Events:Event2",
+            "@id": "life_events:Event2",
             "@type": "@id"
         },
         "Event3": {
-            "@id": "Life_Events:Event3",
+            "@id": "life_events:Event3",
             "@type": "@id"
         },
         "Event4": {
-            "@id": "Life_Events:Event4",
+            "@id": "life_events:Event4",
             "@type": "@id"
         },
         "Event4a": {
-            "@id": "Life_Events:Event4a",
+            "@id": "life_events:Event4a",
             "@type": "@id"
         },
         "Event4b": {
-            "@id": "Life_Events:Event4b",
+            "@id": "life_events:Event4b",
             "@type": "@id"
         }
     }

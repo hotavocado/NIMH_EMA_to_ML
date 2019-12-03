@@ -1,68 +1,68 @@
 {
     "@context": [
-        "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/contexts/generic"
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
     ],
-    "@type": "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/schemas/Field",
+    "@type": "reproschema:Field",
     "skos:altLabel": "Context5",
     "ui": {
-        "inputType": "checklist"
-    },
-    "question": {
-        "en": "Who have you been with since the last assessment?"
+        "inputType": "radio"
     },
     "responseOptions": {
+        "multipleChoice": true,
         "choices": [
             {
-                "schema:value": null,
+                "schema:value": 1,
                 "schema:name": {
                     "en": "no one "
                 }
             },
             {
-                "schema:value": null,
+                "schema:value": 2,
                 "schema:name": {
                     "en": "family member "
                 }
             },
             {
-                "schema:value": null,
+                "schema:value": 3,
                 "schema:name": {
                     "en": "partner/boyfriend/girlfriend "
                 }
             },
             {
-                "schema:value": null,
+                "schema:value": 4,
                 "schema:name": {
                     "en": "friend "
                 }
             },
             {
-                "schema:value": null,
+                "schema:value": 5,
                 "schema:name": {
                     "en": "colleague or classmate "
                 }
             },
             {
-                "schema:value": null,
+                "schema:value": 6,
                 "schema:name": {
                     "en": "stranger "
                 }
             },
             {
-                "schema:value": null,
+                "schema:value": 7,
                 "schema:name": {
                     "en": "a pet "
                 }
             },
             {
-                "schema:value": null,
+                "schema:value": 8,
                 "schema:name": {
                     "en": "other"
                 }
             }
         ],
         "minValue": "",
-        "maxValue": "",
-        "multipleChoice": "true"
+        "maxValue": ""
+    },
+    "question": {
+        "en": "Who have you been with since the last assessment?"
     }
 }

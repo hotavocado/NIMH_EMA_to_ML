@@ -14,11 +14,11 @@ const schemaMap = {
     "Field Label": "question",
     "Field Type": "inputType",
     "Required Field?": "requiredValue",
-    "Text Validation Min": "minValue",
-    "Text Validation Max": "maxValue",
+    "minVal": "minValue",
+    "maxVal": "maxValue",
     "Choices, Calculations, OR Slider Labels": "choices",
     "Branching Logic (Show field only if...)": "visibility",
-    "multiple": "multipleChoice"
+    "multipleChoice": "multipleChoice"
 };
 
 const inputTypeMap = {
@@ -30,9 +30,10 @@ const inputTypeMap = {
 };
 
 const uiList = ['inputType', 'shuffle'];
-const responseList = ['type', 'minValue', 'maxValue', 'requiredValue', 'multipleChoice'];
+const responseList = ['type', 'minValue', 'maxValue', 'requiredValue'];
 const defaultLanguage = 'en';
 const datas = {};
+const protocolName = process.argv[3]
 /* **************************************************************************************** */
 
 // Make sure we got a filename on the command line.
@@ -44,7 +45,7 @@ if (process.argv.length < 3) {
 let csvPath = process.argv[2];
 let readStream = fs.createReadStream(csvPath).setEncoding('utf-8');
 
-let schemaContextUrl = 'https://raw.githubusercontent.com/ReproNim/schema-standardization/master/contexts/generic';
+let schemaContextUrl = 'https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic';
 let order = {};
 let visibilityObj = {};
 let scoresObj = {};
@@ -68,13 +69,16 @@ csv
         if (!datas[data['Form Name']]) {
             datas[data['Form Name']] = [];
             // For each form, create directory structure - activities/form_name/items
-            shell.mkdir('-p', 'activities/' + data['Form Name'] + '/items');
+            shell.mkdir('-p', 'activities/' + data['Form Name'] + '/items');          
         }
+        //create directory for protocol
+        shell.mkdir('protocols/' + process.argv[3]);
         // console.log(62, data);
         datas[data['Form Name']].push(data);
     })
+
     .on('end', function () {
-        // console.log(66, datas);
+        //console.log(66, datas);
         Object.keys(datas).forEach(form => {
             let fieldList = datas[form]; // all items of an activity
             createFormContextSchema(form, fieldList); // create context for each activity
@@ -88,8 +92,12 @@ csv
                 }
                 processRow(form, field);
             });
-
             createFormSchema(form, formContextUrl);
+            
+            let activityList = Object.keys(datas);
+            createProtocolContext(activityList);
+
+
         });
     });
 
@@ -112,13 +120,34 @@ function createFormContextSchema(form, fieldList) {
     });
 }
 
+function createProtocolContext(activityList) {
+    //create protocol context file
+    let activityOBj = { "@version": 1.1,
+                    "activity_path": `https://raw.githubusercontent.com/hotavocado/NIMH_EMA_to_ML/master/activities/`           
+    };
+    let protocolContext = {};
+    activityList.forEach( activity => {
+        //let activityName = activity['Form Name'];
+        // define item_x urls to be inserted in context for the corresponding form
+        activityOBj[activity] = { "@id": `activity_path:${activity}_schema` , "@type": "@id" };
+    });
+    protocolContext['@context'] = activityOBj
+    const pc = JSON.stringify(protocolContext, null, 4);
+    fs.writeFile(`protocols/${process.argv[3]}/${protocolName}_context`, pc, function(err) {
+        if (err)
+            console.log(err);
+        else console.log(`Protocol context created for ${protocolName}`);
+    });
+}
+
+
 function processRow(form, data){
     let rowData = {};
     let ui = {};
     let rspObj = {};
     let choiceList = [];
     rowData['@context'] = [schemaContextUrl];
-    rowData['@type'] = 'https://raw.githubusercontent.com/ReproNim/schema-standardization/master/schemas/Field';
+    rowData['@type'] = 'reproschema:Field';
 
     // map Choices, Calculations, OR Slider Labels column to choices or scoringLogic key
     if (data['Field Type'] === 'calc')
@@ -145,6 +174,23 @@ function processRow(form, data){
                 else { // create new ui object
                     ui[uiKey] = uiValue;
                     rowData['ui'] = ui;
+                }
+            }
+
+            // parse multipleChoice
+
+            else if (schemaMap[current_key] === 'multipleChoice' && data[current_key] !== '') {
+
+                // split string wrt '|' to get each choice
+                let multipleChoiceVal = (data[current_key]) === '1' ? true:false;
+              
+                // insert 'choices' key inside responseOptions of the item
+                if (rowData.hasOwnProperty('responseOptions')) {
+                    rowData.responseOptions[schemaMap[current_key]] = multipleChoiceVal;
+                }
+                else {
+                    rspObj[schemaMap[current_key]] = multipleChoiceVal;
+                    rowData['responseOptions'] = rspObj;
                 }
             }
 
@@ -217,11 +263,11 @@ function processRow(form, data){
                     // normalize the condition field to resemble javascript
                     let re = RegExp(/\(([0-9]*)\)/g);
                     condition = condition.replace(re, "___$1");
-                    condition = condition.replace(/([^>|<])=/g, "$1 ==");
+                    condition = condition.replace(/([^>|<])=/g, "$1==");
                     condition = condition.replace(/\ and\ /g, " && ");
                     condition = condition.replace(/\ or\ /g, " || ");
                     re = RegExp(/\[([^\]]*)\]/g);
-                    condition = condition.replace(re, " $1 ");
+                    condition = condition.replace(re, "$1");
                 }
                 visibilityObj[[data['Variable / Field Name']]] = condition;
             }
@@ -273,11 +319,11 @@ function createFormSchema(form, formContextUrl) {
     // console.log(27, form, visibilityObj);
     let jsonLD = {
         "@context": [schemaContextUrl, formContextUrl],
-        "@type": "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/schemas/Activity",
+        "@type": "reproschema:Activity",
         "@id": `${form}_schema`,
-        "skos:prefLabel": `${form }_schema`,
+        "skos:prefLabel": `${form }`,
         "skos:altLabel": `${form}_schema`,
-        "schema:description": `${form} schema`,
+        "schema:description": `${form}`,
         "schema:schemaVersion": "0.0.1",
         "schema:version": "0.0.1",
         // todo: preamble: Field Type = descriptive represents preamble in the CSV file., it also has branching logic. so should preamble be an item in our schema?
@@ -298,6 +344,10 @@ function createFormSchema(form, formContextUrl) {
         else console.log(form, "Instrument schema created");
     });
 }
+
+//function createProtocolSchema(form, formContextUrl) {
+
+//}
 
 function parseLanguageIsoCodes(inputString){
     let languages = [];

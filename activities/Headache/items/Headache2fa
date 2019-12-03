@@ -1,98 +1,98 @@
 {
     "@context": [
-        "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/contexts/generic"
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
     ],
-    "@type": "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/schemas/Field",
+    "@type": "reproschema:Field",
     "skos:altLabel": "Headache2fa",
     "ui": {
-        "inputType": "checklist"
-    },
-    "question": {
-        "en": "What do you think triggered the headache?"
+        "inputType": "radio"
     },
     "responseOptions": {
+        "multipleChoice": true,
         "choices": [
             {
-                "schema:value": null,
+                "schema:value": 1,
                 "schema:name": {
                     "en": "bright light "
                 }
             },
             {
-                "schema:value": null,
+                "schema:value": 2,
                 "schema:name": {
                     "en": "odor/smell "
                 }
             },
             {
-                "schema:value": null,
+                "schema:value": 3,
                 "schema:name": {
                     "en": "noise "
                 }
             },
             {
-                "schema:value": null,
+                "schema:value": 4,
                 "schema:name": {
                     "en": "food "
                 }
             },
             {
-                "schema:value": null,
+                "schema:value": 5,
                 "schema:name": {
                     "en": "alcoholic drink "
                 }
             },
             {
-                "schema:value": null,
+                "schema:value": 6,
                 "schema:name": {
                     "en": "non-alcoholic beverage "
                 }
             },
             {
-                "schema:value": null,
+                "schema:value": 7,
                 "schema:name": {
                     "en": "hunger "
                 }
             },
             {
-                "schema:value": null,
+                "schema:value": 8,
                 "schema:name": {
                     "en": "thirst/dehydration "
                 }
             },
             {
-                "schema:value": null,
+                "schema:value": 9,
                 "schema:name": {
                     "en": "pain "
                 }
             },
             {
-                "schema:value": null,
+                "schema:value": 10,
                 "schema:name": {
                     "en": "exercise  "
                 }
             },
             {
-                "schema:value": null,
+                "schema:value": 11,
                 "schema:name": {
                     "en": "stress "
                 }
             },
             {
-                "schema:value": null,
+                "schema:value": 12,
                 "schema:name": {
                     "en": "other "
                 }
             },
             {
-                "schema:value": null,
+                "schema:value": 13,
                 "schema:name": {
-                    "en": "unknown"
+                    "en": "unknown "
                 }
             }
         ],
         "minValue": "",
-        "maxValue": "",
-        "multipleChoice": "true"
+        "maxValue": ""
+    },
+    "question": {
+        "en": "What do you think triggered the headache?"
     }
 }

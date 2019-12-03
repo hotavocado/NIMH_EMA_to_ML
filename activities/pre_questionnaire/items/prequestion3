@@ -1,0 +1,50 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
+    ],
+    "@type": "reproschema:Field",
+    "skos:altLabel": "prequestion3",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "multipleChoice": true,
+        "choices": [
+            {
+                "schema:value": 1,
+                "schema:name": {
+                    "en": "Twitter "
+                }
+            },
+            {
+                "schema:value": 2,
+                "schema:name": {
+                    "en": "Instagram "
+                }
+            },
+            {
+                "schema:value": 3,
+                "schema:name": {
+                    "en": "Facebook "
+                }
+            },
+            {
+                "schema:value": 4,
+                "schema:name": {
+                    "en": "Snapchat "
+                }
+            },
+            {
+                "schema:value": 5,
+                "schema:name": {
+                    "en": "other"
+                }
+            }
+        ],
+        "minValue": "",
+        "maxValue": ""
+    },
+    "question": {
+        "en": "What social media accounts do you use?"
+    }
+}

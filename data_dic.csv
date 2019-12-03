@@ -21,33 +21,26 @@ Context4,context_of_assessment,radio,1,Who is with you at this moment?,"1, no on
 Context5,context_of_assessment,radio,1,Who have you been with since the last assessment?,"1, no one | 2, family member | 3, partner/boyfriend/girlfriend | 4, friend | 5, colleague or classmate | 6, stranger | 7, a pet | 8, other",,,
 Context6,context_of_assessment,radio,,What are you doing at this moment?,"1, nothing or waiting | 2, napping/resting | 3, eating | 4, household chores | 5, working (paid or volunteer) | 6, homework | 7, shopping | 8, personal hygiene care | 9, physical leisure or sports | 10, personal exercise | 11, walking the dog | 12, traveling or commuting | 13, watching tv | 14, reading | 15, listening to music | 16, using a computer/electronic device | 17, talking on the phone | 18, talking in person | 19, texting by phone | 20, other nonphysical leisure | 21, other activity",,,
 Context7,context_of_assessment,radio,1,Which of these activities have you done since the last assessment?,"1, nothing or waiting | 2, napping/resting | 3, eating | 4, household chores | 5, working (paid or volunteer) | 6, homework | 7, shopping | 8, personal hygiene care | 9, physical leisure or sports | 10, personal exercise | 11, walking the dog | 12, traveling or commuting | 13, watching tv | 14, reading | 15, listening to music | 16, using a computer/electronic device | 17, talking on the phone | 18, talking in person | 19, texting by phone | 20, other nonphysical leisure | 21, other activity",,,
-Mood1,mood circumplex and physical states,slider,,How happy versus sad do you feel right now?,"1, 1 | 2, 2 | 3, 3 | 4, 4 | 5, 5 | 6, 6 | 7, 7",very/sad/depressed/unhappy,very cheerful/happy,
-Mood2,mood circumplex and physical states,slider,,How happy do you feel right now?,"1, 1 | 2, 2 | 3, 3 | 4, 4 | 5, 5 | 6, 6 | 7, 7",no emotion,very cheerful/happy,
-Mood3,mood circumplex and physical states,slider,,How sad do you feel right now?,"1, 1 | 2, 2 | 3, 3 | 4, 4 | 5, 5 | 6, 6 | 7, 7",no emotion,very sad/depressed/unhappy,
-Mood4,mood circumplex and physical states,slider,,How relaxed versus anxious do you feel right now?,"1, 1 | 2, 2 | 3, 3 | 4, 4 | 5, 5 | 6, 6 | 7, 7",very relaxed/calm,very nervous/anxious,
-Mood5,mood circumplex and physical states,slider,,How calm vs. excited do you feel right now?,"1, 1 | 2, 2 | 3, 3 | 4, 4 | 5, 5 | 6, 6 | 7, 7",calm/quiet,very excited/aroused,
-Mood6,mood circumplex and physical states,slider,,How tired vs. energetic do you feel right now?,"1, 1 | 2, 2 | 3, 3 | 4, 4 | 5, 5 | 6, 6 | 7, 7",very tired/sluggish,very energetic/lively,
-Mood7,mood circumplex and physical states,slider,,How well can you concentrate or focus right now?,"1, 1 | 2, 2 | 3, 3 | 4, 4 | 5, 5 | 6, 6 | 7, 7",very focused/attentive,very unfocused/distracted,
-Mood8,mood circumplex and physical states,slider,,How irritable or easily angered do you feel right now?,"1, 1 | 2, 2 | 3, 3 | 4, 4 | 5, 5 | 6, 6 | 7, 7",not at all irritable/angry ,very irritable/angry,
-Mood9,mood circumplex and physical states,slider,,Do you feel worried right now?,"1, 1 | 2, 2 | 3, 3 | 4, 4 | 5, 5 | 6, 6 | 7, 7",not at all worried,very worried,
-Mood10,mood circumplex and physical states,slider,,Do you feel guilty right now?,"1, 1 | 2, 2 | 3, 3 | 4, 4 | 5, 5 | 6, 6 | 7, 7",not at all guilty,very guilty,
-Mood11,mood circumplex and physical states,slider,,How well can you make decisions right now?,"1, 1 | 2, 2 | 3, 3 | 4, 4 | 5, 5 | 6, 6 | 7, 7",not at all/very indecisive,very well/very decisve,
-Mood12,mood circumplex and physical states,slider,,How quick is your thinking?,"1, 1 | 2, 2 | 3, 3 | 4, 4 | 5, 5 | 6, 6 | 7, 7",slow/cannot think of things,very quick/lots of ideas,
-Mood13,mood circumplex and physical states,slider,,How much are you able to enjoy and feel pleasure in things?,"1, 1 | 2, 2 | 3, 3 | 4, 4 | 5, 5 | 6, 6 | 7, 7",no pleasure or enjoyment,really enjoying things,
-Mood14,mood circumplex and physical states,slider,,How fidgety or restless do you feel right now compared to your usual self?,"1, 1 | 2, 2 | 3, 3 | 4, 4 | 5, 5 | 6, 6 | 7, 7",not at all restless,very restless/fidgety/cannot sit still,
-Mood15,mood circumplex and physical states,slider,,How hungry do you feel right now?,"1, 1 | 2, 2 | 3, 3 | 4, 4 | 5, 5 | 6, 6 | 7, 7",not at all hungry/full,extremely hungry,
-Mood16,mood circumplex and physical states,slider,,How sleepy do you feel right now?,"1, 1 | 2, 2 | 3, 3 | 4, 4 | 5, 5 | 6, 6 | 7, 7",not at all sleepy,very sleepy,
+Mood1,mood_circumplex_and_physical_states,slider,,How happy versus sad do you feel right now?,"1, 1 | 2, 2 | 3, 3 | 4, 4 | 5, 5 | 6, 6 | 7, 7",very/sad/depressed/unhappy,very cheerful/happy,
+Mood2,mood_circumplex_and_physical_states,slider,,How happy do you feel right now?,"1, 1 | 2, 2 | 3, 3 | 4, 4 | 5, 5 | 6, 6 | 7, 7",no emotion,very cheerful/happy,
+Mood3,mood_circumplex_and_physical_states,slider,,How sad do you feel right now?,"1, 1 | 2, 2 | 3, 3 | 4, 4 | 5, 5 | 6, 6 | 7, 7",no emotion,very sad/depressed/unhappy,
+Mood4,mood_circumplex_and_physical_states,slider,,How relaxed versus anxious do you feel right now?,"1, 1 | 2, 2 | 3, 3 | 4, 4 | 5, 5 | 6, 6 | 7, 7",very relaxed/calm,very nervous/anxious,
+Mood5,mood_circumplex_and_physical_states,slider,,How calm vs. excited do you feel right now?,"1, 1 | 2, 2 | 3, 3 | 4, 4 | 5, 5 | 6, 6 | 7, 7",calm/quiet,very excited/aroused,
+Mood6,mood_circumplex_and_physical_states,slider,,How tired vs. energetic do you feel right now?,"1, 1 | 2, 2 | 3, 3 | 4, 4 | 5, 5 | 6, 6 | 7, 7",very tired/sluggish,very energetic/lively,
+Mood7,mood_circumplex_and_physical_states,slider,,How well can you concentrate or focus right now?,"1, 1 | 2, 2 | 3, 3 | 4, 4 | 5, 5 | 6, 6 | 7, 7",very focused/attentive,very unfocused/distracted,
+Mood8,mood_circumplex_and_physical_states,slider,,How irritable or easily angered do you feel right now?,"1, 1 | 2, 2 | 3, 3 | 4, 4 | 5, 5 | 6, 6 | 7, 7",not at all irritable/angry ,very irritable/angry,
+Mood9,mood_circumplex_and_physical_states,slider,,Do you feel worried right now?,"1, 1 | 2, 2 | 3, 3 | 4, 4 | 5, 5 | 6, 6 | 7, 7",not at all worried,very worried,
+Mood10,mood_circumplex_and_physical_states,slider,,Do you feel guilty right now?,"1, 1 | 2, 2 | 3, 3 | 4, 4 | 5, 5 | 6, 6 | 7, 7",not at all guilty,very guilty,
+Mood11,mood_circumplex_and_physical_states,slider,,How well can you make decisions right now?,"1, 1 | 2, 2 | 3, 3 | 4, 4 | 5, 5 | 6, 6 | 7, 7",not at all/very indecisive,very well/very decisve,
+Mood12,mood_circumplex_and_physical_states,slider,,How quick is your thinking?,"1, 1 | 2, 2 | 3, 3 | 4, 4 | 5, 5 | 6, 6 | 7, 7",slow/cannot think of things,very quick/lots of ideas,
+Mood13,mood_circumplex_and_physical_states,slider,,How much are you able to enjoy and feel pleasure in things?,"1, 1 | 2, 2 | 3, 3 | 4, 4 | 5, 5 | 6, 6 | 7, 7",no pleasure or enjoyment,really enjoying things,
+Mood14,mood_circumplex_and_physical_states,slider,,How fidgety or restless do you feel right now compared to your usual self?,"1, 1 | 2, 2 | 3, 3 | 4, 4 | 5, 5 | 6, 6 | 7, 7",not at all restless,very restless/fidgety/cannot sit still,
+Mood15,mood_circumplex_and_physical_states,slider,,How hungry do you feel right now?,"1, 1 | 2, 2 | 3, 3 | 4, 4 | 5, 5 | 6, 6 | 7, 7",not at all hungry/full,extremely hungry,
+Mood16,mood_circumplex_and_physical_states,slider,,How sleepy do you feel right now?,"1, 1 | 2, 2 | 3, 3 | 4, 4 | 5, 5 | 6, 6 | 7, 7",not at all sleepy,very sleepy,
 Thoughts1,positive_and_negative_thoughts,slider,,"To what extent are you having positive thoughts, thinking about nice experiences or things that make you feel good?","1, not at all | 2, 2 | 3, 3 | 4, 4 | 5, 5 | 6, 6 | 7, very frequently",,,
 Thoughts2,positive_and_negative_thoughts,slider,,"To what extent are you having negative thoughts, thinking about unpleasant experiences or things that make you feel bad?","1, not at all | 2, 2 | 3, 3 | 4, 4 | 5, 5 | 6, 6 | 7, very frequently",,,
 Thoughts2a,positive_and_negative_thoughts,radio,1,Were these thoughts about:,"1, things you did that you regret | 2, things that happened to you or to others | 3, worries that you have | 4, other negative thoughts",,,[Thoughts2] = 2 or [Thoughts2] = 3 or [Thoughts2] = 4 or  [Thoughts2] = 5 or  [Thoughts2] = 6  or  [Thoughts2] = 7 
 Thoughts2b,positive_and_negative_thoughts,slider,,How severe or disturbing would you say these thoughts were?,"1, 1 | 2, 2 | 3, 3 | 4, 4 | 5, 5 | 6, 6 | 7, 7",not at all severe or disturbing,very severe or disturbing,[Thoughts2] = 2 or [Thoughts2] = 3 or [Thoughts2] = 4 or  [Thoughts2] = 5 or  [Thoughts2] = 6  or  [Thoughts2] = 7 
-Thoughts2c,positive_and_negative_thoughts,radio,,Were these thoughts about things that could be dangerous for you physically?,"0, No | 1, Yes",,,[Thoughts2] = 2 or [Thoughts2] = 3 or [Thoughts2] = 4 or  [Thoughts2] = 5 or  [Thoughts2] = 6  or  [Thoughts2] = 7 
-Thoughts2ca,positive_and_negative_thoughts,radio,,Since the last signal did you have thoughts of harming yourself or of suicide?,"0, No | 1, Yes",,,[Thoughts2ca = 1]
-Thoughts2caa,positive_and_negative_thoughts,static,,"“IMPORTANT: The information you are providing now is not immediately transmitted to your doctor or to people who can help you. If you think that you are at the slightest risk of hurting yourself, please call the following number now to talk about it. Someone is available at any time of the day or night: XXXX”
-
-(note to the Team: the contact information is obviously important to think through, so that it is available 24/7.  
-
-Note to investigators: Should this message be completed by minors, laws by country or according to human research approval boards may also require parents to be informed)",,,,
 Activity1,physical_activity,radio,,"Since the last assessment, did you have a nap or rest?","0, No | 1, Yes",,,
 Activity1a,physical_activity,dropdown,,About how long was your nap or rest?,"1, 15 min | 2, 30 min | 3, 45 min | 4, 1 hr | 5, 1 hr 30 min | 6, 2 hrs or more",,,[Activity1] = 1
 Activity1b,physical_activity,radio,,Did you actually fall asleep during the nap or rest?,"0, No | 1, Yes",,,[Activity1] = 1
@@ -78,7 +71,7 @@ Intake3,intake,radio,1,"Since the last questionnaire, which of the following did
 Intake3a,intake,dropdown,,How many cigarettes did you have?,"1, 1 | 2, 2 | 3, 3 | 4, 4 | 5, 5 | 6, 6 | 7, 7 | 8, 8 | 9, 9 | 10, 10 | 15, 15 | 20, 20",,,[Intake3] = 1
 Intake3b,intake,dropdown,,How many joints did you have?,"1, 1 | 2, 2 | 3, 3 | 4, 4 | 5, 5 | 6, 6 | 7, 7 | 8, 8 | 9, 9 | 10, 10 | 15, 15 | 20, 20",,,[Intake3] = 2
 Intake3c,intake,dropdown,,What other drug did you use?,"1, cocaine | 2, tranquilizers | 3, stimulants | 4, heroin or other opiate | 5, other drug",,,[Intake3] = 3
-,life_events,radio,,"Since the last assessment, please think of the ONE event that affected you the most (positively or negatively), no matter how slightly.",,,,
+Event0,life_events,static,,"Since the last assessment, please think of the ONE event that affected you the most (positively or negatively), no matter how slightly.",,,,
 Event1,life_events,radio,,Which of the following categories best describes the area of your life in which the event occurred?,"1, work | 2, education | 3, family or friend relationships | 4, interactions with colleagues | 5, interactions with strangers | 6, housing or residence | 7, leisure | 8, exercise | 9, health | 10, finances | 11, religion or spirituality | 12, legal or judicial | 13, traveling or commuting | 14, other",,,
 Event2,life_events,slider,,To what degree did this event have a positive impact on you?,"1, 1 | 2, 2 | 3, 3 | 4, 4 | 5, 5 | 6, 6 | 7, 7",no positive impact,extremely positive,
 Event3,life_events,slider,,To what degree did this event have a negative impact on you? ,"1, 1 | 2, 2 | 3, 3 | 4, 4 | 5, 5 | 6, 6 | 7, 7",no negative impact,extremely negative,
@@ -137,3 +130,13 @@ Daily_b3f,daily_events_and_overall_health_b,radio,,How much did your heart racin
 Daily_b3g,daily_events_and_overall_health_b,radio,,"Did these feelings occur in a particular situation (in a bus, in hot weather, or other condition?)","0, No | 1, Yes",,,[Daily_b3] = 7
 Daily_b3h,daily_events_and_overall_health_b,radio,,Did you actually faint today?,"0, No | 1, Yes",,,[Daily_b3] = 7
 Daily_b3i,daily_events_and_overall_health_b,dropdown,,"If you reported a headache present at any assessment today, how many hours did the headache(s) last in total?","1, 1 | 2, 2 | 3, 3 | 4, 4 | 5, 5 | 6, 6 | 7, 7 | 8, 8 | 9, 9 | 10, 10 | 11, 11 | 12, 12 | 13, 13 | 14, 14 | 15, 15 | 16, 16 | 17, 17 | 18, 18 | 19, 19 | 20, 20 | 21, 21 | 22, 22 | 23, 23 | 24, 24",,,[Daily_b3] = 6
+Internet_ev1,internet_social_evening,dropdown,,How many hours did you spend on the internet today?,"1, less than 1 hour | 2, 1-2 hours | 3, 2-3 hours | 4, 3-4 hours | 5, more than 4 hours | 6, I was not on the internet today",,,
+Internet_ev2,internet_social_evening,radio,1,What did you use the internet for today?,"1, chat rooms | 2, blogs | 3, music (Spotify/iTunes) | 4, news | 5, direct messenger | 6, gaming | 7, shopping | 8, social networking | 9, web browsing | 10, internet TV (Hulu/Netflex)",,,
+Internet_ev3,internet_social_evening,radio,1,Where did you use the internet?,"1, home | 2, school | 3, coffee shop or café | 4, library | 5, friend or family's house",,,
+Internet_ev4,internet_social_evening,dropdown,,What is the main way you communicated with your friends today?,"1, voice call | 2, video call | 3, text message | 4, email | 5, instant messenger | 6, skype | 7, social media | 8, gaming site | 9, chat room",,,
+Internet_ev5,internet_social_evening,dropdown,,How many hours did you spend on social media today?,"1, less than 1 hour | 2, 1-2 hours | 3, 2-3 hours | 4, 3-4 hours | 5, more than 4 hours | 6, I was not on social media today",,,
+Internet_mn1,internet_social_morning,radio,,Were you using your social media accounts after bedtime?,"0, No | 1, Yes",,,
+Internet_mn2,internet_social_morning,radio,,Did your use of social media impact your ability to fall asleep last night,"0, No | 1, Yes",,,
+prequestion1,pre_questionnaire,radio,,What is your gender?,"1, male | 2, female | 3, other",,,
+prequestion2,pre_questionnaire,radio,,Do you have a social media account?,"0, No | 1, Yes",,,
+prequestion3,pre_questionnaire,radio,1,What social media accounts do you use?,"1, Twitter | 2, Instagram | 3, Facebook | 4, Snapchat | 5, other",,,

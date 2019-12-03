@@ -1,0 +1,31 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
+    ],
+    "@type": "reproschema:Field",
+    "skos:altLabel": "Daily_b3g",
+    "ui": {
+        "inputType": "radio"
+    },
+    "question": {
+        "en": "Did these feelings occur in a particular situation (in a bus, in hot weather, or other condition?)"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "schema:value": 0,
+                "schema:name": {
+                    "en": "No "
+                }
+            },
+            {
+                "schema:value": 1,
+                "schema:name": {
+                    "en": "Yes"
+                }
+            }
+        ],
+        "minValue": "",
+        "maxValue": ""
+    }
+}

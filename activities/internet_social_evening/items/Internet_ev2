@@ -1,0 +1,80 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
+    ],
+    "@type": "reproschema:Field",
+    "skos:altLabel": "Internet_ev2",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "multipleChoice": true,
+        "choices": [
+            {
+                "schema:value": 1,
+                "schema:name": {
+                    "en": "chat rooms "
+                }
+            },
+            {
+                "schema:value": 2,
+                "schema:name": {
+                    "en": "blogs "
+                }
+            },
+            {
+                "schema:value": 3,
+                "schema:name": {
+                    "en": "music (Spotify/iTunes) "
+                }
+            },
+            {
+                "schema:value": 4,
+                "schema:name": {
+                    "en": "news "
+                }
+            },
+            {
+                "schema:value": 5,
+                "schema:name": {
+                    "en": "direct messenger "
+                }
+            },
+            {
+                "schema:value": 6,
+                "schema:name": {
+                    "en": "gaming "
+                }
+            },
+            {
+                "schema:value": 7,
+                "schema:name": {
+                    "en": "shopping "
+                }
+            },
+            {
+                "schema:value": 8,
+                "schema:name": {
+                    "en": "social networking "
+                }
+            },
+            {
+                "schema:value": 9,
+                "schema:name": {
+                    "en": "web browsing "
+                }
+            },
+            {
+                "schema:value": 10,
+                "schema:name": {
+                    "en": "internet TV (Hulu/Netflex)"
+                }
+            }
+        ],
+        "minValue": "",
+        "maxValue": ""
+    },
+    "question": {
+        "en": "What did you use the internet for today?"
+    }
+}

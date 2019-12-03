@@ -1,0 +1,163 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
+    ],
+    "@type": "reproschema:Field",
+    "skos:altLabel": "Daily_b3i",
+    "ui": {
+        "inputType": "select"
+    },
+    "question": {
+        "en": "If you reported a headache present at any assessment today, how many hours did the headache(s) last in total?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "schema:value": 1,
+                "schema:name": {
+                    "en": "1 "
+                }
+            },
+            {
+                "schema:value": 2,
+                "schema:name": {
+                    "en": "2 "
+                }
+            },
+            {
+                "schema:value": 3,
+                "schema:name": {
+                    "en": "3 "
+                }
+            },
+            {
+                "schema:value": 4,
+                "schema:name": {
+                    "en": "4 "
+                }
+            },
+            {
+                "schema:value": 5,
+                "schema:name": {
+                    "en": "5 "
+                }
+            },
+            {
+                "schema:value": 6,
+                "schema:name": {
+                    "en": "6 "
+                }
+            },
+            {
+                "schema:value": 7,
+                "schema:name": {
+                    "en": "7 "
+                }
+            },
+            {
+                "schema:value": 8,
+                "schema:name": {
+                    "en": "8 "
+                }
+            },
+            {
+                "schema:value": 9,
+                "schema:name": {
+                    "en": "9 "
+                }
+            },
+            {
+                "schema:value": 10,
+                "schema:name": {
+                    "en": "10 "
+                }
+            },
+            {
+                "schema:value": 11,
+                "schema:name": {
+                    "en": "11 "
+                }
+            },
+            {
+                "schema:value": 12,
+                "schema:name": {
+                    "en": "12 "
+                }
+            },
+            {
+                "schema:value": 13,
+                "schema:name": {
+                    "en": "13 "
+                }
+            },
+            {
+                "schema:value": 14,
+                "schema:name": {
+                    "en": "14 "
+                }
+            },
+            {
+                "schema:value": 15,
+                "schema:name": {
+                    "en": "15 "
+                }
+            },
+            {
+                "schema:value": 16,
+                "schema:name": {
+                    "en": "16 "
+                }
+            },
+            {
+                "schema:value": 17,
+                "schema:name": {
+                    "en": "17 "
+                }
+            },
+            {
+                "schema:value": 18,
+                "schema:name": {
+                    "en": "18 "
+                }
+            },
+            {
+                "schema:value": 19,
+                "schema:name": {
+                    "en": "19 "
+                }
+            },
+            {
+                "schema:value": 20,
+                "schema:name": {
+                    "en": "20 "
+                }
+            },
+            {
+                "schema:value": 21,
+                "schema:name": {
+                    "en": "21 "
+                }
+            },
+            {
+                "schema:value": 22,
+                "schema:name": {
+                    "en": "22 "
+                }
+            },
+            {
+                "schema:value": 23,
+                "schema:name": {
+                    "en": "23 "
+                }
+            },
+            {
+                "schema:value": 24,
+                "schema:name": {
+                    "en": "24"
+                }
+            }
+        ],
+        "minValue": "",
+        "maxValue": ""
+    }
+}

@@ -1,24 +1,17 @@
 {
     "@context": [
-        "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/contexts/generic"
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
     ],
-    "@type": "https://raw.githubusercontent.com/ReproNim/schema-standardization/master/schemas/Field",
+    "@type": "reproschema:Field",
     "skos:altLabel": "Headache2c",
     "ui": {
-        "inputType": "timeRange"
+        "inputType": "time"
     },
     "question": {
         "en": "What time did the headache end?"
     },
     "responseOptions": {
-        "choices": [
-            {
-                "schema:value": null,
-                "schema:name": {}
-            }
-        ],
         "minValue": "",
-        "maxValue": "",
-        "multipleChoice": ""
+        "maxValue": ""
     }
 }

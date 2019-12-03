@@ -1,0 +1,95 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+        "https://raw.githubusercontent.com/hotavocado/NIMH_EMA_to_ML/master/activities/daily_events_and_overall_health_b/daily_events_and_overall_health_b_context"
+    ],
+    "@type": "reproschema:Activity",
+    "@id": "daily_events_and_overall_health_b_schema",
+    "skos:prefLabel": "daily_events_and_overall_health_b",
+    "skos:altLabel": "daily_events_and_overall_health_b_schema",
+    "schema:description": "daily_events_and_overall_health_b",
+    "schema:schemaVersion": "0.0.1",
+    "schema:version": "0.0.1",
+    "scoringLogic": {},
+    "variableMap": [
+        {
+            "variableName": "Daily_b1",
+            "isAbout": "Daily_b1"
+        },
+        {
+            "variableName": "Daily_b2",
+            "isAbout": "Daily_b2"
+        },
+        {
+            "variableName": "Daily_b3",
+            "isAbout": "Daily_b3"
+        },
+        {
+            "variableName": "Daily_b3a",
+            "isAbout": "Daily_b3a"
+        },
+        {
+            "variableName": "Daily_b3b",
+            "isAbout": "Daily_b3b"
+        },
+        {
+            "variableName": "Daily_b3c",
+            "isAbout": "Daily_b3c"
+        },
+        {
+            "variableName": "Daily_b3d",
+            "isAbout": "Daily_b3d"
+        },
+        {
+            "variableName": "Daily_b3e",
+            "isAbout": "Daily_b3e"
+        },
+        {
+            "variableName": "Daily_b3f",
+            "isAbout": "Daily_b3f"
+        },
+        {
+            "variableName": "Daily_b3g",
+            "isAbout": "Daily_b3g"
+        },
+        {
+            "variableName": "Daily_b3h",
+            "isAbout": "Daily_b3h"
+        },
+        {
+            "variableName": "Daily_b3i",
+            "isAbout": "Daily_b3i"
+        }
+    ],
+    "ui": {
+        "order": [
+            "Daily_b1",
+            "Daily_b2",
+            "Daily_b3",
+            "Daily_b3a",
+            "Daily_b3b",
+            "Daily_b3c",
+            "Daily_b3d",
+            "Daily_b3e",
+            "Daily_b3f",
+            "Daily_b3g",
+            "Daily_b3h",
+            "Daily_b3i"
+        ],
+        "shuffle": false,
+        "visibility": {
+            "Daily_b1": true,
+            "Daily_b2": true,
+            "Daily_b3": true,
+            "Daily_b3a": "Daily_b3 == 1",
+            "Daily_b3b": "Daily_b3 == 2",
+            "Daily_b3c": "Daily_b3 == 3",
+            "Daily_b3d": "Daily_b3 == 3",
+            "Daily_b3e": "Daily_b3 == 4",
+            "Daily_b3f": "Daily_b3 == 5",
+            "Daily_b3g": "Daily_b3 == 7",
+            "Daily_b3h": "Daily_b3 == 7",
+            "Daily_b3i": "Daily_b3 == 6"
+        }
+    }
+}
